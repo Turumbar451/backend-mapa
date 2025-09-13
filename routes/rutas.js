@@ -2,14 +2,10 @@
 //definira endpoints (URLs a los que el frontend puede hacer fetch)
 
 import express from 'express';
-import { getAllRutas, getRutaById } from '../controllers/rutasController.js';
+import { getRutas } from '../controllers/rutasController.js';
 
-const router = express.Router();
+const router = express.Router();//crear router de express, es un mini servidor dentro del servidor que sirve para definir endpoints
 
-// obtener todas las rutas
-router.get('/', getAllRutas);
+router.get('/', getRutas); //definimos un endpoint get en la raiz del router, que llama a la funcion getRutas del controlador
 
-// obtener una ruta por ID
-router.get('/:id', getRutaById);
-
-export default router;
+export default router; //exportamos el router para usarlo en el servidor principal (index.js)

@@ -1,21 +1,15 @@
 //controllers/rutasController.js
 //leera el json y decidira que devolver al frontend
+import fs from 'fs'; //modulo nativo de note para ler archivos (el file system)
+import path from 'path'; //modulo nativo de node para manejar rutas de archivos
 
-import fs from 'fs';
-import path from 'path';
+const rutasPath = path.resolve('./data/rutas.json'); //convierte ruta relativa en ruta absoluta
 
-const rutasPath = path.resolve('./data/rutas.json');
-const rutas = JSON.parse(fs.readFileSync(rutasPath, 'utf-8'));
-
-// devuelve todas las rutas
-export function getAllRutas(req, res) {
+export const getRutas = (req, res) => {
+    const rutas = JSON.parse(fs.readFileSync(rutasPath, 'utf-8'));
     res.json(rutas);
-}
-
-// devuelve una ruta por ID
-export function getRutaById(req, res) {
-    const { id } = req.params;
-    const ruta = rutas.find(r => r.id === id);
-    if (!ruta) return res.status(404).json({ error: 'Ruta no encontrada' });
-    res.json(ruta);
-}
+};
+//readFileSync lee el archivo de forma sincrona, o sea bloquea
+//tiene dos parametros, la ruta y la codificacion
+//json.parse convierte el string json en un objeto de JS porque utf-8 es un string
+//res.json convierte el ojeto js en un json y lo manda al frontend
