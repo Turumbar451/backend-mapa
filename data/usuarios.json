@@ -55,13 +55,23 @@
     "role": "user"
   },
   {
-    "username": "GABY",
-    "password": "$2b$10$Mrt1UFb4daFLDVq0G.aZH.jpLCar2TIrIjbL4LBfAFxQFOKmlG2KS",
+    "username": "Emir",
+    "password": "$2b$10$7CbVZZTF/BrK.wOfw2LRQ.daLKo2mZqEmi16coWGtd6g.7O.irIy2",
     "role": "user"
   },
   {
-    "username": "Emir",
-    "password": "$2b$10$7CbVZZTF/BrK.wOfw2LRQ.daLKo2mZqEmi16coWGtd6g.7O.irIy2",
+    "username": "perla1",
+    "password": "$2b$10$JCZ9CsZo09DYXjhyMgZ/9OW7QYRT3G0H8/8uD03iJckQYkroVf3.S",
+    "role": "user"
+  },
+  {
+    "username": "maria",
+    "password": "$2b$10$EzzyFwMqZ/OdOswpmVrIlevyT.3/3ekQfZLzvnDz4/RkasBKXXfQe",
+    "role": "user"
+  },
+  {
+    "username": "jkhkj",
+    "password": "$2b$10$OWXjGixWnkTvZnZy2GsJpOBy1rSAhQfDE9Er8bW50Vx0r5p3ydCbW",
     "role": "user"
   }
 ]
