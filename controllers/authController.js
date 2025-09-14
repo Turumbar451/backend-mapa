@@ -1,44 +1,36 @@
-import fs from "fs";
-import path from "path";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 
-const usuariosPath = path.resolve("./data/usuarios.json");
+import Usuario from "../models/Usuario.js";
 const SECRET = "mi_clave_secreta"; // Mejor usar process.env.JWT_SECRET en producción
 
 // Registrar usuario
-export const registerUser = (req, res) => {
+export const registerUser = async (req, res) => {
     const { username, password } = req.body;
 
     if (!username || !password) {
         return res.json({ success: false, message: "Faltan datos" });
     }
-    const usuarios = JSON.parse(fs.readFileSync(usuariosPath, "utf-8"));
 
-    if (usuarios.find(u => u.username === username)) {
+    const exists = await Usuario.findOne({ username });
+    if (exists) {
         return res.json({ success: false, message: "Usuario ya existe" });
     }
 
     const hashedPassword = bcrypt.hashSync(password, 10);
-    usuarios.push({ username, password: hashedPassword, role: "user" });
-    fs.writeFileSync(usuariosPath, JSON.stringify(usuarios, null, 2));
+
+    const newUser = new Usuario({ username, password: hashedPassword, role: "user" });
+    await newUser.save()
     res.json({ success: true });
 };
 
 // Login usuario
-export const loginUser = (req, res) => {
+export const loginUser = async (req, res) => {
     const { username, password } = req.body;
 
-    if (!username || !password) {
-        return res.json({ success: false, message: "Faltan datos" });
-    }
+    const user = await Usuario.findOne({ username });
+    if (!user) return res.json({ success: false, message: "Usuario no encontrado" });
 
-    const usuarios = JSON.parse(fs.readFileSync(usuariosPath, "utf-8"));
-
-    const user = usuarios.find(u => u.username === username);
-    if (!user) {
-        return res.json({ success: false, message: "Usuario no encontrado" });
-    }
 
     const passwordMatch = bcrypt.compareSync(password, user.password);
     if (!passwordMatch) {
