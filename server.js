@@ -4,7 +4,7 @@ import express from 'express'; //framework para crear servidor web
 import cors from 'cors'; //para permitir solicitudes desde el frontend, por defecto bloqueados,es un mliddleware. 
 import cookieParser from "cookie-parser";
 // un middleware es una funcion que se ejecuta entre la peticion y la respuesta, puede modificar la solicitud(req) o la respuesta(res)
-import rutasRouter from '../backend/routes/rutas.js';
+import rutasRouter from './routes/rutas.js';
 import authRoutes from "./routes/auth.js";
 
 const app = express(); // inicializa servidor express, app es una instancia del servidor, o se objeto con metodos
