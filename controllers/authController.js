@@ -2,7 +2,7 @@ import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 
 import Usuario from "../models/Usuario.js";
-const SECRET = "mi_clave_secreta"; // Mejor usar process.env.JWT_SECRET en producción
+const SECRET = "mi_clave_secreta"; // Mejor usar process.env.JWT_SECRET 
 
 // Registrar usuario
 export const registerUser = async (req, res) => {

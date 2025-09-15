@@ -1,11 +1,48 @@
+import express from "express";
+import Ruta from "../models/ruta.js";
+
+const router = express.Router();
+
+// 1️⃣ Traer listado ligero de rutas (_id y label)
+router.get("/listado", async (req, res) => {
+    try {
+        const rutas = await Ruta.find({}, "_id label");
+        res.json(rutas);
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ message: "Error al cargar listado de rutas" });
+    }
+});
+
+// 2️⃣ Traer todas las rutas completas (para SSG)
+router.get("/todas", async (req, res) => {
+    try {
+        const rutas = await Ruta.find({}); // todos los campos
+        res.json(rutas);
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ message: "Error al cargar rutas completas" });
+    }
+});
+
+// 3️⃣ Traer una ruta por ID (para usuario individual)
 // routes/rutas.js
-//definira endpoints (URLs a los que el frontend puede hacer fetch)
+router.get("/:id", async (req, res) => {
+    const { id } = req.params;
+    console.log("Buscando ruta con id:", id, "=>", Number(id));
+    try {
+        const ruta = await Ruta.findOne({ id: Number(id) });
 
-import express from 'express';
-import { getRutas } from '../controllers/rutasController.js';
+        if (!ruta) return res.status(404).json({ message: "Ruta no encontrada" });
+        res.json(ruta);
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ message: "Error al cargar la ruta" });
+    }
+});
 
-const router = express.Router();//crear router de express, es un mini servidor dentro del servidor que sirve para definir endpoints
 
-router.get('/', getRutas); //definimos un endpoint get en la raiz del router, que llama a la funcion getRutas del controlador
 
-export default router; //exportamos el router para usarlo en el servidor principal (index.js)
+
+
+export default router;

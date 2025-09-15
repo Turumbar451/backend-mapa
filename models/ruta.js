@@ -1,14 +1,14 @@
 import mongoose from "mongoose";
 
 const rutaSchema = new mongoose.Schema({
-    id: String,
+    id: Number, // <-- cambiar a Number
     label: String,
     type: String,
     color: String,
     points: [[Number]],
     stops: [
         {
-            coordenas: [Number],
+            coordenadas: [Number], // revisa que el nombre sea correcto
             nombre: String
         }
     ],
@@ -18,3 +18,4 @@ const rutaSchema = new mongoose.Schema({
 const Ruta = mongoose.model("Ruta", rutaSchema);
 
 export default Ruta;
+

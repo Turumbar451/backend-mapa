@@ -10,7 +10,7 @@ const RutaSchema = new mongoose.Schema({
   label: String,
   type: String,
   color: String,
-  points: [[Number]], // array de arrays de coordenadas
+  points: [[Number]], // coordenadas
   stops: [StopSchema],
   images: [String]
 });

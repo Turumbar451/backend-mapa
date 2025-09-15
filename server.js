@@ -7,7 +7,6 @@ import cookieParser from "cookie-parser";
 import rutasRouter from './routes/rutas.js';
 import authRoutes from "./routes/auth.js";
 import connectDB from "./db.js";
-import { start } from 'repl';
 
 const app = express(); // inicializa servidor express, app es una instancia del servidor, o se objeto con metodos
 //use es un metodo para usar middlewares
