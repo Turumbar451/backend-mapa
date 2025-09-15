@@ -1,5 +1,6 @@
 // server.js 
 // arranca el servidor y conecta las rutas
+import stopsRoutes from "./routes/stops.js";
 import express from 'express'; //framework para crear servidor web
 import cors from 'cors'; //para permitir solicitudes desde el frontend, por defecto bloqueados,es un mliddleware. 
 import cookieParser from "cookie-parser";
@@ -15,6 +16,7 @@ async function startServer() {
   app.use(express.json()); // para parsear JSON en el body
   //sin express.json() no se podria leer req.body, este es un middleware que convierte el body de la solicitud en un objeto JS, por eso se usa use 
 
+
   app.use(cookieParser());//la peticion http tiene cookies y este middleware las parsea y las pone en req.cookies
 
   app.use(cors({
@@ -23,6 +25,7 @@ async function startServer() {
   }));
   //aplica cors a todas las rutas,
 
+  app.use("/api/stops", stopsRoutes);
   // las rutas basicamente son endpoints, urls a las que el frontend puede hacer fetch
   app.use("/api", authRoutes); //todo lo que llegue a /api lo maneja authRoutes o sesa auth.js
   app.use('/api/rutas', rutasRouter);
