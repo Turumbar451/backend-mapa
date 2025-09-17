@@ -1,49 +1,27 @@
 [
   {
-    "_id": {
-      "$oid": "68c039b1cb38bf3b83393556"
-    },
-    "id": "Ruta 1",
+    "id": 0,
     "label": "Plaza Americas-Avenida Xalapa x Americas",
     "type": "line",
     "color": "#2563eb",
     "points": [
-      [19.51564177733534, -96.87964341594439],
+      [19.51564177733534, -96.87964341594438],
       [19.542461185124353, -96.92718338095398]
     ],
     "stops": [
-      {
-        "coordenas": [19.51564177733534, -96.87964341594439],
-        "nombre": "Plaza Americas"
-      },
-      {
-        "coordenas": [19.518645284869205, -96.88267412489412],
-        "nombre": "Plaza Animas"
-      },
-      {
-        "coordenas": [19.523080821164264, -96.89493721402563],
-        "nombre": "Palo Verde"
-      },
-      {
-        "coordenas": [19.529812234797678, -96.9004640888919],
-        "nombre": "Agua Santa"
-      },
-      {
-        "coordenas": [19.53900134668526, -96.91817967831048],
-        "nombre": "AV Americas"
-      },
-      {
-        "coordenas": [19.542572540214795, -96.92722192111118],
-        "nombre": "AV Xalapa"
-      }
+      {"coordenas": [19.51564177733534, -96.87964341594438], "nombre": "Plaza Americas"},
+      {"coordenas": [19.518645284869205, -96.88267412489412], "nombre": "Plaza Animas"},
+      {"coordenas": [19.523080821164264, -96.89493721402563], "nombre": "Palo Verde"},
+      {"coordenas": [19.529812234797678, -96.9004640888919], "nombre": "Agua Santa"},
+      {"coordenas": [19.53900134668526, -96.91817967831048], "nombre": "AV Americas"},
+      {"coordenas": [19.542572540214795, -96.92722192111118], "nombre": "AV Xalapa"}
     ],
-    "images": ["../../images/bus1.jpg"]
+    "images": [
+      "./Img_Camiones/Bus_1.jpg"
+    ]
   },
   {
-    "_id": {
-      "$oid": "68c039b1cb38bf3b83393557"
-    },
-    "id": "R2",
+    "id": 1,
     "label": "Arco Sur - Rebsamen - Sauces - Avila Camacho - Americas - Pipila - Lázaro Cárdenas - Arco Sur",
     "type": "circuit",
     "color": "#dc2626",
@@ -59,128 +37,80 @@
       [19.542094279093522, -96.90866398504731]
     ],
     "stops": [
-      {
-        "coordenas": [19.513223357574645, -96.87527117957768],
-        "nombre": "Plaza Americas"
-      },
-      {
-        "coordenas": [19.518645284869205, -96.88267412489412],
-        "nombre": "Plaza Animas"
-      },
-      {
-        "coordenas": [19.529798415578906, -96.90049022922783],
-        "nombre": "Lazaro Cardenas"
-      },
-      {
-        "coordenas": [19.53894953924973, -96.90770404088695],
-        "nombre": "Plaza Cristal"
-      },
-      {
-        "coordenas": [19.53664143413393, -96.9205629947842],
-        "nombre": "AV 20 de Noviembre"
-      },
-      {
-        "coordenas": [19.539753681824852, -96.92710614986044],
-        "nombre": "AV Manuel Avila Camacho"
-      },
-      {
-        "coordenas": [19.53030074818882, -96.9344936508514],
-        "nombre": "Plaza Teatro"
-      },
-      {
-        "coordenas": [19.525326059707528, -96.93220292767133],
-        "nombre": "C 1 de Mayo"
-      },
-      {
-        "coordenas": [19.522414066726004, -96.92697702720773],
-        "nombre": "Parque Maria Enriqueta Camarillo y Roa"
-      },
-      {
-        "coordenas": [19.519150855741504, -96.9184970499106],
-        "nombre": "Zona UV"
-      },
-      {
-        "coordenas": [19.52510931509443, -96.91936270413917],
-        "nombre": "Parque Hidalgo"
-      },
-      {
-        "coordenas": [19.52614591373224, -96.91687013606271],
-        "nombre": "C Diego Leño"
-      },
-      {
-        "coordenas": [19.524682541954284, -96.91647090965778],
-        "nombre": "Los Berros"
-      },
-      {
-        "coordenas": [19.518430349123907, -96.91405630993428],
-        "nombre": "AV Enrique Rebsamen 2"
-      },
-      {
-        "coordenas": [19.51410550880322, -96.90899859851167],
-        "nombre": "Av Enrique Rebsamen"
-      },
-      {
-        "coordenas": [19.507456519474925, -96.89952835543674],
-        "nombre": "Arco Sur"
-      },
-      {
-        "coordenas": [19.50540441976, -96.89361099201855],
-        "nombre": "Arco Sur - Yanga"
-      },
-      {
-        "coordenas": [19.50769177740882, -96.88080453125596],
-        "nombre": "Walmart Arco Sur"
-      }
+      {"coordenas": [19.513223357574645, -96.87527117957768], "nombre": "Plaza Americas"},
+      {"coordenas": [19.518645284869205, -96.88267412489412], "nombre": "Plaza Animas"},
+      {"coordenas": [19.529798415578906, -96.90049022922783], "nombre": "Lazaro Cardenas"},
+      {"coordenas": [19.53894953924973, -96.90770404088695], "nombre": "Plaza Cristal"},
+      {"coordenas": [19.53664143413393, -96.9205629947842], "nombre": "AV 20 de Noviembre"},
+      {"coordenas": [19.539753681824852, -96.92710614986044], "nombre": "AV Manuel Avila Camacho"},
+      {"coordenas": [19.53030074818882, -96.9344936508514], "nombre": "Plaza Teatro"},
+      {"coordenas": [19.525326059707528, -96.93220292767133], "nombre": "C 1 de Mayo"},
+      {"coordenas": [19.522414066726004, -96.92697702720773], "nombre": "Parque Maria Enriqueta Camarillo y Roa"},
+      {"coordenas": [19.519150855741504, -96.9184970499106], "nombre": "Zona UV"},
+      {"coordenas": [19.52510931509443, -96.91936270413917], "nombre": "Parque Hidalgo"},
+      {"coordenas": [19.52614591373224, -96.91687013606271], "nombre": "C Diego Leño"},
+      {"coordenas": [19.524682541954284, -96.91647090965778], "nombre": "Los Berros"},
+      {"coordenas": [19.518430349123907, -96.91405630993428], "nombre": "AV Enrique Rebsamen 2"},
+      {"coordenas": [19.51410550880322, -96.90899859851167], "nombre": "Av Enrique Rebsamen"},
+      {"coordenas": [19.507456519474925, -96.89952835543674], "nombre": "Arco Sur"},
+      {"coordenas": [19.50540441976, -96.89361099201855], "nombre": "Arco Sur - Yanga"},
+      {"coordenas": [19.50769177740882, -96.88080453125596], "nombre": "Walmart Arco Sur"}
     ],
-    "images": ["./Img_Camiones/Bus_2.jpeg"]
-  },
-  {
-    "_id": {
-      "$oid": "68c039b1cb38bf3b83393558"
-    },
-    "id": "R3",
-    "label": "Sumidero - Nuevo Leon - Villa hermosa",
-    "type": "line",
-    "color": "#16a34a",
-    "points": [
-      [19.54399426672097, -96.93786449099738],
-      [19.536637771704882, -96.92150052089963],
-      [19.551416882840947, -96.91204699381684]
-    ],
-    "stops": [
-      {
-        "coordenas": [19.54399426672097, -96.93786449099738],
-        "nombre": "Martires 28 de Agosto"
-      },
-      {
-        "coordenas": [19.551416882840947, -96.91204699381684],
-        "nombre": "Miguel Aleman"
-      }
+    "images": [
+      "./Img_Camiones/Bus_2.jpeg"
     ]
   },
   {
-    "_id": {
-      "$oid": "68c039b1cb38bf3b83393559"
-    },
-    "id": "R4",
+    "id": 2,
+    "label": "Sumidero - Villa hermosa - Nuevo Leon - Sayago",
+    "type": "line",
+    "color": "#16a34a",
+    "points": [
+      [19.552063192974956, -96.89367099448731],
+      [19.554843598639117, -96.92797212227885],
+      [19.55124543665889, -96.92851717337324],
+      [19.542670718599, -96.92523414401555],
+      [19.532963511603263, -96.92459575217563]
+    ],
+    "stops": [
+      {"coordenas": [19.552063192974956, -96.89367099448731], "nombre": "Terminal Sumidero"},
+      {"coordenas": [19.545430931716282, -96.90599402137558], "nombre": "Jardines de Xalapa"},
+      {"coordenas": [19.551254418954727, -96.91253034715534], "nombre": "AV Miguel Aleman"},
+      {"coordenas": [19.542692172931112, -96.92727462293645], "nombre": "Facultad de Economia"},
+      {"coordenas": [19.539356635624742, -96.92527912151358], "nombre": "Scotibank Clavijero"},
+      {"coordenas": [19.532963511603263, -96.92459575217563], "nombre": "Clavijero"}
+    ]
+  },
+  {
+    "id": 3,
     "label": "Tecnica 72 - Calle Chiapas",
     "type": "line",
     "color": "#16a34a",
     "points": [
       [19.568853888639612, -96.92418859973648],
       [19.532655194077744, -96.94519617825766]
+    ],
+    "stops": [
+      {"coordenas": [19.568853888639612, -96.92418859973648], "nombre": "Tecnica 72"},
+      {"coordenas": [19.565554029966133, -96.92911595650003], "nombre": "AV Lazaro Cardenas"},
+      {"coordenas": [19.560148148505068, -96.92879259040075], "nombre": "ISSTE"},
+      {"coordenas": [19.5586959919615, -96.92883541159674], "nombre": "AV Xalapa - Soriana"},
+      {"coordenas": [19.5570578037425, -96.92887250666433], "nombre": "AV Xalapa - Calle Merida"},
+      {"coordenas": [19.55331249046397, -96.9293851201443], "nombre": "AV Xalapa - Normal"},
+      {"coordenas": [19.55136502326794, -96.92972002529194], "nombre": "AV Xalapa - Museo"},
+      {"coordenas": [19.536374407309836, -96.93350424874029], "nombre": "Calle Heron Perez"},
+      {"coordenas": [19.535727954108655, -96.93611287206691], "nombre": "Hotel Posada Xalapa"},
+      {"coordenas": [19.535945264006266, -96.93781485224306], "nombre": "AV Adolfo Ruiz Cortines"},
+      {"coordenas": [19.532655194077744, -96.94519617825766], "nombre": "Calle Chiapas"}
     ]
   },
   {
-    "_id": {
-      "$oid": "68c039b1cb38bf3b8339355a"
-    },
-    "id": "R5",
+    "id": 4,
     "label": "Circuito Presidentes - Rebsamen - Xalapa 2000 - Arco Sur - Trancas - Lazaro Cardenas - Ruiz Cortinez - Sauces - Velodromo",
     "type": "circuit",
     "color": "#dc2626",
     "points": [
-      [19.512664058614753, -96.92143131220811],
+      [19.514286581967784, -96.91824473966386],
       [19.517581781971284, -96.91326778014738],
       [19.512633693133274, -96.90403064211233],
       [19.5123075745803, -96.90134709542035],
@@ -199,21 +129,515 @@
       [19.55922216151033, -96.93180259535171],
       [19.5357510770896, -96.93587132423885],
       [19.529052293430958, -96.93519823096221],
-      [19.52229829918367, -96.933694001258]
+      [19.514286581967784, -96.91824473966386]
+    ],
+    "stops": [
+      {"coordenas": [19.513223357574645, -96.87527117957768], "nombre": "Plaza Americas"},
+      {"coordenas": [19.518645284869205, -96.88267412489412], "nombre": "Plaza Animas"},
+      {"coordenas": [19.529798415578906, -96.90049022922783], "nombre": "Lazaro Cardenas"},
+      {"coordenas": [19.53894953924973, -96.90770404088695], "nombre": "Plaza Cristal"},
+      {"coordenas": [19.54226427856596, -96.90841066817221], "nombre": "Parada Jardines"},
+      {"coordenas": [19.556287339687152, -96.91513883234693], "nombre": "Autohotel Kristal"},
+      {"coordenas": [19.558319269948864, -96.91760213069395], "nombre": "Lazaro Cardenas - Urban center"},
+      {"coordenas": [19.5626077877116, -96.92988257537796], "nombre": "Av Ruiz Cortines - Finanzas"},
+      {"coordenas": [19.559209277455597, -96.93181157564226], "nombre": "Av Ruiz Cortines - AutoHotel Eden"},
+      {"coordenas": [19.55679445236997, -96.93266830727421], "nombre": "AV Adolfo Ruiz Cortines - AV Villahermosa"},
+      {"coordenas": [19.554448275501848, -96.93384370338497], "nombre": "AV Adolfo Ruiz Cortines - Acueducto"},
+      {"coordenas": [19.549543286898285, -96.93579946196975], "nombre": "Articulo 3ro"},
+      {"coordenas": [19.545682608083474, -96.93445823180048], "nombre": "Parque la antorcha"},
+      {"coordenas": [19.536374407309836, -96.93350424874029], "nombre": "Calle Heron Perez"},
+      {"coordenas": [19.535727954108655, -96.93611287206691], "nombre": "Hotel Posada Xalapa"},
+      {"coordenas": [19.535945264006266, -96.93781485224306], "nombre": "AV Adolfo Ruiz Cortines"},
+      {"coordenas": [19.53463854551211, -96.93955526179097], "nombre": "AV Adolfo Ruiz Cortines - PEMEX"},
+      {"coordenas": [19.529075663820528, -96.93521319386494], "nombre": "IMAC Xalapa"},
+      {"coordenas": [19.52502955873043, -96.93309588215335], "nombre": "Ferrocarril"},
+      {"coordenas": [19.522392022240464, -96.93366521018513], "nombre": "Calle Bolivia"},
+      {"coordenas": [19.511887113553737, -96.9297196505609], "nombre": "DIF Estatal"},
+      {"coordenas": [19.511062298883633, -96.9256401961421], "nombre": "Circuito Presidentes - Parque La loma"},
+      {"coordenas": [19.514286581967784, -96.91824473966386], "nombre": "Circuito Presidentes - Nido del Halcon"},
+      {"coordenas": [19.518430349123907, -96.91405630993428], "nombre": "AV Enrique Rebsamen 2"},
+      {"coordenas": [19.51410550880322, -96.90899859851167], "nombre": "Av Enrique Rebsamen"},
+      {"coordenas": [19.507456519474925, -96.89952835543674], "nombre": "Arco Sur"},
+      {"coordenas": [19.50540441976, -96.89361099201855], "nombre": "Arco Sur - Yanga"},
+      {"coordenas": [19.50769177740882, -96.88080453125596], "nombre": "Walmart Arco Sur"}
+    ],
+    "images": [
+      "./Img_Camiones/Bus_2.jpeg"
     ]
   },
   {
-    "_id": {
-      "$oid": "68c039b1cb38bf3b8339355b"
-    },
-    "id": "R-Espinal",
-    "label": "El espinal",
+    "id": 5,
+    "label": "AV Xalapa - 20 de Noviembre - Lazaro Cardenas",
+    "type": "line",
+    "color": "#5d0202ff",
+    "points": [
+      [19.542692172931112, -96.92727462293645],
+      [19.531979877751887, -96.91454359151841],
+      [19.52593109112952, -96.9085035349623],
+      [19.520421629617065, -96.88559442315325]
+    ],
+    "stops": [
+      {"coordenas": [19.542692172931112, -96.92727462293645], "nombre": "Facultad de Economia"},
+      {"coordenas": [19.531979877751887, -96.91454359151841], "nombre": "AV 20 de Noviembre - Primaria Luis J.Jimenez"},
+      {"coordenas": [19.52593109112952, -96.9085035349623], "nombre": "AV 20 de Noviembre - Caja Popular"},
+      {"coordenas": [19.52528042928956, -96.90398364674682], "nombre": "Caxa"},
+      {"coordenas": [19.520421629617065, -96.88559442315325], "nombre": "Plaza Animas"}
+    ]
+  },
+  {
+    "id": 6,
+    "label": "Lazaro Cardenas - 20 de Noviembre - AV Xalapa",
+    "type": "line",
+    "color": "#025d26ff",
+    "points": [
+      [19.52305797245544, -96.89491729959101],
+      [19.531979877751887, -96.91454359151841],
+      [19.542692172931112, -96.92727462293645]
+    ],
+    "stops": [
+      {"coordenas": [19.52305797245544, -96.89491729959101], "nombre": "Plaza Animas"},
+      {"coordenas": [19.52566462622067, -96.89913371992556], "nombre": "AV 20 de Noviembre Bodegon de semillas"},
+      {"coordenas": [19.525456259259936, -96.90435829044948], "nombre": "Caxa"},
+      {"coordenas": [19.52577352360756, -96.90751894574431], "nombre": "AV 20 de Noviembre - Ride Bikes"},
+      {"coordenas": [19.531979877751887, -96.91454359151841], "nombre": "AV 20 de Noviembre - Caja Popular"},
+      {"coordenas": [19.542692172931112, -96.92727462293645], "nombre": "AV 20 de Noviembre - Panamericano"},
+      {"coordenas": [19.536619034614322, -96.9205222769897], "nombre": "AV 20 de Noviembre - Chedrahui"},
+      {"coordenas": [19.541380344409287, -96.92626076584718], "nombre": "AV Xalapa - Calle Austeridad"}
+    ]
+  },
+  {
+    "id": 7,
+    "label": "Espinal",
     "type": "line",
     "color": "#16a34a",
     "points": [
       [19.535781516967127, -96.920275834156],
       [19.602536473877706, -96.95834930904101],
       [19.626304005021606, -96.87246637011164]
+    ],
+    "stops": [
+      {"coordenas": [19.535781516967127, -96.920275834156], "nombre": "Terminal Pipila"},
+      {"coordenas": [19.626304005021606, -96.87246637011164], "nombre": "El Espinal"}
+    ]
+  },
+  {
+    "id": 8,
+    "label": "Normal - Economia - Clavijero - Reserva Naccional",
+    "type": "line",
+    "color": "#16a34a",
+    "points": [
+      [19.553956660030785, -96.92926689150862],
+      [19.535635595206337, -96.92460286479331],
+      [19.526906208548098, -96.92448439361735],
+      [19.524042526317622, -96.91824666088837],
+      [19.503312256216105, -96.87095172277883]
+    ],
+    "stops": [
+      {"coordenas": [19.553956660030785, -96.92926689150862], "nombre": "Normal"},
+      {"coordenas": [19.55136502326794, -96.92972002529194], "nombre": "AV Xalapa - Museo"},
+      {"coordenas": [19.542692172931112, -96.92727462293645], "nombre": "Facultad de Economia"},
+      {"coordenas": [19.539356635624742, -96.92527912151358], "nombre": "Scotibank Clavijero"},
+      {"coordenas": [19.532963511603263, -96.92459575217563], "nombre": "Clavijero"},
+      {"coordenas": [19.524042526317622, -96.91824666088837], "nombre": "Los Berros"},
+      {"coordenas": [19.518430349123907, -96.91405630993428], "nombre": "AV Enrique Rebsamen 2"},
+      {"coordenas": [19.51410550880322, -96.90899859851167], "nombre": "Av Enrique Rebsamen"},
+      {"coordenas": [19.507456519474925, -96.89952835543674], "nombre": "Arco Sur"},
+      {"coordenas": [19.50540441976, -96.89361099201855], "nombre": "Arco Sur - Yanga"},
+      {"coordenas": [19.506424298672147, -96.8868364863105], "nombre": "Lomas de Xalapa"},
+      {"coordenas": [19.503312256216105, -96.87095172277883], "nombre": "Reserva Nacional"}
+    ]
+  },
+  {
+    "id": 9,
+    "label": "Trancas - Tesoreria - Banderilla",
+    "type": "line",
+    "color": "#b45309",
+    "points": [
+      [19.507607007576468, -96.86490306280547],
+      [19.563882757845203, -96.92821842845278]
+    ],
+    "stops": [
+      {"coordenas": [19.507607007576468, -96.86490306280547], "nombre": "Trancas - Plaza Xanat"},
+      {"coordenas": [19.513223357574645, -96.87527117957768], "nombre": "Plaza Americas"},
+      {"coordenas": [19.518645284869205, -96.88267412489412], "nombre": "Plaza Animas"},
+      {"coordenas": [19.529798415578906, -96.90049022922783], "nombre": "Lazaro Cardenas"},
+      {"coordenas": [19.53894953924973, -96.90770404088695], "nombre": "Plaza Cristal"},
+      {"coordenas": [19.54226427856596, -96.90841066817221], "nombre": "Parada Jardines"},
+      {"coordenas": [19.556287339687152, -96.91513883234693], "nombre": "Autohotel Kristal"},
+      {"coordenas": [19.558319269948864, -96.91760213069395], "nombre": "Lazaro Cardenas - Urban center"},
+      {"coordenas": [19.563882757845203, -96.92821842845278], "nombre": "Tesoreria - Banderilla"}
+    ]
+  },
+  {
+    "id": 10,
+    "label": " Mercado - Pipila - Jardines - Carolino Anaya",
+    "type": "line",
+    "color": "#be6b2cff",
+    "points": [
+      [19.552613425211888, -96.91052230324048],
+      [19.55635390153137, -96.91270097148525],
+      [19.562882169853783, -96.91513236215673],
+      [19.56189130910932, -96.91248768262723],
+      [19.559513448775768, -96.90805618825212],
+      [19.557183901543613, -96.90689121634982],
+      [19.549948255692637, -96.90654008034477],
+      [19.54344620209369, -96.91135468322035],
+      [19.536565040358898, -96.92002688243768],
+      [19.537365675686633, -96.924648383099],
+      [19.526835467431937, -96.9245758527755],
+      [19.526673931570212, -96.93442492932601],
+      [19.522037975004746, -96.92789598466905],
+      [19.51229108767103, -96.9251217506239],
+      [19.515206746741818, -96.92840628933877]
+    ],
+    "stops": [
+      {"coordenas": [19.552613425211888, -96.91052230324048], "nombre": "Mercado de Xalapa"},
+      {"coordenas": [19.545430931716282, -96.90599402137558], "nombre": "Jardines de Xalapa"},
+      {"coordenas": [19.545924178818574, -96.90809704254693], "nombre": "Pipila - Jardines"},
+      {"coordenas": [19.54296999047884, -96.91161731771727], "nombre": "Pipila - Antonio Nava"},
+      {"coordenas": [19.54239171863955, -96.91210529392546], "nombre": "Pipila - Jorge Cedran"},
+      {"coordenas": [19.532963511603263, -96.92459575217563], "nombre": "Clavijero"},
+      {"coordenas": [19.52502955873043, -96.93309588215335], "nombre": "Ferrocarril"},
+      {"coordenas": [19.522337013421776, -96.92846568344048], "nombre": "Parque Enriqueta"},
+      {"coordenas": [19.521785194094125, -96.92735048920225], "nombre": "AV Venustiano Carranza"},
+      {"coordenas": [19.513109040987064, -96.9251148718561], "nombre": "Alejandro Molina"},
+      {"coordenas": [19.515206746741818, -96.92840628933877], "nombre": "Buena Vista"}
+    ]
+  },
+  {
+    "id": 11,
+    "label": "Buena Vista - Sauces - Caxa - Trancas - Plaza Xanat - Central de Abastos",
+    "type": "line",
+    "color": "#f59e0b",
+    "points": [
+      [19.515206746741818, -96.92840628933877],
+      [19.513109040987064, -96.9251148718561],
+      [19.522037975004746, -96.92789598466905],
+      [19.524701185414425, -96.9319328885591],
+      [19.526657392570666, -96.92302334113852],
+      [19.52260992017743, -96.91696425394677],
+      [19.529231242122545, -96.9151046017647],
+      [19.520421629617065, -96.88559442315325],
+      [19.50776038966458, -96.85673894938385],
+      [19.513595322651355, -96.85792110961503]
+    ],
+    "stops": [
+      {"coordenas": [19.515206746741818, -96.92840628933877], "nombre": "Buena Vista"},
+      {"coordenas": [19.51230149620746, -96.92533503408318], "nombre": "Jose Ma. Velasco"},
+      {"coordenas": [19.524638940285076, -96.9317424768139], "nombre": "Calle Magnolia"},
+      {"coordenas": [19.525090391932967, -96.93011760661207], "nombre": "Calle Ignacio Allende"},
+      {"coordenas": [19.52571915131341, -96.92424346800439], "nombre": "Sur del Parque Juarez"},
+      {"coordenas": [19.52260992017743, -96.91696425394677], "nombre": "Los Berros"},
+      {"coordenas": [19.529231242122545, -96.9151046017647], "nombre": "Santos Degollado"},
+      {"coordenas": [19.52528042928956, -96.90398364674682], "nombre": "Caxa"},
+      {"coordenas": [19.520421629617065, -96.88559442315325], "nombre": "Plaza Animas"},
+      {"coordenas": [19.513223357574645, -96.87527117957768], "nombre": "Plaza Americas"},
+      {"coordenas": [19.507632613331555, -96.86023803235045], "nombre": "Plaza El Juguete"},
+      {"coordenas": [19.513595322651355, -96.85792110961503], "nombre": "Central de Abastos"}
+    ]
+  },
+  {
+    "id": 12,
+    "label": "Buena Vista - Sauces - Caxa - Trancas - Plaza Xanat - Pradera",
+    "type": "line",
+    "color": "#f59e0b",
+    "points": [
+      [19.515206746741818, -96.92840628933877],
+      [19.513109040987064, -96.9251148718561],
+      [19.522037975004746, -96.92789598466905],
+      [19.524701185414425, -96.9319328885591],
+      [19.526657392570666, -96.92302334113852],
+      [19.52260992017743, -96.91696425394677],
+      [19.529231242122545, -96.9151046017647],
+      [19.520421629617065, -96.88559442315325],
+      [19.505039328182512, -96.85822403703084],
+      [19.50082210961166, -96.85111152986754]
+    ],
+    "stops": [
+      {"coordenas": [19.515206746741818, -96.92840628933877], "nombre": "Buena Vista"},
+      {"coordenas": [19.51230149620746, -96.92533503408318], "nombre": "Jose Ma. Velasco"},
+      {"coordenas": [19.524638940285076, -96.9317424768139], "nombre": "Calle Magnolia"},
+      {"coordenas": [19.525090391932967, -96.93011760661207], "nombre": "Calle Ignacio Allende"},
+      {"coordenas": [19.52571915131341, -96.92424346800439], "nombre": "Sur del Parque Juarez"},
+      {"coordenas": [19.52260992017743, -96.91696425394677], "nombre": "Los Berros"},
+      {"coordenas": [19.529231242122545, -96.9151046017647], "nombre": "Santos Degollado"},
+      {"coordenas": [19.52528042928956, -96.90398364674682], "nombre": "Caxa"},
+      {"coordenas": [19.520421629617065, -96.88559442315325], "nombre": "Plaza Animas"},
+      {"coordenas": [19.513223357574645, -96.87527117957768], "nombre": "Plaza Americas"},
+      {"coordenas": [19.507632613331555, -96.86023803235045], "nombre": "Plaza El Juguete"},
+      {"coordenas": [19.50082210961166, -96.85111152986754], "nombre": "La pradera"}
+    ]
+  },
+  {
+    "id": 13,
+    "label": "Campo de Tiro - Hernandez Castillo - AV Xalapa - Clavijero",
+    "type": "line",
+    "color": "#b91c1c",
+    "points": [
+      [19.563999227256488, -96.89690877476724],
+      [19.56293498452968, -96.90347683449839],
+      [19.55765642364163, -96.91620537200245],
+      [19.562900885513994, -96.92889538879174],
+      [19.5330474501381, -96.9245944515563]
+    ],
+    "stops": [
+      {"coordenas": [19.563999227256488, -96.89690877476724], "nombre": "Campo de Tiro"},
+      {"coordenas": [19.562715393328393, -96.91156450108882], "nombre": "Calle Balacan"},
+      {"coordenas": [19.55890376055217, -96.9160697693371], "nombre": "Hernandez Castillo"},
+      {"coordenas": [19.562900885513994, -96.92889538879174], "nombre": "AV Xalapa - Soriana"},
+      {"coordenas": [19.553956660030785, -96.92926689150862], "nombre": "Normal"},
+      {"coordenas": [19.55136502326794, -96.92972002529194], "nombre": "AV Xalapa - Museo"},
+      {"coordenas": [19.546506544385082, -96.92846515663368], "nombre": "Colegio Conemus"},
+      {"coordenas": [19.542692172931112, -96.92727462293645], "nombre": "Facultad de Economia"},
+      {"coordenas": [19.539356635624742, -96.92527912151358], "nombre": "Scotibank Clavijero"},
+      {"coordenas": [19.5330474501381, -96.9245944515563], "nombre": "Clavijero"}
+    ]
+  },
+  {
+    "id": 14,
+    "label": "Vicente Guerrero - Campo de Tiro - Colonia Revolucion - AV Xalapa - Clavijero",
+    "type": "line",
+    "color": "#58de10ff",
+    "points": [
+      [19.568305417532958, -96.91163649431519],
+      [19.56729767203693, -96.91626311512593],
+      [19.571987432436693, -96.92333678702279],
+      [19.56614564057536, -96.92450538627983],
+      [19.561234137106737, -96.92537804566187],
+      [19.53304381526694, -96.92475177344136]
+    ],
+    "stops": [
+      {"coordenas": [19.568305417532958, -96.91163649431519], "nombre": "Ramon Lopez Velarde"},
+      {"coordenas": [19.571190702730355, -96.9197792402488], "nombre": "AV Atenas - Bomberos"},
+      {"coordenas": [19.571942309677958, -96.92198020737396], "nombre": "AV Atenas - X24"},
+      {"coordenas": [19.571966490268373, -96.92350493099818], "nombre": "AV Mexico - Similares"},
+      {"coordenas": [19.560148148505068, -96.92879259040075], "nombre": "ISSTE"},
+      {"coordenas": [19.5586959919615, -96.92883541159674], "nombre": "AV Xalapa - Soriana"},
+      {"coordenas": [19.5570578037425, -96.92887250666433], "nombre": "AV Xalapa - Calle Merida"},
+      {"coordenas": [19.55331249046397, -96.9293851201443], "nombre": "AV Xalapa - Normal"},
+      {"coordenas": [19.55136502326794, -96.92972002529194], "nombre": "AV Xalapa - Museo"},
+      {"coordenas": [19.546506544385082, -96.92846515663368], "nombre": "Colegio Conemus"},
+      {"coordenas": [19.542692172931112, -96.92727462293645], "nombre": "Facultad de Economia"},
+      {"coordenas": [19.539356635624742, -96.92527912151358], "nombre": "Scotibank Clavijero"},
+      {"coordenas": [19.5330474501381, -96.9245944515563], "nombre": "Clavijero"}
+    ]
+  },
+  {
+    "id": 15,
+    "label": "Chedrahui Caram - Centro - Chedrahui Caram",
+    "type": "circuit",
+    "color": "#0ea5e9ff",
+    "points": [
+      [19.537313849925912, -96.9065574711428],
+      [19.52566462622067, -96.89913371992556],
+      [19.541380344409287, -96.92626076584718],
+      [19.562929809611987, -96.92834022698895],
+      [19.552261387650727, -96.93503602998295],
+      [19.560124650814853, -96.94139036967685],
+      [19.558703126121344, -96.95541618721387]
+    ],
+    "stops": [
+      {"coordenas": [19.537313849925912, -96.9065574711428], "nombre": "Chedrahui Caram"},
+      {"coordenas": [19.53515862698176, -96.90813129310345], "nombre": "Lazaro Cardenas - Independencia"},
+      {"coordenas": [19.52959926472097, -96.90071971802452], "nombre": "Lazaro Cardenas - Agua Santa"},
+      {"coordenas": [19.52566462622067, -96.89913371992556], "nombre": "AV 20 de Noviembre Bodegon de semillas"},
+      {"coordenas": [19.525456259259936, -96.90435829044948], "nombre": "Caxa"},
+      {"coordenas": [19.52577352360756, -96.90751894574431], "nombre": "AV 20 de Noviembre - Ride Bikes"},
+      {"coordenas": [19.531979877751887, -96.91454359151841], "nombre": "AV 20 de Noviembre - Caja Popular"},
+      {"coordenas": [19.536619034614322, -96.9205222769897], "nombre": "AV 20 de Noviembre - Chedrahui"},
+      {"coordenas": [19.541380344409287, -96.92626076584718], "nombre": "AV Xalapa - Calle Austeridad"},
+      {"coordenas": [19.544536683086445, -96.92776010846592], "nombre": "AV Xalapa - Ciclovia"},
+      {"coordenas": [19.548948985310734, -96.9294442735625], "nombre": "AV Xalapa - Coppel"},
+      {"coordenas": [19.5510169421841, -96.92956649997414], "nombre": "AV Xalapa - Pollo Feliz"},
+      {"coordenas": [19.55370620518191, -96.92901736520635], "nombre": "AV Xalapa - Normal - Similares"},
+      {"coordenas": [19.556810019330577, -96.92865663485624], "nombre": "AV Xalapa - Floresrias"},
+      {"coordenas": [19.559362480269566, -96.92849633550976], "nombre": "AV Xalapa - BBVA"},
+      {"coordenas": [19.5626077877116, -96.92988257537796], "nombre": "Av Ruiz Cortines - Finanzas"},
+      {"coordenas": [19.559209277455597, -96.93181157564226], "nombre": "Av Ruiz Cortines - AutoHotel Eden"},
+      {"coordenas": [19.55679445236997, -96.93266830727421], "nombre": "AV Adolfo Ruiz Cortines - AV Villahermosa"},
+      {"coordenas": [19.554448275501848, -96.93384370338497], "nombre": "AV Adolfo Ruiz Cortines - Acueducto"},
+      {"coordenas": [19.5520943767729, -96.95032065006916], "nombre": "AV Diamante - Fasti"},
+      {"coordenas": [19.55027592563616, -96.94174809180416], "nombre": "Fovissste"},
+      {"coordenas": [19.548480566665877, -96.93271707417709], "nombre": "Plaza Museo"},
+      {"coordenas": [19.546506544385082, -96.92846515663368], "nombre": "Colegio Conemus"},
+      {"coordenas": [19.538411873199436, -96.91738484907476], "nombre": "AV Americas - Pipila"},
+      {"coordenas": [19.535510640371015, -96.91182751219712], "nombre": "AV Americas - Farmacia Guadalajara"}
+    ]
+  },
+  {
+    "id": 16,
+    "label": "Miguel Aleman - USIVER - Martires 28 de agosto",
+    "type": "line",
+    "color": "#3e7f9dff",
+    "points": [
+      [19.551731409101105, -96.91145261432008],
+      [19.534354098960563, -96.92142651956583],
+      [19.542791413031797, -96.93653758679294]
+    ],
+    "stops": [
+      {"coordenas": [19.551731409101105, -96.91145261432008], "nombre": "Miguel Aleman - USIVER"},
+      {"coordenas": [19.54296999047884, -96.91161731771727], "nombre": "Pipila - Antonio Nava"},
+      {"coordenas": [19.54239171863955, -96.91210529392546], "nombre": "Pipila - Jorge Cedran"},
+      {"coordenas": [19.534451596805596, -96.92140625181243], "nombre": "Francisco I Madero - Libertad"},
+      {"coordenas": [19.542791413031797, -96.93653758679294], "nombre": "Martires 28 de Agosto"},
+      {"coordenas": [19.539669833035383, -96.9332676899977], "nombre": "Martires - Heroles"}
+    ]
+  },
+  {
+    "id": 17,
+    "label": "Martires 28 de agosto - Plaza Cristal",
+    "type": "line",
+    "color": "#a78bfa",
+    "points": [
+      [19.542791413031797, -96.93653758679294],
+      [19.53573418595621, -96.92996281277588],
+      [19.532937822663442, -96.91565553379492],
+      [19.53894953924973, -96.90770404088695]
+    ],
+    "stops": [
+      {"coordenas": [19.542791413031797, -96.93653758679294], "nombre": "Martires 28 de Agosto - Heroles"},
+      {"coordenas": [19.53603828527366, -96.93137464859939], "nombre": "AV Manuel Avila Camacho - Steren"},
+      {"coordenas": [19.5348802351149, -96.9326840885761], "nombre": "AV Manuel Avila Camacho - BBVA"},
+      {"coordenas": [19.532885981691923, -96.92131209431726], "nombre": "Poeta - Supercito"},
+      {"coordenas": [19.535489922308663, -96.90780723538242], "nombre": "Lazaro Cardenas - Coyoacan"},
+      {"coordenas": [19.53894953924973, -96.90770404088695], "nombre": "Plaza Cristal"}
+    ]
+  },
+  {
+    "id": 18,
+    "label": "Miguel Aleman - Macultepec - Centro",
+    "type": "line",
+    "color": "#775dc3ff",
+    "points": [
+      [19.551254418954727, -96.91253034715534],
+      [19.554843598639117, -96.92797212227885],
+      [19.55124543665889, -96.92851717337324],
+      [19.542670718599, -96.92523414401555],
+      [19.532963511603263, -96.92459575217563]
+    ],
+    "stops": [
+      {"coordenas": [19.551254418954727, -96.91253034715534], "nombre": "AV Miguel Aleman"},
+      {"coordenas": [19.5544639727486, -96.92160309755666], "nombre": "Villa Hermosa - Fasti"},
+      {"coordenas": [19.542692172931112, -96.92727462293645], "nombre": "Facultad de Economia"},
+      {"coordenas": [19.539356635624742, -96.92527912151358], "nombre": "Scotibank Clavijero"},
+      {"coordenas": [19.532963511603263, -96.92459575217563], "nombre": "Clavijero"}
+    ]
+  },
+  {
+    "id": 19,
+    "label": "Calle Chiapas- Tecnica 72",
+    "type": "line",
+    "color": "#a21caf",
+    "points": [
+      [19.532655194077744, -96.94519617825766],
+      [19.568853888639612, -96.92418859973648]
+    ],
+    "stops": [
+      {"coordenas": [19.532655194077744, -96.94519617825766], "nombre": "Calle Chiapas"},
+      {"coordenas": [19.53463854551211, -96.93955526179097], "nombre": "AV Adolfo Ruiz Cortines - PEMEX"},
+      {"coordenas": [19.535465849335505, -96.93653286428034], "nombre": "AV Adolfo Ruiz Cortines - Delcampo"},
+      {"coordenas": [19.540299357777585, -96.93189686512223], "nombre": "AV Adolfo Ruiz Cortines - Misantla"},
+      {"coordenas": [19.548948985310734, -96.9294442735625], "nombre": "AV Xalapa - Coppel"},
+      {"coordenas": [19.5510169421841, -96.92956649997414], "nombre": "AV Xalapa - Pollo Feliz"},
+      {"coordenas": [19.55370620518191, -96.92901736520635], "nombre": "AV Xalapa - Normal - Similares"},
+      {"coordenas": [19.556810019330577, -96.92865663485624], "nombre": "AV Xalapa - Floresrias"},
+      {"coordenas": [19.559362480269566, -96.92849633550976], "nombre": "AV Xalapa - BBVA"},
+      {"coordenas": [19.562183316764344, -96.92800962566417], "nombre": "Tesoreria"},
+      {"coordenas": [19.563882757845203, -96.92821842845278], "nombre": "Tesoreria - Banderilla"},
+      {"coordenas": [19.568853888639612, -96.92418859973648], "nombre": "Tecnica 72"}
+    ]
+  },
+  {
+    "id": 20,
+    "label": "Calle Chiapas - Centro - Tecnica 72",
+    "type": "line",
+    "color": "#640a6cff",
+    "points": [
+      [19.532655194077744, -96.94519617825766],
+      [19.53463854551211, -96.93955526179097],
+      [19.529075663820528, -96.93521319386494],
+      [19.52502955873043, -96.93309588215335],
+      [19.525090391932967, -96.93011760661207],
+      [19.52571915131341, -96.92424346800439],
+      [19.568853888639612, -96.92418859973648]
+    ],
+    "stops": [
+      {"coordenas": [19.532655194077744, -96.94519617825766], "nombre": "Calle Chiapas"},
+      {"coordenas": [19.53463854551211, -96.93955526179097], "nombre": "AV Adolfo Ruiz Cortines - PEMEX"},
+      {"coordenas": [19.529075663820528, -96.93521319386494], "nombre": "IMAC Xalapa"},
+      {"coordenas": [19.52502955873043, -96.93309588215335], "nombre": "Ferrocarril"},
+      {"coordenas": [19.525090391932967, -96.93011760661207], "nombre": "Calle Ignacio Allende"},
+      {"coordenas": [19.52571915131341, -96.92424346800439], "nombre": "Sur del Parque Juarez"},
+      {"coordenas": [19.53197945903702, -96.9234920562531], "nombre": "El Arbol"},
+      {"coordenas": [19.541380344409287, -96.92626076584718], "nombre": "AV Xalapa - Calle Austeridad"},
+      {"coordenas": [19.544536683086445, -96.92776010846592], "nombre": "AV Xalapa - Ciclovia"},
+      {"coordenas": [19.548948985310734, -96.9294442735625], "nombre": "AV Xalapa - Coppel"},
+      {"coordenas": [19.5510169421841, -96.92956649997414], "nombre": "AV Xalapa - Pollo Feliz"},
+      {"coordenas": [19.55370620518191, -96.92901736520635], "nombre": "AV Xalapa - Normal - Similares"},
+      {"coordenas": [19.556810019330577, -96.92865663485624], "nombre": "AV Xalapa - Floresrias"},
+      {"coordenas": [19.559362480269566, -96.92849633550976], "nombre": "AV Xalapa - BBVA"},
+      {"coordenas": [19.562183316764344, -96.92800962566417], "nombre": "Tesoreria"},
+      {"coordenas": [19.563882757845203, -96.92821842845278], "nombre": "Tesoreria - Banderilla"},
+      {"coordenas": [19.568853888639612, -96.92418859973648], "nombre": "Tecnica 72"}
+    ]
+  },
+  {
+    "id": 21,
+    "label": "El Haya - Zona UV - Bugambilias",
+    "type": "line",
+    "color": "#d946ef",
+    "points": [
+      [19.524832035068442, -96.93509378801726],
+      [19.523640262727874, -96.93134217664107],
+      [19.521785194094125, -96.92735048920225],
+      [19.519150855741504, -96.9184970499106],
+      [19.495716693809403, -96.85053005396281]
+    ],
+    "stops": [
+      {"coordenas": [19.524832035068442, -96.93509378801726], "nombre": "El Haya"},
+      {"coordenas": [19.521785194094125, -96.92735048920225], "nombre": "AV Venustiano Carranza"},
+      {"coordenas": [19.51869069739855, -96.92111875016742], "nombre": " La X lagos"},
+      {"coordenas": [19.519150855741504, -96.9184970499106], "nombre": "Zona UV"},
+      {"coordenas": [19.518430349123907, -96.91405630993428], "nombre": "AV Enrique Rebsamen 2"},
+      {"coordenas": [19.51410550880322, -96.90899859851167], "nombre": "Av Enrique Rebsamen"},
+      {"coordenas": [19.507456519474925, -96.89952835543674], "nombre": "Arco Sur"},
+      {"coordenas": [19.50540441976, -96.89361099201855], "nombre": "Arco Sur - Yanga"},
+      {"coordenas": [19.50769177740882, -96.88080453125596], "nombre": "Walmart Arco Sur"},
+      {"coordenas": [19.50668272577122, -96.86499571054937], "nombre": "Calle Principal - Arco Sur"},
+      {"coordenas": [19.495716693809403, -96.85053005396281], "nombre": " Rubi - Bugambilias"}
+    ]
+  },
+  {
+    "id": 22,
+    "label": "Lazaro Cardenas - Tesoreria - Bugambilias",
+    "type": "line",
+    "color": "#9c44aaff",
+    "points": [
+      [19.516888273000063, -96.88061621699995],
+      [19.52074421900005, -96.88599249299995],
+      [19.522081676000028, -96.89206009899999],
+      [19.526369248000037, -96.89749141399994],
+      [19.530508132000023, -96.90194615899998],
+      [19.53339272900007, -96.90706596099994],
+      [19.53890111900006, -96.90778655799994],
+      [19.54354305000004, -96.90908203499998],
+      [19.548069635000047, -96.91122068699997],
+      [19.557495713000037, -96.91625991999996],
+      [19.55913563400003, -96.91979082599995],
+      [19.560870274000024, -96.92438487599998],
+      [19.562012279000044, -96.92709206099994],
+      [19.56364262200003, -96.92822505],
+      [19.50668272577122, -96.86499571054937]
+    ],
+    "stops": [
+      {"coordenas": [19.513223357574645, -96.87527117957768], "nombre": "Plaza Americas"},
+      {"coordenas": [19.518645284869205, -96.88267412489412], "nombre": "Plaza Animas"},
+      {"coordenas": [19.529798415578906, -96.90049022922783], "nombre": "Lazaro Cardenas"},
+      {"coordenas": [19.53894953924973, -96.90770404088695], "nombre": "Plaza Cristal"},
+      {"coordenas": [19.54226427856596, -96.90841066817221], "nombre": "Parada Jardines"},
+      {"coordenas": [19.556287339687152, -96.91513883234693], "nombre": "Autohotel Kristal"},
+      {"coordenas": [19.558319269948864, -96.91760213069395], "nombre": "Lazaro Cardenas - Urban center"},
+      {"coordenas": [19.50668272577122, -96.86499571054937], "nombre": "Calle Principal - Arco Sur"}
     ]
   }
 ]
