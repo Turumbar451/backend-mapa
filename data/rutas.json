@@ -642,7 +642,7 @@
   },
   
   {
-    "id": "24",
+    "id": 24,
     "label": "Bugambilias - Zona UV - El Haya",
     "type": "line",
     "color": "#a21caf",
@@ -710,7 +710,7 @@
   },
 
   {
-    "id": "25",
+    "id": 25,
     "label": "Ojo de Agua - Zona UV - El Haya",
     "type": "line",
     "color": "#2a0630ff",
@@ -780,7 +780,7 @@
   },
 
   {
-    "id": "26",
+    "id": 26,
     "label": "Colonia Verazcruz - 20 de Noviembre - Central de Abastos",
     "type": "line",
     "color": "#2a6e84ff",
@@ -807,7 +807,7 @@
   },
 
   {
-    "id": "27",
+    "id": 27,
     "label": "Central de Abastos - 20 de Noviembre - Colonia Verazcruz",
     "type": "line",
     "color": "#2a6e84ff",
@@ -842,7 +842,7 @@
   },
 
   {
-    "id": "28",
+    "id": 28,
     "label": "Articulo 3ro - Avila Camacho - Bugambilias",
     "type": "line",
     "color": "#855a18ff",
@@ -879,7 +879,7 @@
   },
 
   {
-    "id": "29",
+    "id": 29,
     "label": "Bugambilias - Avila Camacho - Articulo 3ro",
     "type": "line",
     "color": "#ede211ff",
@@ -914,9 +914,9 @@
       { "coordenas": [19.52614591373224, -96.91687013606271], "nombre": "C Diego Leño" }
     ]
   },
-  
+
   {
-    "id": "30",
+    "id": 30,
     "label": "Marina Nacional - Las Margaritas",
     "type": "line",
     "color": "#6d6918ff",
@@ -946,7 +946,7 @@
 
 
   {
-    "id": "53",
+    "id": 53,
     "label": "Sefiplan-Lazaro Cardenas-Cto.Presidentes- Ruiz Cortinez",
     "type": "circuit",
     "color": "#882c96ff",
@@ -1188,7 +1188,7 @@
     ]
   },
   {
-    "id": "54",
+    "id": 54,
     "label": "Reforma - Mercado - Sumidero",
     "type": "line",
     "color": "#4e1357ff",
@@ -1288,7 +1288,7 @@
     ]
   },
   {
-    "id": "55",
+    "id": 55,
     "label": "Sumidero - Mercado - Reforma",
     "type": "line",
     "color": "#480c51ff",
@@ -1351,7 +1351,7 @@
     ]
   },
   {
-    "id": "56",
+    "id": 56,
     "label": " Campo de Tiro - Av. Xalapa - Av. México - Clavijero",
     "type": "line",
     "color": "#cda7d3ff",
@@ -1460,7 +1460,7 @@
     ]
   },
   {
-    "id": "57",
+    "id": 57,
     "label": "Bugambilias - Lázaro Cárdenas - Avila Camacho - Sauces",
     "type": "line",
     "color": "#cc14e8ff",
@@ -1605,7 +1605,7 @@
     ]
   },
   {
-    "id": "58",
+    "id": 58,
     "label": "Bugambilias - Arco Sur - Sauces",
     "type": "line",
     "color": "#58234bff",
@@ -1692,7 +1692,7 @@
     ]
   },
   {
-    "id": "59",
+    "id": 59,
     "label": "Col. Revolucion - Av. Xalapa - Sayago",
     "type": "line",
     "color": "#58234bff",
