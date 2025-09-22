@@ -942,8 +942,294 @@
     ]
   },
 
+  {
+    "id": 31,
+    "label": "Marina Nacional-Pipila-Santa Rosa",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      [19.532963511603263, -96.92459575217563],
+
+    ],
+    "stops": [
+      {"coordenas": [19.532963511603263, -96.92459575217563], "nombre": "Clavijero" },
 
 
+    ]
+  },
+
+  {
+    "id": 32,
+    "label": "San Andrés Tlalnehuayocan - Luz del Barrio - Central de Abastos",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+
+    ],
+    "stops": [
+      
+    ]
+  },
+
+   {
+    "id": 33,
+    "label": "San Andrés Tlalnehuayocan - Luz del Barrio - Clavijero - Zipor",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+   {
+    "id": 34,
+    "label": "Las Fuentes - Mercado - San Andrés Tlalnehuayocan",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+   {
+    "id": 35,
+    "label": "La haciendita - Caxa - Central de Abastos",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+   {
+    "id": 36,
+    "label": "Central de Abastos - Caxa - La Haciendita",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+   {
+    "id": 37,
+    "label": "Experimental - Plaza Cristal - Central de Abastos",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+   {
+    "id": 38,
+    "label": "Central de Abastos - Plaza Cristal - Experimental",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+   {
+    "id": 39,
+    "label": "La haciendita - Caxa - Central de Abastos",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+   {
+    "id": 40,
+    "label": "Central de Abastos - Caxa - La Haciendita",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+   {
+    "id": 41,
+    "label": "Experimental - Cristal - Central de Abastos",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+   {
+    "id": 42,
+    "label": "Central de Abastos - Plaza Cristal - Experimental",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+   {
+    "id": 43,
+    "label": "Homex - Vasconcelos - Av. Xalapa - Centro",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+   {
+    "id": 44,
+    "label": "Centro - Av. Xalapa - Vasconcelos - Homex",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+   {
+    "id": 45,
+    "label": "Col México - Lucas Martín - Av. Xalapa-Centro",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+   {
+    "id": 46,
+    "label": "Centro - Av. Xalapa - Lucas Martín - Col. México",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+   {
+    "id": 47,
+    "label": "Campo de Tiro - Revolución - Clavijero",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+    {
+    "id": 48,
+    "label": "Clavijero - Revolución - Campo de Tiro",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+    {
+    "id": 49,
+    "label": "El Moral - Revolución - Clavijero",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+    {
+    "id": 50,
+    "label": "Clavijero - Revolución - El Moral",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+   {
+    "id": 51,
+    "label": "Col Higueras - Lázaro Cárdenas - Centro - Zona UV",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
+
+   {
+    "id": 52,
+    "label": "Zona UV - Centro - Lázaro Cárdenas - Higueras",
+    "type": "line",
+    "color": "#b5890aff",
+    "points": [
+      
+    ],
+    "stops": [
+      
+    ]
+  },
 
   {
     "id": 53,
