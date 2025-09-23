@@ -1,6 +1,5 @@
 import express from "express";
-import { nearbyStops } from "../controllers/stopsController.js";
-import { searchStopsByName } from "../controllers/stopsController.js";
+import { nearbyStops, searchStopsByName } from "../controllers/stopsController.js";
 
 const router = express.Router();
 
