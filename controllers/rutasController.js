@@ -1,37 +1,68 @@
 import Ruta from "../models/ruta.js";
+import mongoose from "mongoose";
 
 export const getListadoRutas = async (req, res) => {
-    try {
-        const rutas = await Ruta.find({}, "_id label");
-        res.json(rutas);
-    } catch (err) {
-        console.error(err);
-        res.status(500).json({ message: "Error al cargar listado de rutas" });
-    }
+  try {
+    // Opcional: incluye también el id numérico si te sirve en el front
+    const rutas = await Ruta.find({}, "_id id label");
+    res.json(rutas);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "Error al cargar listado de rutas" });
+  }
 };
 
 export const getTodasRutas = async (req, res) => {
-    try {
-        const rutas = await Ruta.find({});
-        res.json(rutas);
-    } catch (err) {
-        console.error(err);
-        res.status(500).json({ message: "Error al cargar rutas completas" });
-    }
+  try {
+    const rutas = await Ruta.find({});
+    res.json(rutas);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "Error al cargar rutas completas" });
+  }
 };
 
 export const getRutaById = async (req, res) => {
-    const { id } = req.params;
-    try {
-        const ruta = await Ruta.findOne({ id: Number(id) });
-        if (!ruta) return res.status(404).json({ message: "Ruta no encontrada" });
-        res.json(ruta);
-    } catch (err) {
-        console.error(err);
-        res.status(500).json({ message: "Error al cargar la ruta" });
-    }
+  const { id } = req.params;
+  try {
+    // Tu GET actual busca por el campo id numérico
+    const ruta = await Ruta.findOne({ id: Number(id) });
+    if (!ruta) return res.status(404).json({ message: "Ruta no encontrada" });
+    res.json(ruta);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "Error al cargar la ruta" });
+  }
 };
 
+// NUEVO: DELETE por _id de Mongo o por id numérico
+export const deleteRuta = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    let deleted = null;
+    if (mongoose.Types.ObjectId.isValid(id)) {
+      // Borrar por _id (lo que actualmente manda tu frontend)
+      deleted = await Ruta.findByIdAndDelete(id);
+    } else {
+      // Intentar borrar por id numérico (coherente con tu GET /:id)
+      const num = Number(id);
+      if (Number.isNaN(num)) {
+        return res.status(400).json({ message: "ID inválido" });
+      }
+      deleted = await Ruta.findOneAndDelete({ id: num });
+    }
+
+    if (!deleted) {
+      return res.status(404).json({ message: "Ruta no encontrada" });
+    }
+
+    return res.json({ message: "Ruta eliminada correctamente" });
+  } catch (err) {
+    console.error("DELETE /rutas/:id error", err);
+    return res.status(500).json({ message: "Error eliminando ruta" });
+  }
+};
 
 /* //controllers/rutasController.js
 //leera el json y decidira que devolver al frontend
