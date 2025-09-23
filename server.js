@@ -30,8 +30,6 @@ async function startServer() {
   app.use("/api", authRoutes); //todo lo que llegue a /api lo maneja authRoutes o sesa auth.js
   app.use('/api/rutas', rutasRouter);
 
-
-
   const PORT = 3000;
   //listen inicializa el servidor, tiene un puerto y un callback
   app.listen(PORT, () => {
