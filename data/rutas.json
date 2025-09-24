@@ -948,11 +948,16 @@
     "type": "line",
     "color": "#b5890aff",
     "points": [
+      [19.55767550797323, -96.90087379864461],
       [19.532963511603263, -96.92459575217563]
-
     ],
     "stops": [
-      {"coordenas": [19.532963511603263, -96.92459575217563], "nombre": "Clavijero" }
+        {"coordenas": [19.545592175605123, -96.90932387971276], "nombre": "Av. Pipila 5" },
+        {"coordenas": [19.539061343078046, -96.91779516438257], "nombre": "Privada de las Americas" },
+        {"coordenas": [19.540874906970792, -96.92280777971573], "nombre": "Col. del Maestro" },
+        {"coordenas": [19.539061343078046, -96.91779516438257], "nombre": "Privada de las Americas" },
+        {"coordenas": [19.534017937375747, -96.92442957199712], "nombre": "Clavijero 2" },
+        {"coordenas": [19.532963511603263, -96.92459575217563], "nombre": "Clavijero" }
 
 
     ]
