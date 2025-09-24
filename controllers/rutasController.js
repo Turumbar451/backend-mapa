@@ -64,18 +64,46 @@ export const deleteRuta = async (req, res) => {
   }
 };
 
-/* //controllers/rutasController.js
-//leera el json y decidira que devolver al frontend
-import fs from 'fs'; //modulo nativo de note para ler archivos (el file system)
-import path from 'path'; //modulo nativo de node para manejar rutas de archivos
+export const createRuta = async (req, res) => {
+    try {
+      const{
+        id,
+        label,
+        type, 
+        color,
+        points = [],
+        stops = []
+      } = req.body || {};
 
-const rutasPath = path.resolve('./data/rutas.json'); //convierte ruta relativa en ruta absoluta
-
-export const getRutas = (req, res) => {
-    const rutas = JSON.parse(fs.readFileSync(rutasPath, 'utf-8'));
-    res.json(rutas);
-};
-//readFileSync lee el archivo de forma sincrona, o sea bloquea
-//tiene dos parametros, la ruta y la codificacion
-//json.parse convierte el string json en un objeto de JS porque utf-8 es un string
-//res.json convierte el ojeto js en un json y lo manda al frontend */
+      //validaciones :d
+      const numID = Number(id);
+      if (!Number.isFinite(numID)){
+        return res.status(400).json({message: "ID inválido"})
+      }
+      if (!label || !String(label).trim()){
+        return res.status(400).json({message: "Label inválido"})
+      }
+      if (!["line", "circuit"].includes(type)){
+        return res.status(400).json({message: "Tipo inválido"})
+      }
+      const colorOk = /^#([0-9a-fA-F]{3}){1,2}([0-9a-fA-F]{2})?$/.test(String(color || ""));
+      if (!colorOK){
+        return res.status(400).json({message: "Color inválido"})
+      }
+      // Validar points
+      if (!Array.isArray(points)){
+        return res.status(400).json({message: "Points inválido"})
+      }
+      const normPoints = [];
+      for (const p of points){
+        if (!Array.isArray(p) || p.length !==2){
+          return res.status(400).json({message: "Points inválido" })
+        }
+      }
+      
+      
+      
+    } catch (error) {
+        
+    }
+}
