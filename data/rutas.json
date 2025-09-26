@@ -2295,7 +2295,7 @@
       {"coordenas": [19.562715393328393, -96.91156450108882], "nombre": "Calle Balacan"}
     ]
   },
-  [
+
   {
     "id": "70",
     "label": "Campo de Tiro - Trancas",
@@ -2500,7 +2500,7 @@
       {"coordenas": [19.511887113553737, -96.9297196505609], "nombre": "DIF Estatal"},
       {"coordenas": [19.460915531837248, -96.95004712837796], "nombre": "Entrada Norte a Coatepec"}
     ]
-  },[
+  },
   {
     "id": "80",
     "label": "Xalapa Rotonda - Coatepec Porthos",
@@ -2713,10 +2713,187 @@
       { "coordenas": [19.54296999047884, -96.91161731771727], "nombre": "Pipila - Antonio Nava" },
       { "coordenas": [19.54239171863955, -96.91210529392546], "nombre": "Pipila - Jorge Cedran" }
     ]
+  },
+  {
+    "id": "90",
+    "label": "Sumidero - Poeta",
+    "type": "line",
+    "color": "#343a40ff",
+    "points": [
+      [19.55230823683571, -96.89165748664158],
+      [19.532885981691923, -96.92131209431726]
+    ],
+    "stops": [
+      {"coordenas": [19.532885981691923, -96.92131209431726], "nombre": "Poeta - Supercito"},
+      {"coordenas": [19.55230823683571, -96.89165748664158], "nombre": "Av Montes de Himalaya"},
+      {"coordenas": [19.545430931716282, -96.90599402137558], "nombre": "Jardines de Xalapa"},
+      {"coordenas": [19.545924178818574, -96.90809704254693], "nombre": "Pipila - Jardines"},
+      {"coordenas": [19.54296999047884, -96.91161731771727], "nombre": "Pipila - Antonio Nava"},
+      {"coordenas": [19.548094726011765, -96.89933064873576], "nombre": "Calle Granados"},
+      {"coordenas": [19.54239171863955, -96.91210529392546], "nombre": "Pipila - Jorge Cedran"}
+    ]
+  },
+  {
+    "id": "91",
+    "label": "Terminal Sumidero - Centro",
+    "type": "line",
+    "color": "#007bffff",
+    "points": [
+      [19.551358118962884, -96.89694231033565],
+      [19.52577352360756, -96.90751894574431],
+      [19.53197945903702, -96.9234920562531]
+    ],
+    "stops": [
+      {"coordenas": [19.551358118962884, -96.89694231033565], "nombre": "Terminal Sumidero"},
+      {"coordenas": [19.52577352360756, -96.90751894574431], "nombre": "AV 20 de Noviembre - Ride Bikes"},
+      {"coordenas": [19.53515862698176, -96.90813129310345], "nombre": "Lazaro Cardenas - Independencia"},
+      {"coordenas": [19.537313849925912, -96.9065574711428], "nombre": "Chedrahui Caram"},
+      {"coordenas": [19.54279950389193, -96.90092647468146], "nombre": "Camino Antiguo al Sumidero"},
+      {"coordenas": [19.53197945903702, -96.9234920562531], "nombre": "El Arbol"}
+    ]
+  },
+  {
+    "id": "92",
+    "label": "20 de Noviemre - Sumidero",
+    "type": "line",
+    "color": "#6610f2ff",
+    "points": [
+      [19.531979877751887, -96.91454359151841],
+      [19.551358118962884, -96.89694231033565]
+    ],
+    "stops": [
+      {"coordenas": [19.531979877751887, -96.91454359151841], "nombre": "AV 20 de Noviembre - Primaria Luis J.Jimenez"},
+      {"coordenas": [19.545430931716282, -96.90599402137558], "nombre": "Jardines de Xalapa"},
+      {"coordenas": [19.545924178818574, -96.90809704254693], "nombre": "Pipila - Jardines"},
+      {"coordenas": [19.54296999047884, -96.91161731771727], "nombre": "Pipila - Antonio Nava"},
+      {"coordenas": [19.54239171863955, -96.91210529392546], "nombre": "Pipila - Jorge Cedran"},
+      {"coordenas": [19.551358118962884, -96.89694231033565], "nombre": "Terminal Sumidero"}
+    ]
+  },
+  {
+    "id": "93",
+    "label": "Terminal Sumidero - Mercado",
+    "type": "line",
+    "color": "#28a745ff",
+    "points": [
+      [19.55260055072338, -96.8996616464009],
+      [19.550162162491, -96.8954720951868]
+    ],
+    "stops": [
+      {"coordenas": [19.55260055072338, -96.8996616464009], "nombre": "Calle Manzano y Peral"},
+      {"coordenas": [19.550162162491, -96.8954720951868], "nombre": "Calle Cañon del Colorado"}
+    ]
+  },
+  {
+    "id": "94",
+    "label": "Sumidero - Centro - Plaza Cristal - Calvario",
+    "type": "line",
+    "color": "#ffc107ff",
+    "points": [
+      [19.550162162491, -96.8954720951868],
+      [19.55260055072338, -96.8996616464009],
+      [19.537313849925912, -96.9065574711428],
+      [19.534037333189676, -96.91729435851937]
+    ],
+    "stops": [
+      {"coordenas": [19.550162162491, -96.8954720951868], "nombre": "Calle Cañon del Colorado"},
+      {"coordenas": [19.55260055072338, -96.8996616464009], "nombre": "Calle Manzano y Peral"},
+      {"coordenas": [19.537313849925912, -96.9065574711428], "nombre": "Chedrahui Caram"},
+      {"coordenas": [19.535510640371015, -96.91182751219712], "nombre": "AV Americas - Farmacia Guadalajara"},
+      {"coordenas": [19.54279950389193, -96.90092647468146], "nombre": "Camino Antiguo al Sumidero"},
+      {"coordenas": [19.548094726011765, -96.89933064873576], "nombre": "Calle Granados"},
+      {"coordenas": [19.53515862698176, -96.90813129310345], "nombre": "Lazaro Cardenas - Independencia"},
+      {"coordenas": [19.534037333189676, -96.91729435851937], "nombre": "Calle 5 de Febrero"}
+    ]
+  },
+  {
+    "id": "95",
+    "label": "Clavijero - 28 de Agosto - San Antonio",
+    "type": "line",
+    "color": "#17a2b8ff",
+    "points": [
+      [19.532963511603263, -96.92459575217563],
+      [19.542791413031797, -96.93653758679294],
+      [19.541040, -96.972190]
+    ],
+    "stops": [
+      {"coordenas": [19.532963511603263, -96.92459575217563], "nombre": "Clavijero"},
+      {"coordenas": [19.542791413031797, -96.93653758679294], "nombre": "Martires 28 de Agosto"},
+      {"coordenas": [19.539669833035383, -96.9332676899977], "nombre": "Martires - Heroles"},
+      {"coordenas": [19.541040, -96.972190], "nombre": "San Antonio"}
+    ]
+  },
+  {
+    "id": "96",
+    "label": "San Antonio - 28 de Agosto - Clavijero",
+    "type": "line",
+    "color": "#6f42c1ff",
+    "points": [
+      [19.541040, -96.972190],
+      [19.542791413031797, -96.93653758679294],
+      [19.532963511603263, -96.92459575217563]
+    ],
+    "stops": [
+      {"coordenas": [19.532963511603263, -96.92459575217563], "nombre": "Clavijero"},
+      {"coordenas": [19.542791413031797, -96.93653758679294], "nombre": "Martires 28 de Agosto"},
+      {"coordenas": [19.542692172931112, -96.92727462293645], "nombre": "Facultad de Economia"},
+      {"coordenas": [19.539356635624742, -96.92527912151358], "nombre": "Scotibank Clavijero"},
+      {"coordenas": [19.541040, -96.972190], "nombre": "San Antonio"}
+    ]
+  },
+  {
+    "id": "97",
+    "label": "Xocotla - 27 de Agosto - Clavijero",
+    "type": "line",
+    "color": "#fd7e14ff",
+    "points": [
+      [19.566028741563333, -96.98877520177567],
+      [19.539669833035383, -96.9332676899977],
+      [19.532963511603263, -96.92459575217563]
+    ],
+    "stops": [
+      {"coordenas": [19.532963511603263, -96.92459575217563], "nombre": "Clavijero"},
+      {"coordenas": [19.542791413031797, -96.93653758679294], "nombre": "Martires 28 de Agosto"},
+      {"coordenas": [19.539669833035383, -96.9332676899977], "nombre": "Martires - Heroles"},
+      {"coordenas": [19.566028741563333, -96.98877520177567], "nombre": "Xocotla"}
+    ]
+  },
+  {
+    "id": "98",
+    "label": "Ávila Camacho - Sauces - Zona UV",
+    "type": "line",
+    "color": "#20c997ff",
+    "points": [
+      [19.539753681824852, -96.92710614986044],
+      [19.52502955873043, -96.93309588215335],
+      [19.51869069739855, -96.92111875016742]
+    ],
+    "stops": [
+      {"coordenas": [19.539753681824852, -96.92710614986044], "nombre": "AV Manuel Avila Camacho"},
+      {"coordenas": [19.53603828527366, -96.93137464859939], "nombre": "AV Manuel Avila Camacho - Steren"},
+      {"coordenas": [19.52502955873043, -96.93309588215335], "nombre": "Ferrocarril"},
+      {"coordenas": [19.521785194094125, -96.92735048920225], "nombre": "AV Venustiano Carranza"},
+      {"coordenas": [19.51869069739855, -96.92111875016742], "nombre": " La X lagos"}
+    ]
+  },
+  {
+    "id": "99",
+    "label": "Higueras - Lazaro Cardenas - Zona UV",
+    "type": "line",
+    "color": "#dc3545ff",
+    "points": [
+      [19.546921523471564, -96.8855780611127],
+      [19.51869069739855, -96.92111875016742]
+    ],
+    "stops": [
+      {"coordenas": [19.51869069739855, -96.92111875016742], "nombre": " La X lagos"},
+      {"coordenas": [19.537313849925912, -96.9065574711428], "nombre": "Chedrahui Caram"},
+      {"coordenas": [19.53515862698176, -96.90813129310345], "nombre": "Lazaro Cardenas - Independencia"},
+      {"coordenas": [19.541050742317285, -96.89657670196776], "nombre": "Bodega Aurrera - Chedrahui Caram"},
+      {"coordenas": [19.519150855741504, -96.9184970499106], "nombre": "Zona UV"},
+      {"coordenas": [19.546921523471564, -96.8855780611127], "nombre": "Chedrahui Caram - Oxxo"}
+    ]
   }
-]
-]
-  
 ]
 
 
