@@ -943,23 +943,32 @@
   },
 
   {
-    "id": 31,
+    "id": "31",
     "label": "Marina Nacional-Pipila-Santa Rosa",
     "type": "line",
-    "color": "#b5890aff",
+    "color": "#2af0d5ff",
     "points": [
       [19.55767550797323, -96.90087379864461],
-      [19.532963511603263, -96.92459575217563]
+      [19.558020647264964, -96.89613400855565],
+      [19.555678077300815, -96.89723043435254],
+      [19.55334147518204, -96.89964899179773],
+      [19.542692172931112, -96.92727462293645],
+      [19.527579034624562, -96.92457839362277]
     ],
     "stops": [
-        {"coordenas": [19.545592175605123, -96.90932387971276], "nombre": "Av. Pipila 5" },
-        {"coordenas": [19.539061343078046, -96.91779516438257], "nombre": "Privada de las Americas" },
-        {"coordenas": [19.540874906970792, -96.92280777971573], "nombre": "Col. del Maestro" },
-        {"coordenas": [19.539061343078046, -96.91779516438257], "nombre": "Privada de las Americas" },
-        {"coordenas": [19.534017937375747, -96.92442957199712], "nombre": "Clavijero 2" },
-        {"coordenas": [19.532963511603263, -96.92459575217563], "nombre": "Clavijero" }
-
-
+      { "coordenas": [19.545592175605123, -96.90932387971276], "nombre": "Av. Pipila 5" },
+      { "coordenas": [19.539061343078046, -96.91779516438257], "nombre": "Privada de las Americas" },
+      { "coordenas": [19.540874906970792, -96.92280777971573], "nombre": "Col. del Maestro" },
+      { "coordenas": [19.539061343078046, -96.91779516438257], "nombre": "Privada de las Americas" },
+      { "coordenas": [19.539356635624742, -96.92527912151358], "nombre": "Scotibank Clavijero" },
+      { "coordenas": [19.542692172931112, -96.92727462293645], "nombre": "Facultad de Economia" },
+      { "coordenas": [19.532963511603263, -96.92459575217563], "nombre": "Clavijero" },
+      { "coordenas": [19.54859552739665, -96.90499172042432], "nombre": "Esquina Predio de la Virgen" },
+      { "coordenas": [19.553199933618416, -96.89979919550645], "nombre": "C Manzano 101" },
+      { "coordenas": [19.54866023938105, -96.90084750671147], "nombre": "Av Granada" },
+      { "coordenas": [19.555678077300815, -96.89723043435254], "nombre": "C Luna" },
+      { "coordenas": [19.558124186308525, -96.89824511656352], "nombre": "C Julio Serdan Pozos 3" },
+      { "coordenas": [19.545672903173617, -96.90547500250888], "nombre": "C. Gustavo Díaz Ordaz 45" }
     ]
   },
 
@@ -1132,59 +1141,133 @@
     ]
   },
 
-   {
-    "id": 45,
+  {
+    "id": "45",
     "label": "Col México - Lucas Martín - Av. Xalapa-Centro",
     "type": "line",
-    "color": "#b5890aff",
+    "color": "#329a18ff",
     "points": [
-      
+      [19.574002914883987, -96.91449884020122],
+      [19.577120546556454, -96.91840012205498],
+      [19.574483719719066, -96.92365317787079],
+      [19.577110651709702, -96.92705806993263],
+      [19.577286967065167, -96.92895962205604],
+      [19.532963511603263, -96.92459575217563]
     ],
     "stops": [
-      
+      { "coordenas": [19.574002914883987, -96.91449884020122], "nombre": "Colonia México" },
+      { "coordenas": [19.577120546556454, -96.91840012205498], "nombre": "Colonia Mexico - C Naranja Mandarina" },
+      { "coordenas": [19.576195326020503, -96.92140334109303], "nombre": "Av. Colegio Preparatorio - Lucas Martin" },
+      { "coordenas": [19.57614967171537, -96.92669953871818], "nombre": "Lucas Martín" },
+      { "coordenas": [19.574483719719066, -96.92365317787079], "nombre": "Lucas Martin - Ignacio Elizondo" },
+      { "coordenas": [19.577286967065167, -96.92895962205604], "nombre": "Prol 21 de Marzo - Xlp/Misantla road 40" },
+      { "coordenas": [19.572154196567194, -96.9290679508643], "nombre": "Lazaro Cardenas - PEMEX Xalapa" },
+      { "coordenas": [19.565554029966133, -96.92911595650003], "nombre": "Av. Lazaro Cardenas - Av. Xalapa" },
+      { "coordenas": [19.5586959919615, -96.92883541159674], "nombre": "AV Xalapa - Soriana" },
+      { "coordenas": [19.55370620518191, -96.92901736520635], "nombre": "AV Xalapa - Normal - Similares" },
+      { "coordenas": [19.5510169421841, -96.92956649997414], "nombre": "AV Xalapa - Pollo Feliz" },
+      { "coordenas": [19.542692172931112, -96.92727462293645], "nombre": "Facultad de Economia" },
+      { "coordenas": [19.539356635624742, -96.92527912151358], "nombre": "Scotibank Clavijero" },
+      { "coordenas": [19.532963511603263, -96.92459575217563], "nombre": "Clavijero" }
     ]
   },
-
-   {
-    "id": 46,
+  {
+    "id": "46",
     "label": "Centro - Av. Xalapa - Lucas Martín - Col. México",
     "type": "line",
-    "color": "#b5890aff",
+    "color": "#231dcfff",
     "points": [
-      
+      [19.532963511603263, -96.92459575217563],
+      [19.576125534539717, -96.92829843554424],
+      [19.574483719719066, -96.92365317787079],
+      [19.577120546556454, -96.91840012205498],
+      [19.574002914883987, -96.91449884020122]
     ],
     "stops": [
-      
+      { "coordenas": [19.574002914883987, -96.91449884020122], "nombre": "Colonia México" },
+      { "coordenas": [19.577120546556454, -96.91840012205498], "nombre": "Colonia Mexico - C Naranja Mandarina" },
+      { "coordenas": [19.576195326020503, -96.92140334109303], "nombre": "Av. Colegio Preparatorio - Lucas Martin" },
+      { "coordenas": [19.57614967171537, -96.92669953871818], "nombre": "Lucas Martín" },
+      { "coordenas": [19.574483719719066, -96.92365317787079], "nombre": "Lucas Martin - Ignacio Elizondo" },
+      { "coordenas": [19.575887980429226, -96.92829441225825], "nombre": "Prol 21 de Marzo - C Juan Escutia" },
+      { "coordenas": [19.572154196567194, -96.9290679508643], "nombre": "Lazaro Cardenas - PEMEX Xalapa" },
+      { "coordenas": [19.565554029966133, -96.92911595650003], "nombre": "Av. Lazaro Cardenas - Av. Xalapa" },
+      { "coordenas": [19.5586959919615, -96.92883541159674], "nombre": "AV Xalapa - Soriana" },
+      { "coordenas": [19.55370620518191, -96.92901736520635], "nombre": "AV Xalapa - Normal - Similares" },
+      { "coordenas": [19.5510169421841, -96.92956649997414], "nombre": "AV Xalapa - Pollo Feliz" },
+      { "coordenas": [19.542692172931112, -96.92727462293645], "nombre": "Facultad de Economia" },
+      { "coordenas": [19.539356635624742, -96.92527912151358], "nombre": "Scotibank Clavijero" },
+      { "coordenas": [19.532963511603263, -96.92459575217563], "nombre": "Clavijero" }
     ]
   },
-
-   {
-    "id": 47,
+  {
+    "id": "47",
     "label": "Campo de Tiro - Revolución - Clavijero",
     "type": "line",
-    "color": "#b5890aff",
+    "color": "#d00944ff",
     "points": [
-      
+      [19.574815219186917, -96.90298577972403],
+      [19.564193059176553, -96.90404712548724],
+      [19.564238569709218, -96.91481359133942],
+      [19.57119184291267, -96.92407653369538],
+      [19.534127683326044, -96.924493694802]
     ],
     "stops": [
-      
+      { "coordenas": [19.574815219186917, -96.90298577972403], "nombre": "Hacienda" },
+      { "coordenas": [19.572296318613922, -96.90138124399135], "nombre": "Camino viejo Naolinco" },
+      { "coordenas": [19.5635216231223, -96.90507927485265], "nombre": "Carolino Anaya" },
+      { "coordenas": [19.56383846807697, -96.90806006586143], "nombre": "C Rio-Carolino Anaya" },
+      { "coordenas": [119.562581286121002, -96.91325507299806], "nombre": "C Veracruz - Revolucion" },
+      { "coordenas": [19.564398019886585, -96.9150083070559], "nombre": "Ramon Lopez Velarde" },
+      { "coordenas": [19.57241226049534, -96.92358677971885], "nombre": "Revolución - La Lagunilla" },
+      { "coordenas": [19.566946, -96.91549], "nombre": "Av Atenas - Juan Bautista" },
+      { "coordenas": [19.571190702730355, -96.9197792402488], "nombre": "AV Atenas - Bomberos" },
+      { "coordenas": [19.571942309677958, -96.92198020737396], "nombre": "AV Atenas - X24" },
+      { "coordenas": [19.56561496464048, -96.92861226233606], "nombre": "Revolución - Campo de Tiro" },
+      { "coordenas": [19.5570578037425, -96.92887250666433], "nombre": "AV Xalapa - Calle Merida" },
+      { "coordenas": [19.55370620518191, -96.92901736520635], "nombre": "AV Xalapa - Normal - Similares" },
+      { "coordenas": [19.55136502326794, -96.92972002529194], "nombre": "AV Xalapa - Museo" },
+      { "coordenas": [19.546506544385082, -96.92846515663368], "nombre": "Colegio Conemus" },
+      { "coordenas": [19.542692172931112, -96.92727462293645], "nombre": "Facultad de Economia" },
+      { "coordenas": [19.539356635624742, -96.92527912151358], "nombre": "Scotibank Clavijero" },
+      { "coordenas": [19.534127683326044, -96.924493694802], "nombre": "Clavijero - Arena Xalapa" }
     ]
   },
-
-    {
-    "id": 48,
+  {
+    "id": "48",
     "label": "Clavijero - Revolución - Campo de Tiro",
     "type": "line",
-    "color": "#b5890aff",
+    "color": "#1b90f0ff",
     "points": [
-      
+      [19.534127683326044, -96.924493694802],
+      [19.57119184291267, -96.92407653369538],
+      [19.564238569709218, -96.91481359133942],
+      [19.564193059176553, -96.90404712548724],
+      [19.574815219186917, -96.90298577972403]
     ],
     "stops": [
-      
+      { "coordenas": [19.574815219186917, -96.90298577972403], "nombre": "Hacienda" },
+      { "coordenas": [19.572296318613922, -96.90138124399135], "nombre": "Camino viejo Naolinco" },
+      { "coordenas": [19.5635216231223, -96.90507927485265], "nombre": "Carolino Anaya" },
+      { "coordenas": [19.56383846807697, -96.90806006586143], "nombre": "C Rio-Carolino Anaya" },
+      { "coordenas": [119.562581286121002, -96.91325507299806], "nombre": "C Veracruz - Revolucion" },
+      { "coordenas": [19.564398019886585, -96.9150083070559], "nombre": "Ramon Lopez Velarde" },
+      { "coordenas": [19.57241226049534, -96.92358677971885], "nombre": "Revolución - La Lagunilla" },
+      { "coordenas": [19.566946, -96.91549], "nombre": "Av Atenas - Juan Bautista" },
+      { "coordenas": [19.571190702730355, -96.9197792402488], "nombre": "AV Atenas - Bomberos" },
+      { "coordenas": [19.571942309677958, -96.92198020737396], "nombre": "AV Atenas - X24" },
+      { "coordenas": [19.56561496464048, -96.92861226233606], "nombre": "Revolución - Campo de Tiro" },
+      { "coordenas": [19.5570578037425, -96.92887250666433], "nombre": "AV Xalapa - Calle Merida" },
+      { "coordenas": [19.55370620518191, -96.92901736520635], "nombre": "AV Xalapa - Normal - Similares" },
+      { "coordenas": [19.55136502326794, -96.92972002529194], "nombre": "AV Xalapa - Museo" },
+      { "coordenas": [19.546506544385082, -96.92846515663368], "nombre": "Colegio Conemus" },
+      { "coordenas": [19.542692172931112, -96.92727462293645], "nombre": "Facultad de Economia" },
+      { "coordenas": [19.539356635624742, -96.92527912151358], "nombre": "Scotibank Clavijero" },
+      { "coordenas": [19.534127683326044, -96.924493694802], "nombre": "Clavijero - Arena Xalapa" }
     ]
   },
 
-    {
+  {
     "id": 49,
     "label": "El Moral - Revolución - Clavijero",
     "type": "line",
