@@ -3232,7 +3232,272 @@
       {"coordenas": [19.53437673177314, -96.88879607172895], "nombre": "Araucarias - Oxxo"},
       {"coordenas": [19.5232968217993, -96.88346773024996], "nombre": "Paseo de las Palmas"}
     ]
+  },
+  {
+    "id": "110",
+    "label": "Zona UV - Tlalnelhuayocan",
+    "type": "line",
+    "color": "#fd7e14ff",
+    "points": [
+      [19.519150855741504, -96.9184970499106],
+      [19.53197945903702, -96.9234920562531],
+      [19.539669833035383, -96.9332676899977],
+      [19.55027592563616, -96.94174809180416],
+      [19.5520943767729, -96.95032065006916],
+      [19.567721237436153, -96.97551895525542]
+    ],
+    "stops": [
+      {"coordenas": [19.519150855741504, -96.9184970499106], "nombre": "Zona UV"},
+      {"coordenas": [19.53197945903702, -96.9234920562531], "nombre": "El Arbol"},
+      {"coordenas": [19.524682541954284, -96.91647090965778], "nombre": "Los Berros"},
+      {"coordenas": [19.52614591373224, -96.91687013606271], "nombre": "C Diego Leño"},
+      {"coordenas": [19.539669833035383, -96.9332676899977], "nombre": "Martires - Heroles"},
+      {"coordenas": [19.55027592563616, -96.94174809180416], "nombre": "Fovissste"},
+      {"coordenas": [19.5520943767729, -96.95032065006916], "nombre": "AV Diamante - Fasti"},
+      {"coordenas": [19.534767562755462, -96.92801398441057], "nombre": "Melchor Ocampo"},
+      {"coordenas": [19.567721237436153, -96.97551895525542], "nombre": "Tlanehuayocan"}
+    ]
+  },
+  {
+    "id": "111",
+    "label": "Fovissste - IMSS",
+    "type": "line",
+    "color": "#17a2b8ff",
+    "points": [
+      [19.55027592563616, -96.94174809180416],
+      [19.539356635624742, -96.92527912151358],
+      [19.523856091397217, -96.92087670697212]
+    ],
+    "stops": [
+      {"coordenas": [19.55027592563616, -96.94174809180416], "nombre": "Fovissste"},
+      {"coordenas": [19.539356635624742, -96.92527912151358], "nombre": "Scotibank Clavijero"},
+      {"coordenas": [19.532963511603263, -96.92459575217563], "nombre": "Clavijero"},
+      {"coordenas": [19.546506544385082, -96.92846515663368], "nombre": "Colegio Conemus"},
+      {"coordenas": [19.542692172931112, -96.92727462293645], "nombre": "Facultad de Economia"},
+      {"coordenas": [19.548480566665877, -96.93271707417709], "nombre": "Plaza Museo"},
+      {"coordenas": [19.523856091397217, -96.92087670697212], "nombre": "IMSS"}
+    ]
+  },
+  {
+    "id": "112",
+    "label": "Lazaro Cardenas - Fovissste",
+    "type": "line",
+    "color": "#6f42c1ff",
+    "points": [
+      [19.507607007576468, -96.86490306280547],
+      [19.5626077877116, -96.92988257537796],
+      [19.55027592563616, -96.94174809180416]
+    ],
+    "stops": [
+      {"coordenas": [19.55027592563616, -96.94174809180416], "nombre": "Fovissste"},
+      {"coordenas": [19.5626077877116, -96.92988257537796], "nombre": "Av Ruiz Cortines - Finanzas"},
+      {"coordenas": [19.53515862698176, -96.90813129310345], "nombre": "Lazaro Cardenas - Independencia"},
+      {"coordenas": [19.52959926472097, -96.90071971802452], "nombre": "Lazaro Cardenas - Agua Santa"},
+      {"coordenas": [19.513223357574645, -96.87527117957768], "nombre": "Plaza Americas"},
+      {"coordenas": [19.518645284869205, -96.88267412489412], "nombre": "Plaza Animas"},
+      {"coordenas": [19.529798415578906, -96.90049022922783], "nombre": "Lazaro Cardenas"},
+      {"coordenas": [19.53894953924973, -96.90770404088695], "nombre": "Plaza Cristal"},
+      {"coordenas": [19.54226427856596, -96.90841066817221], "nombre": "Parada Jardines"},
+      {"coordenas": [19.556287339687152, -96.91513883234693], "nombre": "Autohotel Kristal"},
+      {"coordenas": [19.558319269948864, -96.91760213069395], "nombre": "Lazaro Cardenas - Urban center"},
+      {"coordenas": [19.559209277455597, -96.93181157564226], "nombre": "Av Ruiz Cortines - AutoHotel Eden"},
+      {"coordenas": [19.55679445236997, -96.93266830727421], "nombre": "AV Adolfo Ruiz Cortines - AV Villahermosa"},
+      {"coordenas": [19.554448275501848, -96.93384370338497], "nombre": "AV Adolfo Ruiz Cortines - Acueducto"},
+      {"coordenas": [19.507607007576468, -96.86490306280547], "nombre": "Trancas - Plaza Xanat"}
+    ]
+  },
+  {
+    "id": "113",
+    "label": "Zona UV - Ruiz Cortines",
+    "type": "line",
+    "color": "#20c997ff",
+    "points": [
+      [19.519150855741504, -96.9184970499106],
+      [19.52529086056723, -96.93211400266394],
+      [19.535465849335505, -96.93653286428034],
+      [19.540299357777585, -96.93189686512223],
+      [19.55679445236997, -96.93266830727421]
+    ],
+    "stops": [
+      {"coordenas": [19.55679445236997, -96.93266830727421], "nombre": "AV Adolfo Ruiz Cortines - AV Villahermosa"},
+      {"coordenas": [19.52529086056723, -96.93211400266394], "nombre": "Los Sauces"},
+      {"coordenas": [19.53463854551211, -96.93955526179097], "nombre": "AV Adolfo Ruiz Cortines - PEMEX"},
+      {"coordenas": [19.535465849335505, -96.93653286428034], "nombre": "AV Adolfo Ruiz Cortines - Delcampo"},
+      {"coordenas": [19.540299357777585, -96.93189686512223], "nombre": "AV Adolfo Ruiz Cortines - Misantla"},
+      {"coordenas": [19.55679445236997, -96.93266830727421], "nombre": "AV Adolfo Ruiz Cortines - AV Villahermosa"},
+      {"coordenas": [19.554448275501848, -96.93384370338497], "nombre": "AV Adolfo Ruiz Cortines - Acueducto"},
+      {"coordenas": [19.549926372310207, -96.9358436676473], "nombre": "Articulo3ro"},
+      {"coordenas": [19.524638940285076, -96.9317424768139], "nombre": "Calle Magnolia"},
+      {"coordenas": [19.522414066726004, -96.92697702720773], "nombre": "Parque Maria Enriqueta Camarillo y Roa"},
+      {"coordenas": [19.519150855741504, -96.9184970499106], "nombre": "Zona UV"}
+    ]
+  },
+  {
+    "id": "114",
+    "label": "Lomas Verdes - Lazaro Cardenas - AV Adolfo Ruiz Cortines",
+    "type": "circuit",
+    "color": "#dc3545ff",
+    "points": [
+      [19.505381826879745, -96.88808488732991],
+      [19.513223357574645, -96.87527117957768],
+      [19.5626077877116, -96.92988257537796],
+      [19.554448275501848, -96.93384370338497],
+      [19.52502955873043, -96.93309588215335]
+    ],
+    "stops": [
+      {"coordenas": [19.505381826879745, -96.88808488732991], "nombre": "Ojo de Agua"},
+      {"coordenas": [19.513223357574645, -96.87527117957768], "nombre": "Plaza Americas"},
+      {"coordenas": [19.5626077877116, -96.92988257537796], "nombre": "Av Ruiz Cortines - Finanzas"},
+      {"coordenas": [19.559209277455597, -96.93181157564226], "nombre": "Av Ruiz Cortines - AutoHotel Eden"},
+      {"coordenas": [19.55679445236997, -96.93266830727421], "nombre": "AV Adolfo Ruiz Cortines - AV Villahermosa"},
+      {"coordenas": [19.554448275501848, -96.93384370338497], "nombre": "AV Adolfo Ruiz Cortines - Acueducto"},
+      {"coordenas": [19.52502955873043, -96.93309588215335], "nombre": "Ferrocarril"}
+    ]
+  },
+  {
+    "id": "115",
+    "label": "Miguel Aleman - Ruiz Cortines - Los Sauces",
+    "type": "circuit",
+    "color": "#dc3545ff",
+    "points": [
+      [19.551731409101105, -96.91145261432008],
+      [19.555405047872025, -96.9287561761943],
+      [19.5626077877116, -96.92988257537796],
+      [19.53463854551211, -96.93955526179097],
+      [19.52529086056723, -96.93211400266394],
+      [19.53566301800593, -96.93947654061786],
+      [19.540299357777585, -96.93189686512223],
+      [19.5621322707066, -96.9305314204251],
+      [19.55526497347648, -96.92892812188214]
+    ],
+    "stops": [
+      {"coordenas": [19.551731409101105, -96.91145261432008], "nombre": "Miguel Aleman - USIVER"},
+      {"coordenas": [19.5626077877116, -96.92988257537796], "nombre": "Av Ruiz Cortines - Finanzas"},
+      {"coordenas": [19.53463854551211, -96.93955526179097], "nombre": "AV Adolfo Ruiz Cortines - PEMEX"},
+      {"coordenas": [19.535465849335505, -96.93653286428034], "nombre": "AV Adolfo Ruiz Cortines - Delcampo"},
+      {"coordenas": [19.540299357777585, -96.93189686512223], "nombre": "AV Adolfo Ruiz Cortines - Misantla"},
+      {"coordenas": [19.559209277455597, -96.93181157564226], "nombre": "Av Ruiz Cortines - AutoHotel Eden"},
+      {"coordenas": [19.55679445236997, -96.93266830727421], "nombre": "AV Adolfo Ruiz Cortines - AV Villahermosa"},
+      {"coordenas": [19.554448275501848, -96.93384370338497], "nombre": "AV Adolfo Ruiz Cortines - Acueducto"},
+      {"coordenas": [19.536374407309836, -96.93350424874029], "nombre": "Calle Heron Perez"},
+      {"coordenas": [19.535727954108655, -96.93611287206691], "nombre": "Hotel Posada Xalapa"},
+      {"coordenas": [19.549926372310207, -96.9358436676473], "nombre": "Articulo3ro"},
+      {"coordenas": [19.52502955873043, -96.93309588215335], "nombre": "Ferrocarril"},
+      {"coordenas": [19.529075663820528, -96.93521319386494], "nombre": "IMAC Xalapa"},
+      {"coordenas": [19.5586959919615, -96.92883541159674], "nombre": "AV Xalapa - Soriana"},
+      {"coordenas": [19.5570578037425, -96.92887250666433], "nombre": "AV Xalapa - Calle Merida"},
+      {"coordenas": [19.556810019330577, -96.92865663485624], "nombre": "AV Xalapa - Floresrias"},
+      {"coordenas": [19.559362480269566, -96.92849633550976], "nombre": "AV Xalapa - BBVA"},
+      {"coordenas": [19.562183316764344, -96.92800962566417], "nombre": "Tesoreria"},
+      {"coordenas": [19.52529086056723, -96.93211400266394], "nombre": "Los Sauces"}
+    ]
+  },
+  {
+    "id": "116",
+    "label": "Ojo de agua -Centro - Normal",
+    "type": "circuit",
+    "color": "#8c121eff",
+    "points": [
+      [19.495184846535064, -96.87127559988686],
+      [19.53197945903702, -96.9234920562531],
+      [19.55331249046397, -96.9293851201443],
+      [19.532963511603263, -96.92459575217563]
+    ],
+    "stops": [
+      {"coordenas": [19.495184846535064, -96.87127559988686], "nombre": "Ojo de Agua"},
+      {"coordenas": [19.55331249046397, -96.9293851201443], "nombre": "AV Xalapa - Normal"},
+      {"coordenas": [19.53197945903702, -96.9234920562531], "nombre": "El Arbol"},
+      {"coordenas": [19.539356635624742, -96.92527912151358], "nombre": "Scotibank Clavijero"},
+      {"coordenas": [19.55136502326794, -96.92972002529194], "nombre": "AV Xalapa - Museo"},
+      {"coordenas": [19.546506544385082, -96.92846515663368], "nombre": "Colegio Conemus"},
+      {"coordenas": [19.542692172931112, -96.92727462293645], "nombre": "Facultad de Economia"},
+      {"coordenas": [19.55136502326794, -96.92972002529194], "nombre": "AV Xalapa - Museo"},
+      {"coordenas": [19.541380344409287, -96.92626076584718], "nombre": "AV Xalapa - Calle Austeridad"},
+      {"coordenas": [19.544536683086445, -96.92776010846592], "nombre": "AV Xalapa - Ciclovia"},
+      {"coordenas": [19.548948985310734, -96.9294442735625], "nombre": "AV Xalapa - Coppel"},
+      {"coordenas": [19.5510169421841, -96.92956649997414], "nombre": "AV Xalapa - Pollo Feliz"},
+      {"coordenas": [19.55370620518191, -96.92901736520635], "nombre": "AV Xalapa - Normal - Similares"},
+      {"coordenas": [19.524682541954284, -96.91647090965778], "nombre": "Los Berros"},
+      {"coordenas": [19.52614591373224, -96.91687013606271], "nombre": "C Diego Leño"},
+      {"coordenas": [19.52510931509443, -96.91936270413917], "nombre": "Parque Hidalgo"},
+      {"coordenas": [19.518430349123907, -96.91405630993428], "nombre": "AV Enrique Rebsamen 2"},
+      {"coordenas": [19.51410550880322, -96.90899859851167], "nombre": "Av Enrique Rebsamen"},
+      {"coordenas": [19.507456519474925, -96.89952835543674], "nombre": "Arco Sur"},
+      {"coordenas": [19.50540441976, -96.89361099201855], "nombre": "Arco Sur - Yanga"},
+      {"coordenas": [19.532963511603263, -96.92459575217563], "nombre": "Clavijero"}
+    ]
+  },
+  {
+    "id": "117",
+    "label": "Bugambilias - Trancas - Lazaro Cardenas - AV Xalapa - Sauces - Arco Sur",
+    "type": "circuit",
+    "color": "#a343c6ff",
+    "points": [
+      [19.495716693809403, -96.85053005396281],
+      [19.5626077877116, -96.92988257537796],
+      [19.52502955873043, -96.93309588215335]
+    ],
+    "stops": [
+      {"coordenas": [19.50036544175563, -96.8602010432757], "nombre": "Prolongacion Bugambilias"},
+      {"coordenas": [19.495716693809403, -96.85053005396281], "nombre": "Rubi - Bugambilias"},
+      {"coordenas": [19.5626077877116, -96.92988257537796], "nombre": "Av Ruiz Cortines - Finanzas"},
+      {"coordenas": [19.52502955873043, -96.93309588215335], "nombre": "Ferrocarril"},
+      {"coordenas": [19.5586959919615, -96.92883541159674], "nombre": "AV Xalapa - Soriana"},
+      {"coordenas": [19.5570578037425, -96.92887250666433], "nombre": "AV Xalapa - Calle Merida"},
+      {"coordenas": [19.55331249046397, -96.9293851201443], "nombre": "AV Xalapa - Normal"},
+      {"coordenas": [19.55136502326794, -96.92972002529194], "nombre": "AV Xalapa - Museo"},
+      {"coordenas": [19.53603828527366, -96.93137464859939], "nombre": "AV Manuel Avila Camacho - Steren"},
+      {"coordenas": [19.529075663820528, -96.93521319386494], "nombre": "IMAC Xalapa"},
+      {"coordenas": [19.525090391932967, -96.93011760661207], "nombre": "Calle Ignacio Allende"},
+      {"coordenas": [19.52510931509443, -96.91936270413917], "nombre": "Parque Hidalgo"},
+      {"coordenas": [19.518430349123907, -96.91405630993428], "nombre": "AV Enrique Rebsamen 2"},
+      {"coordenas": [19.51410550880322, -96.90899859851167], "nombre": "Av Enrique Rebsamen"},
+      {"coordenas": [19.507456519474925, -96.89952835543674], "nombre": "Arco Sur"},
+      {"coordenas": [19.50540441976, -96.89361099201855], "nombre": "Arco Sur - Yanga"},
+      {"coordenas": [19.50769177740882, -96.88080453125596], "nombre": "Walmart Arco Sur"},
+      {"coordenas": [19.513223357574645, -96.87527117957768], "nombre": "Plaza Americas"},
+      {"coordenas": [19.518645284869205, -96.88267412489412], "nombre": "Plaza Animas"},
+      {"coordenas": [19.529798415578906, -96.90049022922783], "nombre": "Lazaro Cardenas"},
+      {"coordenas": [19.53894953924973, -96.90770404088695], "nombre": "Plaza Cristal"},
+      {"coordenas": [19.54226427856596, -96.90841066817221], "nombre": "Parada Jardines"},
+      {"coordenas": [19.556287339687152, -96.91513883234693], "nombre": "Autohotel Kristal"},
+      {"coordenas": [19.558319269948864, -96.91760213069395], "nombre": "Lazaro Cardenas - Urban center"},
+      {"coordenas": [19.50668272577122, -96.86499571054937], "nombre": "Calle Principal - Arco Sur"},
+      {"coordenas": [19.507687437249935, -96.86886799899852], "nombre": "El Olmo"},
+      {"coordenas": [19.5348802351149, -96.9326840885761], "nombre": "AV Manuel Avila Camacho - BBVA"}
+    ]
+  },
+  {
+    "id": "118",
+    "label": "Articulo 3ro - Ruiz Cortines - Lazaro Cardenas - Tecnologico",
+    "type": "circuit",
+    "color": "#bf77d9ff",
+    "points": [
+      [19.50293259454917, -96.87817134664357],
+      [19.563882757845203, -96.92821842845278],
+      [19.5626077877116, -96.92988257537796],
+      [19.549926372310207, -96.9358436676473],
+      [19.560903251634862, -96.92854640625117]
+    ],
+    "stops": [
+      {"coordenas": [19.549926372310207, -96.9358436676473], "nombre": "Articulo3ro"},
+      {"coordenas": [19.5626077877116, -96.92988257537796], "nombre": "Av Ruiz Cortines - Finanzas"},
+      {"coordenas": [19.50293259454917, -96.87817134664357], "nombre": "Tecnologico"},
+      {"coordenas": [19.559209277455597, -96.93181157564226], "nombre": "Av Ruiz Cortines - AutoHotel Eden"},
+      {"coordenas": [19.55679445236997, -96.93266830727421], "nombre": "AV Adolfo Ruiz Cortines - AV Villahermosa"},
+      {"coordenas": [19.554448275501848, -96.93384370338497], "nombre": "AV Adolfo Ruiz Cortines - Acueducto"},
+      {"coordenas": [19.513223357574645, -96.87527117957768], "nombre": "Plaza Americas"},
+      {"coordenas": [19.518645284869205, -96.88267412489412], "nombre": "Plaza Animas"},
+      {"coordenas": [19.529798415578906, -96.90049022922783], "nombre": "Lazaro Cardenas"},
+      {"coordenas": [19.53894953924973, -96.90770404088695], "nombre": "Plaza Cristal"},
+      {"coordenas": [19.54226427856596, -96.90841066817221], "nombre": "Parada Jardines"},
+      {"coordenas": [19.556287339687152, -96.91513883234693], "nombre": "Autohotel Kristal"},
+      {"coordenas": [19.563882757845203, -96.92821842845278], "nombre": "Tesoreria - Banderilla"},
+      {"coordenas": [19.565554029966133, -96.92911595650003], "nombre": "AV Lazaro Cardenas - AV Xalapa"},
+      {"coordenas": [19.558319269948864, -96.91760213069395], "nombre": "Lazaro Cardenas - Urban center"}
+    ]
   }
+
 ]
 
 
