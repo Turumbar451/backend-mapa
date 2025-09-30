@@ -9,6 +9,11 @@ import rutasRouter from './routes/rutas.js';
 import authRoutes from "./routes/auth.js";
 import connectDB from "./db.js";
 
+import mongoose from "mongoose";
+mongoose.connection.once("open", () => {
+  console.log("[Mongo] conectado a", mongoose.connection.host, mongoose.connection.name);
+});
+
 const app = express(); // inicializa servidor express, app es una instancia del servidor, o se objeto con metodos
 //use es un metodo para usar middlewares
 async function startServer() {
