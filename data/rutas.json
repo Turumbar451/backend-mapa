@@ -1268,28 +1268,67 @@
   },
 
   {
-    "id": 49,
+    "id": "49",
     "label": "El Moral - Revolución - Clavijero",
     "type": "line",
-    "color": "#b5890aff",
+    "color": "#66df1aff",
     "points": [
-      
+      [19.570145944678803, -96.91294089135538],
+      [19.57119184291267, -96.92407653369538],
+      [19.534127683326044, -96.924493694802]
     ],
     "stops": [
-      
+      { "coordenas": [19.570145944678803, -96.91294089135538], "nombre": "El Moral" },
+      { "coordenas": [19.56901239175306, -96.91772025087172], "nombre": "Av Atenas Veracruzana - Revolucion" },
+      { "coordenas": [19.57241226049534, -96.92358677971885], "nombre": "Revolución - La Lagunilla" },
+      { "coordenas": [19.568150266434294, -96.92833032389849], "nombre": "Av Mexico - La Lagunilla" },
+      { "coordenas": [19.566946, -96.91549], "nombre": "Av Atenas - Juan Bautista" },
+      { "coordenas": [19.571190702730355, -96.9197792402488], "nombre": "AV Atenas - Bomberos" },
+      { "coordenas": [19.571942309677958, -96.92198020737396], "nombre": "AV Atenas - X24" },
+      { "coordenas": [19.56561496464048, -96.92861226233606], "nombre": "Revolución - Campo de Tiro" },
+      { "coordenas": [19.56056434485328, -96.92889266439387], "nombre": "AV Xalapa - Soriana" },
+      { "coordenas": [19.5570578037425, -96.92887250666433], "nombre": "AV Xalapa - Calle Merida" },
+      { "coordenas": [19.55370620518191, -96.92901736520635], "nombre": "AV Xalapa - Normal - Similares" },
+      { "coordenas": [19.55136502326794, -96.92972002529194], "nombre": "AV Xalapa - Museo" },
+      { "coordenas": [19.546506544385082, -96.92846515663368], "nombre": "Colegio Conemus" },
+      { "coordenas": [19.542692172931112, -96.92727462293645], "nombre": "Facultad de Economia" },
+      { "coordenas": [19.539356635624742, -96.92527912151358], "nombre": "Scotibank Clavijero" },
+      { "coordenas": [19.534127683326044, -96.924493694802], "nombre": "Clavijero - Arena Xalapa" }
     ]
   },
-
-    {
-    "id": 50,
+  {
+    "id": "50",
     "label": "Clavijero - Revolución - El Moral",
     "type": "line",
-    "color": "#b5890aff",
+    "color": "#df600bff",
     "points": [
-      
+      [19.535046204051486, -96.92466127785947],
+      [19.536334476134968, -96.92993619084378],
+      [19.543043042392394, -96.92692935446391],
+      [19.57119184291267, -96.92407653369538],
+      [19.568068415781713, -96.91496527743499],
+      [19.56847025535868, -96.9139943177807],
+      [19.573393341667355, -96.91021506439058]
     ],
     "stops": [
-      
+      { "coordenas": [19.535046204051486, -96.92466127785947], "nombre": "Av Principal - El Moral" },
+      { "coordenas": [19.570145944678803, -96.91294089135538], "nombre": "El Moral" },
+      { "coordenas": [19.56901239175306, -96.91772025087172], "nombre": "Av Atenas Veracruzana - Revolucion" },
+      { "coordenas": [19.57241226049534, -96.92358677971885], "nombre": "Revolución - La Lagunilla" },
+      { "coordenas": [19.568150266434294, -96.92833032389849], "nombre": "Av Mexico - La Lagunilla" },
+      { "coordenas": [19.566946, -96.91549], "nombre": "Av Atenas - Juan Bautista" },
+      { "coordenas": [19.571190702730355, -96.9197792402488], "nombre": "AV Atenas - Bomberos" },
+      { "coordenas": [19.571942309677958, -96.92198020737396], "nombre": "AV Atenas - X24" },
+      { "coordenas": [19.56561496464048, -96.92861226233606], "nombre": "Revolución - Campo de Tiro" },
+      { "coordenas": [19.56056434485328, -96.92889266439387], "nombre": "AV Xalapa - Soriana" },
+      { "coordenas": [19.5570578037425, -96.92887250666433], "nombre": "AV Xalapa - Calle Merida" },
+      { "coordenas": [19.55370620518191, -96.92901736520635], "nombre": "AV Xalapa - Normal - Similares" },
+      { "coordenas": [19.55136502326794, -96.92972002529194], "nombre": "AV Xalapa - Museo" },
+      { "coordenas": [19.546506544385082, -96.92846515663368], "nombre": "Colegio Conemus" },
+      { "coordenas": [19.5412687608765, -96.92581337787624], "nombre": "Facultad de Economia" },
+      { "coordenas": [19.538584098656752, -96.92875852018462], "nombre": "Avila Camacho- Little Ceasars" },
+      { "coordenas": [19.53655094244479, -96.92991079849082], "nombre": "C Sayago" },
+      { "coordenas": [19.535046204051486, -96.92466127785947], "nombre": "Clavijero - Arena Xalapa" }
     ]
   },
 
