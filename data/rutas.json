@@ -34,7 +34,7 @@
         "nombre": "AV Xalapa"
       }
     ],
-    "images": ["./Img_Camiones/Bus_0.jpg"]
+    "images": ["Bus_0"]
   },
   {
     "id": 1,
@@ -126,7 +126,7 @@
         "nombre": "Walmart Arco Sur"
       }
     ],
-    "images": ["./Img_Camiones/Bus_1.jpg"]
+    "images": ["Bus_1"]
   },
   {
     "id": 2,
@@ -165,7 +165,7 @@
         "coordenas": [19.532963511603263, -96.92459575217563],
         "nombre": "Clavijero"
       }
-    ],"images":["./imagenes/bus_2.jpg"]
+    ],"images":["bus_2"]
   },
   {
     "id": 3,
@@ -221,7 +221,7 @@
         "coordenas": [19.532655194077744, -96.94519617825766],
         "nombre": "Calle Chiapas"
       }
-    ], "images":["./imagenes/bus_3.jpg"]
+    ], "images":["bus_3"]
   },
   {
     "id": 4,
@@ -364,7 +364,7 @@
         "nombre": "Walmart Arco Sur"
       }
     ],
-    "images": ["./Img_Camiones/Bus_4.jpeg"]
+    "images": ["Bus_4"]
   },
   {
     "id": 5,
@@ -398,7 +398,7 @@
         "coordenas": [19.520421629617065, -96.88559442315325],
         "nombre": "Plaza Animas"
       }
-    ], "images":["./imagenes/bus_6.jpg"]
+    ], "images":["bus_5"]
   },
   {
     "id": 6,
@@ -443,7 +443,7 @@
         "coordenas": [19.541380344409287, -96.92626076584718],
         "nombre": "AV Xalapa - Calle Austeridad"
       }
-    ], "images":["./imagenes/bus_7.jpg"]
+    ], "images":["bus_6"]
   },
   {
     "id": 7,
@@ -464,7 +464,7 @@
         "coordenas": [19.626304005021606, -96.87246637011164],
         "nombre": "El Espinal"
       }
-    ]
+    ], "images":["bus_7"]
   },
   {
     "id": 8,
@@ -527,7 +527,7 @@
         "coordenas": [19.503312256216105, -96.87095172277883],
         "nombre": "Reserva Nacional"
       }
-    ], "images":["./imagenes/bus_8.jpg"]
+    ], "images":["bus_8"]
   },
   {
     "id": 9,
@@ -575,7 +575,7 @@
         "coordenas": [19.563882757845203, -96.92821842845278],
         "nombre": "Tesoreria - Banderilla"
       }
-    ], "images":["./imagenes/bus_9.jpg"]
+    ], "images":["bus_9"]
   },
   {
     "id": 10,
@@ -644,7 +644,7 @@
         "coordenas": [19.515206746741818, -96.92840628933877],
         "nombre": "Buena Vista"
       }
-    ], "images":["./imagenes/bus_10.jpg"]
+    ], "images":["bus_10"]
   },
   {
     "id": 11,
@@ -712,7 +712,7 @@
         "coordenas": [19.513595322651355, -96.85792110961503],
         "nombre": "Central de Abastos"
       }
-    ], "images":["./imagenes/bus_11.jpg"]
+    ], "images":["bus_11"]
   },
   {
     "id": 12,
@@ -780,7 +780,7 @@
         "coordenas": [19.50082210961166, -96.85111152986754],
         "nombre": "La pradera"
       }
-    ], "images":["./imagenes/bus_12.jpg"]
+    ], "images":["bus_12"]
   },
   {
     "id": 13,
@@ -835,7 +835,7 @@
         "coordenas": [19.5330474501381, -96.9245944515563],
         "nombre": "Clavijero"
       }
-    ], "images":["./imagenes/bus_13.jpg"]
+    ], "images":["bus_13"]
   },
   {
     "id": 14,
@@ -903,7 +903,7 @@
         "coordenas": [19.5330474501381, -96.9245944515563],
         "nombre": "Clavijero"
       }
-    ], "images":["./imagenes/bus_14.jpg"]
+    ], "images":["bus_14"]
   },
   {
     "id": 15,
@@ -1020,7 +1020,7 @@
         "coordenas": [19.535510640371015, -96.91182751219712],
         "nombre": "AV Americas - Farmacia Guadalajara"
       }
-    ], "images":["./imagenes/bus_15.jpg"]
+    ], "images":["bus_15"]
   },
   {
     "id": 16,
@@ -1057,7 +1057,7 @@
         "coordenas": [19.539669833035383, -96.9332676899977],
         "nombre": "Martires - Heroles"
       }
-    ], "images":["./imagenes/bus_16.jpg"]
+    ], "images":["bus_16"]
   },
   {
     "id": 17,
@@ -1095,7 +1095,7 @@
         "coordenas": [19.53894953924973, -96.90770404088695],
         "nombre": "Plaza Cristal"
       }
-    ], "images":["./imagenes/bus_17.jpg"]
+    ], "images":["bus_17"]
   },
   {
     "id": 18,
@@ -1130,7 +1130,7 @@
         "coordenas": [19.532963511603263, -96.92459575217563],
         "nombre": "Clavijero"
       }
-    ], "images":["./imagenes/bus_18.jpg"]
+    ], "images":["bus_18"]
   },
   {
     "id": 19,
@@ -1190,7 +1190,7 @@
         "coordenas": [19.568853888639612, -96.92418859973648],
         "nombre": "Tecnica 72"
       }
-    ], "images":["./imagenes/bus_19.jpg"]
+    ], "images":["bus_19"]
   },
   {
     "id": 20,
@@ -1275,7 +1275,7 @@
         "coordenas": [19.568853888639612, -96.92418859973648],
         "nombre": "Tecnica 72"
       }
-    ], "images":["./imagenes/bus_20.jpg"]
+    ], "images":["bus_20"]
   },
   {
     "id": 21,
@@ -1334,7 +1334,7 @@
         "coordenas": [19.495716693809403, -96.85053005396281],
         "nombre": " Rubi - Bugambilias"
       }
-    ], "images":["./imagenes/bus_21.jpg"]
+    ], "images":["bus_21"]
   },
   {
     "id": 22,
@@ -1391,7 +1391,7 @@
         "coordenas": [19.50668272577122, -96.86499571054937],
         "nombre": "Calle Principal - Arco Sur"
       }
-    ]
+    ], "images":["bus_22"]
   },
   {
     "id": "23",
@@ -1454,7 +1454,7 @@
             "coordenas": [19.495716693809403, -96.85053005396281],
             "nombre": "Rubi - Bugambilias"
         }
-    ]
+    ], "images":["bus_23"]
 },
   {
     "id": 24,
@@ -1572,7 +1572,7 @@
         "coordenas": [19.520334, -96.940254],
         "nombre": "Escuela Primaria Miguel Hidalgo"
       }
-    ]
+    ], "images":["bus_24"]
   },
 
   {
@@ -1690,7 +1690,7 @@
         "coordenas": [19.520334, -96.940254],
         "nombre": "Escuela Primaria Miguel Hidalgo"
       }
-    ]
+    ], "images":["bus_25"]
   },
 
   {
@@ -1753,7 +1753,7 @@
         "coordenas": [19.513595322651355, -96.85792110961503],
         "nombre": "Central de Abastos"
       }
-    ]
+    ], "images":["bus_26"]
   },
 
   {
@@ -1848,7 +1848,7 @@
         "coordenas": [19.518645284869205, -96.88267412489412],
         "nombre": "Plaza Animas"
       }
-    ]
+    ], "images":["bus_27"]
   },
 
   {
@@ -1942,7 +1942,7 @@
         "coordenas": [19.52614591373224, -96.91687013606271],
         "nombre": "C Diego Leño"
       }
-    ]
+    ], "images":["bus_28"]
   },
 
   {
@@ -2036,7 +2036,7 @@
         "coordenas": [19.52614591373224, -96.91687013606271],
         "nombre": "C Diego Leño"
       }
-    ]
+    ], "images":["bus_29"]
   },
 
   {
@@ -2102,7 +2102,7 @@
         "coordenas": [19.502051965810786, -96.90165478392034],
         "nombre": "Las Margaritas"
       }
-    ]
+    ], "images":["bus_30"]
   },
 
   {
@@ -2171,7 +2171,7 @@
         "coordenas": [19.545672903173617, -96.90547500250888],
         "nombre": "C. Gustavo Díaz Ordaz 45"
       }
-    ]
+    ], "images":["bus_31"]
   },
 
   {
@@ -2217,7 +2217,7 @@
       { "coordenas": [19.518645284869205, -96.88267412489412], "nombre": "Plaza Animas" },
       { "coordenas": [19.507607007576468, -96.86490306280547], "nombre": "Trancas - Plaza Xanat" },
       { "coordenas": [19.514276238619406, -96.8561119202163], "nombre": "Central de Abastos" }
-    ]
+    ], "images":["bus_32"]
   },
   {
     "id": 33,
@@ -2259,7 +2259,7 @@
       { "coordenas": [19.505487640882876, -96.89343519137584], "nombre": "Arco Sur 102 - Campo Nuevo" },
       { "coordenas": [19.49833698468003, -96.88604425089076], "nombre": "C. Fuente de Medusa 37 - Las Fuentes" },
       { "coordenas": [19.494231528287685, -96.88609835272797], "nombre": "Fuente de Sta. Cecilia 6 - Lomas Verdes" }
-    ]
+    ], "images":["bus_33"]
   },
 
   {
@@ -2301,7 +2301,7 @@
       {"coordenas": [19.551535117138474, -96.95367236438395], "nombre": "C Fernando Gutiérrez Barrios 88 - Luz del Barrio"},
       {"coordenas": [19.562796366651728, -96.97384369134626], "nombre": "C. Miguel Alemán 106 - Otilpan"},
       {"coordenas": [19.567964083933738, -96.97474203738373], "nombre": "San Andrés Tlalnehuayocan"}
-    ]
+    ], "images":["bus_34"]
   },
   {
     "id": 35,
@@ -2339,7 +2339,7 @@
       {"coordenas": [19.509495747233583, -96.86984897970247], "nombre": "El Olmo"},
       {"coordenas": [19.507607007576468, -96.86490306280547], "nombre": "Trancas - Plaza Xanat"},
       {"coordenas": [19.514276238619406, -96.8561119202163], "nombre": "Central de Abastos"}
-    ]
+    ], "images":["bus_35"]
   },
   {
     "id": 36,
@@ -2378,7 +2378,7 @@
       {"coordenas": [19.55807391179394, -96.90561238772182], "nombre": "Cam. Antiguo a Naolinco 971 - Carolino Anaya"},
       {"coordenas": [19.56225463376072, -96.90366770667153], "nombre": "Río Bobos 317 - Carolino Anaya"},
       {"coordenas": [19.56441827643106, -96.90224813450835], "nombre": "La Haciendita"}
-    ]
+    ], "images":["bus_36"]
   },
 
   {
@@ -2387,7 +2387,7 @@
     "type": "line",
     "color": "#b5890aff",
     "points": [],
-    "stops": []
+    "stops": [], "images":["bus_37"]
   },
 
   {
@@ -2396,7 +2396,7 @@
     "type": "line",
     "color": "#b5890aff",
     "points": [],
-    "stops": []
+    "stops": [], "images":["bus_38"]
   },
 
   {
@@ -2405,7 +2405,7 @@
     "type": "line",
     "color": "#b5890aff",
     "points": [],
-    "stops": []
+    "stops": [], "images":["bus_39"]
   },
 
   {
@@ -2414,7 +2414,7 @@
     "type": "line",
     "color": "#b5890aff",
     "points": [],
-    "stops": []
+    "stops": [], "images":["bus_4"]
   },
 
   {
@@ -2423,7 +2423,7 @@
     "type": "line",
     "color": "#b5890aff",
     "points": [],
-    "stops": []
+    "stops": [], "images":["bus_41"]
   },
 
   {
@@ -2432,7 +2432,7 @@
     "type": "line",
     "color": "#b5890aff",
     "points": [],
-    "stops": []
+    "stops": [], "images":["bus_42"]
   },
 
   {
@@ -2441,7 +2441,7 @@
     "type": "line",
     "color": "#b5890aff",
     "points": [],
-    "stops": []
+    "stops": [], "images":["bus_43"]
   },
 
   {
@@ -2450,7 +2450,7 @@
     "type": "line",
     "color": "#b5890aff",
     "points": [],
-    "stops": []
+    "stops": [], "images":["bus_44"]
   },
 
   {
@@ -2523,7 +2523,7 @@
         "coordenas": [19.532963511603263, -96.92459575217563],
         "nombre": "Clavijero"
       }
-    ]
+    ], "images":["bus_45"]
   },
   {
     "id": 46,
@@ -2594,7 +2594,7 @@
         "coordenas": [19.532963511603263, -96.92459575217563],
         "nombre": "Clavijero"
       }
-    ]
+    ], "images":["bus_46"]
   },
   {
     "id": 47,
@@ -2681,7 +2681,7 @@
         "coordenas": [19.534127683326044, -96.924493694802],
         "nombre": "Clavijero - Arena Xalapa"
       }
-    ]
+    ], "images":["bus_47"]
   },
   {
     "id": 48,
@@ -2786,7 +2786,7 @@
         "coordenas": [19.534127683326044, -96.924493694802],
         "nombre": "Clavijero - Arena Xalapa"
       }
-    ]
+    ], "images":["bus_48"]
   },
 
   {
@@ -2864,7 +2864,7 @@
         "coordenas": [19.534127683326044, -96.924493694802],
         "nombre": "Clavijero - Arena Xalapa"
       }
-    ]
+    ], "images":["bus_49"]
   },
   {
     "id": 50,
@@ -2953,7 +2953,7 @@
         "coordenas": [19.535046204051486, -96.92466127785947],
         "nombre": "Clavijero - Arena Xalapa"
       }
-    ]
+    ], "images":["bus_50"]
   },
 
   {
@@ -2962,7 +2962,7 @@
     "type": "line",
     "color": "#b5890aff",
     "points": [],
-    "stops": []
+    "stops": [], "images":["bus_51."]
   },
 
   {
@@ -2971,7 +2971,7 @@
     "type": "line",
     "color": "#b5890aff",
     "points": [],
-    "stops": []
+    "stops": [], "images":["bus_52"]
   },
 
   {
@@ -3214,7 +3214,7 @@
         "coordenas": [19.50769177740882, -96.88080453125596],
         "nombre": "Walmart Arco Sur"
       }
-    ]
+    ], "images":["bus_53"]
   },
   {
     "id": 54,
@@ -3314,7 +3314,7 @@
         "coordenas": [19.545861325316064, -96.90385557378765],
         "nombre": "AV Cafe"
       }
-    ]
+    ], "images":["bus_54"]
   },
   {
     "id": 55,
@@ -3377,7 +3377,7 @@
         "coordenas": [19.528162, -96.92249],
         "nombre": "Centro de Lucio"
       }
-    ]
+    ], "images":["bus_55"]
   },
   {
     "id": 56,
@@ -3486,7 +3486,7 @@
         "coordenas": [19.5330474501381, -96.9245944515563],
         "nombre": "Clavijero"
       }
-    ]
+    ], "images":["bus_56"]
   },
   {
     "id": 57,
@@ -3631,7 +3631,7 @@
         "coordenas": [19.507607007576468, -96.86490306280547],
         "nombre": "Trancas - Plaza Xanat"
       }
-    ]
+    ], "images":["bus_57"]
   },
   {
     "id": 58,
@@ -3718,7 +3718,7 @@
         "coordenas": [19.50036544175563, -96.8602010432757],
         "nombre": "Prolongaci[on Bugambilias"
       }
-    ]
+    ], "images":["bus_58"]
   },
   {
     "id": 59,
@@ -3790,7 +3790,7 @@
         "coordenas": [19.532963511603263, -96.92459575217563],
         "nombre": "Clavijero"
       }
-    ]
+    ], "images":["bus_59"]
   },
   {
     "id": 60,
@@ -3863,7 +3863,7 @@
         "coordenas": [19.571966490268373, -96.92350493099818],
         "nombre": "AV Mexico - Similares"
       }
-    ]
+    ], "images":["bus_60"]
   },
   {
     "id": 61,
@@ -3907,7 +3907,7 @@
         "coordenas": [19.535510640371015, -96.91182751219712],
         "nombre": "AV Americas - Farmacia Guadalajara"
       }
-    ]
+    ], "images":["bus_61"]
   },
   {
     "id": 62,
@@ -3956,7 +3956,7 @@
         "coordenas": [19.535510640371015, -96.91182751219712],
         "nombre": "AV Americas - Farmacia Guadalajara"
       }
-    ]
+    ], "images":["bus_62"]
   },
   {
     "id": 63,
@@ -4042,7 +4042,7 @@
         "coordenas": [19.554448275501848, -96.93384370338497],
         "nombre": "AV Adolfo Ruiz Cortines - Acueducto"
       }
-    ]
+    ], "images":["bus_63"]
   },
   {
     "id": 64,
@@ -4128,7 +4128,7 @@
         "coordenas": [19.554448275501848, -96.93384370338497],
         "nombre": "AV Adolfo Ruiz Cortines - Acueducto"
       }
-    ]
+    ], "images":["bus_64"]
   },
   {
     "id": 65,
@@ -4182,7 +4182,7 @@
         "coordenas": [19.531979877751887, -96.91454359151841],
         "nombre": "AV 20 de Noviembre - Primaria Luis J.Jimenez"
       }
-    ]
+    ], "images":["bus_65"]
   },
   {
     "id": 66,
@@ -4218,7 +4218,7 @@
         "coordenas": [19.55806847841402, -96.89708060249681],
         "nombre": "Marina Nacinal - El Castillo"
       }
-    ]
+    ], "images":["bus_66"]
   },
   {
     "id": 67,
@@ -4270,7 +4270,7 @@
         "coordenas": [19.52566462622067, -96.89913371992556],
         "nombre": "AV 20 de Noviembre Bodegon de semillas"
       }
-    ]
+    ], "images":["bus_67"]
   },
   {
     "id": 68,
@@ -4310,7 +4310,7 @@
         "coordenas": [19.52577352360756, -96.90751894574431],
         "nombre": "AV 20 de Noviembre - Ride Bikes"
       }
-    ]
+    ], "images":["bus_68"]
   },
   {
     "id": 69,
@@ -4367,7 +4367,7 @@
         "coordenas": [19.562715393328393, -96.91156450108882],
         "nombre": "Calle Balacan"
       }
-    ]
+    ], "images":["bus_69"]
   },
 
   {
@@ -4417,7 +4417,7 @@
         "coordenas": [19.525456259259936, -96.90435829044948],
         "nombre": "Caxa"
       }
-    ]
+    ], "images":["bus_70"]
   },
   {
     "id": 71,
@@ -4455,7 +4455,7 @@
         "coordenas": [19.542692172931112, -96.92727462293645],
         "nombre": "Facultad de Economia"
       }
-    ]
+    ], "images":["bus_71"]
   },
   {
     "id": 72,
@@ -4485,7 +4485,7 @@
         "coordenas": [19.542791413031797, -96.93653758679294],
         "nombre": "Martires 28 de Agosto"
       }
-    ]
+    ], "images":["bus_72"]
   },
   {
     "id": 73,
@@ -4525,7 +4525,7 @@
         "coordenas": [19.52614591373224, -96.91687013606271],
         "nombre": "C Diego Leño"
       }
-    ]
+    ], "images":["bus_73"]
   },
   {
     "id": 74,
@@ -4565,7 +4565,7 @@
         "coordenas": [19.52510931509443, -96.91936270413917],
         "nombre": "Parque Hidalgo"
       }
-    ]
+    ], "images":["bus_74"]
   },
   {
     "id": 75,
@@ -4605,7 +4605,7 @@
         "coordenas": [19.50769177740882, -96.88080453125596],
         "nombre": "Walmart Arco Sur"
       }
-    ]
+    ], "images":["bus_75"]
   },
   {
     "id": 76,
@@ -4641,7 +4641,7 @@
         "coordenas": [19.535510640371015, -96.91182751219712],
         "nombre": "AV Americas - Farmacia Guadalajara"
       }
-    ]
+    ], "images":["bus_76"]
   },
   {
     "id": 77,
@@ -4697,7 +4697,7 @@
         "coordenas": [19.549926372310207, -96.9358436676473],
         "nombre": "Articulo3ro"
       }
-    ]
+    ], "images":["bus_77"]
   },
   {
     "id": 78,
@@ -4753,7 +4753,7 @@
         "coordenas": [19.54239171863955, -96.91210529392546],
         "nombre": "Pipila - Jorge Cedran"
       }
-    ]
+    ], "images":["bus_78"]
   },
   {
     "id": 79,
@@ -4810,7 +4810,7 @@
         "coordenas": [19.460915531837248, -96.95004712837796],
         "nombre": "Entrada Norte a Coatepec"
       }
-    ]
+    ], "images":["bus_79"]
   },
   {
     "id": 80,
@@ -4859,7 +4859,7 @@
         "coordenas": [19.5348802351149, -96.9326840885761],
         "nombre": "AV Manuel Avila Camacho - BBVA"
       }
-    ]
+    ], "images":["bus_80"]
   },
   {
     "id": 81,
@@ -4897,7 +4897,7 @@
         "coordenas": [19.537313849925912, -96.9065574711428],
         "nombre": "Chedrahui Caram"
       }
-    ]
+    ], "images":["bus_81"]
   },
   {
     "id": 82,
@@ -4953,7 +4953,7 @@
         "coordenas": [19.507632613331555, -96.86023803235045],
         "nombre": "Plaza El Juguete"
       }
-    ]
+    ], "images":["bus_82"]
   },
   {
     "id": 83,
@@ -5001,7 +5001,7 @@
         "coordenas": [19.507632613331555, -96.86023803235045],
         "nombre": "Plaza El Juguete"
       }
-    ]
+    ], "images":["bus_83"]
   },
   {
     "id": 84,
@@ -5070,7 +5070,7 @@
         "coordenas": [19.558319269948864, -96.91760213069395],
         "nombre": "Lazaro Cardenas - Urban center"
       }
-    ]
+    ], "images":["bus_84"]
   },
   {
     "id": 85,
@@ -5118,7 +5118,7 @@
         "coordenas": [19.518645284869205, -96.88267412489412],
         "nombre": "Plaza Animas"
       }
-    ]
+    ], "images":["bus_85"]
   },
   {
     "id": 86,
@@ -5175,7 +5175,7 @@
         "coordenas": [19.562715393328393, -96.91156450108882],
         "nombre": "Calle Balacan"
       }
-    ]
+    ], "images":["bus_86"]
   },
   {
     "id": 87,
@@ -5215,7 +5215,7 @@
         "coordenas": [19.536619034614322, -96.9205222769897],
         "nombre": "AV 20 de Noviembre - Chedrahui"
       }
-    ]
+    ], "images":["bus_87"]
   },
   {
     "id": 88,
@@ -5251,7 +5251,7 @@
         "coordenas": [19.54239171863955, -96.91210529392546],
         "nombre": "Pipila - Jorge Cedran"
       }
-    ]
+    ], "images":["bus_88"]
   },
   {
     "id": 89,
@@ -5287,7 +5287,7 @@
         "coordenas": [19.54239171863955, -96.91210529392546],
         "nombre": "Pipila - Jorge Cedran"
       }
-    ]
+    ], "images":["bus_89"]
   },
   {
     "id": 90,
@@ -5327,7 +5327,7 @@
         "coordenas": [19.54239171863955, -96.91210529392546],
         "nombre": "Pipila - Jorge Cedran"
       }
-    ]
+    ], "images":["bus_90"]
   },
   {
     "id": 91,
@@ -5364,7 +5364,7 @@
         "coordenas": [19.53197945903702, -96.9234920562531],
         "nombre": "El Arbol"
       }
-    ]
+    ], "images":["bus_91"]
   },
   {
     "id": 92,
@@ -5400,7 +5400,7 @@
         "coordenas": [19.551358118962884, -96.89694231033565],
         "nombre": "Terminal Sumidero"
       }
-    ]
+    ], "images":["bus_92"]
   },
   {
     "id": 93,
@@ -5420,7 +5420,7 @@
         "coordenas": [19.550162162491, -96.8954720951868],
         "nombre": "Calle Cañon del Colorado"
       }
-    ]
+    ], "images":["bus_93"]
   },
   {
     "id": 94,
@@ -5466,7 +5466,7 @@
         "coordenas": [19.534037333189676, -96.91729435851937],
         "nombre": "Calle 5 de Febrero"
       }
-    ]
+    ], "images":["bus_94"]
   },
   {
     "id": 95,
@@ -5492,7 +5492,7 @@
         "nombre": "Martires - Heroles"
       },
       { "coordenas": [19.54104, -96.97219], "nombre": "San Antonio" }
-    ]
+    ], "images":["bus_95"]
   },
   {
     "id": 96,
@@ -5522,7 +5522,7 @@
         "nombre": "Scotibank Clavijero"
       },
       { "coordenas": [19.54104, -96.97219], "nombre": "San Antonio" }
-    ]
+    ], "images":["bus_96"]
   },
   {
     "id": 97,
@@ -5551,7 +5551,7 @@
         "coordenas": [19.566028741563333, -96.98877520177567],
         "nombre": "Xocotla"
       }
-    ]
+    ], "images":["bus_97"]
   },
   {
     "id": 98,
@@ -5584,7 +5584,7 @@
         "coordenas": [19.51869069739855, -96.92111875016742],
         "nombre": " La X lagos"
       }
-    ]
+    ], "images":["bus_98."]
   },
   {
     "id": 99,
@@ -5620,7 +5620,7 @@
         "coordenas": [19.546921523471564, -96.8855780611127],
         "nombre": "Chedrahui Caram - Oxxo"
       }
-    ]
+    ], "images":["bus_99"]
   },
   {
     "id": 100,
@@ -5678,7 +5678,7 @@
         "coordenas": [19.541380344409287, -96.92626076584718],
         "nombre": "AV Xalapa - Calle Austeridad"
       }
-    ]
+    ], "images":["bus_100"]
   },
   {
     "id": 101,
@@ -5746,7 +5746,7 @@
         "nombre": "Paseo de las Palmas"
       },
       { "coordenas": [19.51377480888483, -96.87554409322934], "nombre": "SEV" }
-    ]
+    ], "images":["bus_101"]
   },
   {
     "id": 102,
@@ -5815,7 +5815,7 @@
         "coordenas": [19.568853888639612, -96.92418859973648],
         "nombre": "Tecnica 72"
       }
-    ]
+    ], "images":["bus_102"]
   },
   {
     "id": 103,
@@ -5884,7 +5884,7 @@
         "coordenas": [19.532655194077744, -96.94519617825766],
         "nombre": "Calle Chiapas"
       }
-    ]
+    ], "images":["bus_103"]
   },
   {
     "id": 104,
@@ -5997,7 +5997,7 @@
         "coordenas": [19.541380344409287, -96.92626076584718],
         "nombre": "AV Xalapa - Calle Austeridad"
       }
-    ]
+    ], "images":["bus_104"]
   },
   {
     "id": 105,
@@ -6040,7 +6040,7 @@
         "coordenas": [19.519150855741504, -96.9184970499106],
         "nombre": "Zona UV"
       }
-    ]
+    ], "images":["bus_105"]
   },
   {
     "id": 106,
@@ -6085,7 +6085,7 @@
         "coordenas": [19.534451596805596, -96.92140625181243],
         "nombre": "Francisco I Madero - Libertad"
       }
-    ]
+    ], "images":["bus_106"]
   },
   {
     "id": 107,
@@ -6133,7 +6133,7 @@
         "coordenas": [19.513595322651355, -96.85792110961503],
         "nombre": "Central de Abastos"
       }
-    ]
+    ], "images":["bus_107"]
   },
   {
     "id": 108,
@@ -6165,7 +6165,7 @@
         "coordenas": [19.53197945903702, -96.9234920562531],
         "nombre": "El Arbol"
       }
-    ]
+    ], "images":["bus_108"]
   },
   {
     "id": 109,
@@ -6230,7 +6230,7 @@
         "coordenas": [19.5232968217993, -96.88346773024996],
         "nombre": "Paseo de las Palmas"
       }
-    ]
+    ], "images":["bus_109"]
   },
   {
     "id": 110,
@@ -6282,7 +6282,7 @@
         "coordenas": [19.567721237436153, -96.97551895525542],
         "nombre": "Tlanehuayocan"
       }
-    ]
+    ], "images":["bus_110"]
   },
   {
     "id": 111,
@@ -6323,7 +6323,7 @@
         "coordenas": [19.523856091397217, -96.92087670697212],
         "nombre": "IMSS"
       }
-    ]
+    ], "images":["bus_111"]
   },
   {
     "id": 112,
@@ -6396,7 +6396,7 @@
         "coordenas": [19.507607007576468, -96.86490306280547],
         "nombre": "Trancas - Plaza Xanat"
       }
-    ]
+    ], "images":["bus_112"]
   },
   {
     "id": 113,
@@ -6455,7 +6455,7 @@
         "coordenas": [19.519150855741504, -96.9184970499106],
         "nombre": "Zona UV"
       }
-    ]
+    ], "images":["bus_113"]
   },
   {
     "id": 114,
@@ -6498,7 +6498,7 @@
         "coordenas": [19.52502955873043, -96.93309588215335],
         "nombre": "Ferrocarril"
       }
-    ]
+    ], "images":["bus_114"]
   },
   {
     "id": 115,
@@ -6593,7 +6593,7 @@
         "coordenas": [19.52529086056723, -96.93211400266394],
         "nombre": "Los Sauces"
       }
-    ]
+    ], "images":["bus_115"]
   },
   {
     "id": 116,
@@ -6691,7 +6691,7 @@
         "coordenas": [19.532963511603263, -96.92459575217563],
         "nombre": "Clavijero"
       }
-    ]
+    ], "images":["bus_116."]
   },
   {
     "id": 117,
@@ -6812,7 +6812,7 @@
         "coordenas": [19.5348802351149, -96.9326840885761],
         "nombre": "AV Manuel Avila Camacho - BBVA"
       }
-    ]
+    ], "images":["bus_117"]
   },
   {
     "id": 118,
@@ -6887,7 +6887,7 @@
         "coordenas": [19.558319269948864, -96.91760213069395],
         "nombre": "Lazaro Cardenas - Urban center"
       }
-    ]
+    ], "images":["bus_118"]
   },
   {
     "id": 119,
@@ -6999,7 +6999,7 @@
         "coordenas": [19.562183316764344, -96.92800962566417],
         "nombre": "Tesoreria"
       }
-    ]
+    ], "images":["bus_119"]
   },
   {
     "id": 120,
@@ -7029,7 +7029,7 @@
         "coordenas": [19.532963511603263, -96.92459575217563],
         "nombre": "San Antonio"
       }
-    ]
+    ], "images":["bus_120"]
   },
   {
     "id": 121,
@@ -7114,7 +7114,7 @@
         "coordenas": [19.513595322651355, -96.85792110961503],
         "nombre": "Central de Abastos"
       }
-    ]
+    ], "images":["bus_121"]
   },
   {
     "id": 122,
@@ -7155,7 +7155,7 @@
         "coordenas": [19.518645284869205, -96.88267412489412],
         "nombre": "Plaza Animas"
       }
-    ]
+    ], "images":["bus_122"]
   },
   {
     "id": 123,
@@ -7213,7 +7213,7 @@
         "coordenas": [19.507687437249935, -96.86886799899852],
         "nombre": "El Olmo"
       }
-    ]
+    ], "images":["bus_123"]
   },
   {
     "id": 124,
@@ -7256,7 +7256,7 @@
         "coordenas": [19.53197945903702, -96.9234920562531],
         "nombre": "El Arbol"
       }
-    ]
+    ], "images":["bus_124"]
   },
   {
     "id": 125,
@@ -7305,7 +7305,7 @@
         "coordenas": [19.54239171863955, -96.91210529392546],
         "nombre": "Pipila - Jorge Cedran"
       }
-    ]
+    ], "images":["bus_125"]
   },
   {
     "id": 126,
@@ -7410,7 +7410,7 @@
         "coordenas": [19.539753681824852, -96.92710614986044],
         "nombre": "AV Manuel Avila Camacho"
       }
-    ]
+    ], "images":["bus_126"]
   },
   {
     "id": 127,
@@ -7533,7 +7533,7 @@
         "coordenas": [19.50769177740882, -96.88080453125596],
         "nombre": "Walmart Arco Sur"
       }
-    ]
+    ], "images":["bus_127"]
   },
   {
     "id": 128,
@@ -7596,7 +7596,7 @@
         "coordenas": [19.54239171863955, -96.91210529392546],
         "nombre": "Pipila - Jorge Cedran"
       }
-    ]
+    ], "images":["bus_128"]
   },
   {
     "id": 129,
@@ -7675,10 +7675,10 @@
         "coordenas": [19.54239171863955, -96.91210529392546],
         "nombre": "Pipila - Jorge Cedran"
       }
-    ]
+    ], "images":["bus_129"]
   },
   {
-    "id": "130",
+    "id": 130,
     "label": "Miguel Aleman - Rotonda - Centro - Sauces",
     "type": "circuit",
     "color": "#660596ff",
@@ -7727,7 +7727,7 @@
         "coordenas": [19.524638940285076, -96.9317424768139],
         "nombre": "Calle Magnolia"
       }
-    ]
+    ], "images":["bus_130"]
   },
   {
     "id": 131,
@@ -7855,7 +7855,7 @@
         "coordenas": [19.554448275501848, -96.93384370338497],
         "nombre": "AV Adolfo Ruiz Cortines - Acueducto"
       }
-    ]
+    ], "images":["bus_131"]
   },
   {
     "id": 132,
@@ -7924,7 +7924,7 @@
         "coordenas": [19.558319269948864, -96.91760213069395],
         "nombre": "Lazaro Cardenas - Urban center"
       }
-    ]
+    ], "images":["bus_132"]
   },
   {
     "id": 133,
@@ -7994,7 +7994,7 @@
         "coordenas": [19.558319269948864, -96.91760213069395],
         "nombre": "Lazaro Cardenas - Urban center"
       }
-    ]
+    ], "images":["bus_133"]
   },
   {
     "id": 134,
@@ -8022,7 +8022,7 @@
         "coordenas": [19.507687437249935, -96.86886799899852],
         "nombre": "El Olmo"
       }
-    ]
+    ], "images":["bus_134"]
   },
   {
     "id": 135,
@@ -8085,7 +8085,7 @@
         "coordenas": [19.563882757845203, -96.92821842845278],
         "nombre": "Tesoreria - Banderilla"
       }
-    ]
+    ], "images":["bus_135"]
   },
   {
     "id": 136,
@@ -8197,7 +8197,7 @@
         "coordenas": [19.565554029966133, -96.92911595650003],
         "nombre": "AV Lazaro Cardenas - AV Xalapa"
       }
-    ]
+    ], "images":["bus_136"]
   },
   {
     "id": 137,
@@ -8264,7 +8264,7 @@
         "coordenas": [19.542692172931112, -96.92727462293645],
         "nombre": "Facultad de Economia"
       }
-    ]
+    ], "images":["bus_137"]
   },
   {
     "id": 138,
@@ -8366,7 +8366,7 @@
         "coordenas": [19.546506544385082, -96.92846515663368],
         "nombre": "Colegio Conemus"
       }
-    ]
+    ], "images":["bus_138"]
   },
   {
     "id": 139,
@@ -8466,7 +8466,7 @@
         "coordenas": [19.523856091397217, -96.92087670697212],
         "nombre": "IMSS"
       }
-    ]
+    ], "images":["bus_139"]
   },
   {
     "id": 140,
@@ -8551,7 +8551,7 @@
         "coordenas": [19.52510931509443, -96.91936270413917],
         "nombre": "Parque Hidalgo"
       }
-    ]
+    ], "images":["bus_140"]
   },
   {
     "id": 141,
@@ -8636,7 +8636,7 @@
         "coordenas": [19.50668272577122, -96.86499571054937],
         "nombre": "Calle Principal - Arco Sur"
       }
-    ]
+    ], "images":["bus_141"]
   },
   {
     "id": 142,
@@ -8728,7 +8728,7 @@
         "coordenas": [19.55136502326794, -96.92972002529194],
         "nombre": "AV Xalapa - Museo"
       }
-    ]
+    ], "images":["bus_141."]
   },
   {
     "id": 143,
@@ -8765,7 +8765,7 @@
         "coordenas": [19.532963511603263, -96.92459575217563],
         "nombre": "Clavijero"
       }
-    ]
+    ], "images":["bus_143"]
   },
   {
     "id": 144,
@@ -8845,7 +8845,7 @@
         "coordenas": [19.534451596805596, -96.92140625181243],
         "nombre": "Francisco I Madero - Libertad"
       }
-    ]
+    ], "images":["bus_144"]
   },
   {
     "id": 145,
@@ -8900,7 +8900,7 @@
         "coordenas": [19.531979877751887, -96.91454359151841],
         "nombre": "AV 20 de Noviembre - Primaria Luis J.Jimenez"
       }
-    ]
+    ], "images":["bus_145"]
   },
   {
     "id": 146,
@@ -8960,7 +8960,7 @@
         "coordenas": [19.507456519474925, -96.89952835543674],
         "nombre": "Arco Sur"
       }
-    ]
+    ], "images":["bus_146"]
   },
   {
     "id": 147,
@@ -9019,7 +9019,7 @@
         "coordenas": [19.52571915131341, -96.92424346800439],
         "nombre": "Sur del Parque Juarez"
       }
-    ]
+    ], "images":["bus_147"]
   },
   {
     "id": 148,
@@ -9094,7 +9094,7 @@
         "coordenas": [19.529379060152866, -96.92968251450407],
         "nombre": "Monumento a la Madre"
       }
-    ]
+    ], "images":["bus_148"]
   },
   {
     "id": 149,
@@ -9167,7 +9167,7 @@
         "coordenas": [19.52577352360756, -96.90751894574431],
         "nombre": "AV 20 de Noviembre - Ride Bikes"
       }
-    ]
+    ], "images":["bus_149"]
   },
   {
     "id": 150,
@@ -9257,7 +9257,7 @@
         "coordenas": [19.529379060152866, -96.92968251450407],
         "nombre": "Monumento a la Madre"
       }
-    ]
+    ], "images":["bus_150"]
   },
   {
     "id": 151,
@@ -9296,7 +9296,7 @@
         "coordenas": [19.548094726011765, -96.89933064873576],
         "nombre": "Calle Granados"
       }
-    ]
+    ], "images":["bus_151"]
   },
   {
     "id": 152,
@@ -9438,6 +9438,6 @@
         "coordenas": [19.50769177740882, -96.88080453125596],
         "nombre": "Walmart Arco Sur"
       }
-    ]
+    ], "images":["bus_152"]
   }
 ]
