@@ -46,7 +46,13 @@ export const loginUser = async (req, res) => {
 
     // Enviar cookie con httpOnly para seguridad 
     //o sea guarda el token en una cookie que no puede ser leida por JS del frontend
-    res.cookie("token", token, { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 });
+    res.cookie("token", token, {
+        httpOnly: true,
+        secure: process.env.NODE_ENV === "production", // true en Railway
+        sameSite: process.env.NODE_ENV === "production" ? "none" : "lax", // "none" para cross-site
+        maxAge: 24 * 60 * 60 * 1000 // 1 día
+    });
+
     // Login exitoso, enviar datos necesarios
     res.json({ success: true, username: user.username, role: user.role });
 };

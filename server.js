@@ -25,22 +25,21 @@ async function startServer() {
   app.use(cookieParser());//la peticion http tiene cookies y este middleware las parsea y las pone en req.cookies
 
   const allowedOrigins = [
-    "http://localhost:4321", // desarrollo local
-    "https://rutasxalapa.netlify.app" // frontend desplegado
+    "http://localhost:4321",
+    "https://rutasxalapa.netlify.app",
   ];
 
   app.use(cors({
     origin: function (origin, callback) {
-      // permitir requests sin origin (ej. Postman)
-      if (!origin) return callback(null, true);
+      if (!origin) return callback(null, true); // Postman o SSR
       if (allowedOrigins.includes(origin)) {
-        callback(null, true);
-      } else {
-        callback(new Error("No permitido por CORS"));
+        return callback(null, true);
       }
+      return callback(new Error("No permitido por CORS"));
     },
-    credentials: true, // permitir cookies
+    credentials: true,
   }));
+
   //aplica cors a todas las rutas,
 
   app.use("/api/stops", stopsRoutes);
