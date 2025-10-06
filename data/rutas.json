@@ -2387,7 +2387,8 @@
     "type": "line",
     "color": "#b5890aff",
     "points": [],
-    "stops": [], "images":["bus_37"]
+    "stops": [],
+    "images":["bus_37"]
   },
 
   {
@@ -9553,7 +9554,7 @@
       {"coordenas": [19.513390731971548, -96.90799396194643], "nombre": "Rébsamen"},
       {"coordenas": [19.518430349123907, -96.91405630993428], "nombre": "AV Enrique Rebsamen 2"},
       {"coordenas": [19.50755984731628, -96.88081322452415], "nombre": "Walmart Arco Sur"}
-    ]
+    ], "images":["bus_153"]
   },
   {
     "id": 154,
@@ -9608,6 +9609,6 @@
       {"coordenas": [19.513390731971548, -96.90799396194643], "nombre": "Rébsamen"},
       {"coordenas": [19.518430349123907, -96.91405630993428], "nombre": "AV Enrique Rebsamen 2"},
       {"coordenas": [19.50755984731628, -96.88081322452415], "nombre": "Walmart Arco Sur"}
-    ]
+    ], "images":["bus_154"]
   }
 ]
