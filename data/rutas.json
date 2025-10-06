@@ -1142,7 +1142,7 @@
   },
 
   {
-    "id": "45",
+    "id": 45,
     "label": "Col México - Lucas Martín - Av. Xalapa-Centro",
     "type": "line",
     "color": "#329a18ff",
@@ -1172,7 +1172,7 @@
     ]
   },
   {
-    "id": "46",
+    "id": 46,
     "label": "Centro - Av. Xalapa - Lucas Martín - Col. México",
     "type": "line",
     "color": "#231dcfff",
@@ -1201,7 +1201,7 @@
     ]
   },
   {
-    "id": "47",
+    "id": 47,
     "label": "Campo de Tiro - Revolución - Clavijero",
     "type": "line",
     "color": "#d00944ff",
@@ -1234,7 +1234,7 @@
     ]
   },
   {
-    "id": "48",
+    "id": 48,
     "label": "Clavijero - Revolución - Campo de Tiro",
     "type": "line",
     "color": "#1b90f0ff",
@@ -1250,7 +1250,7 @@
       { "coordenas": [19.572296318613922, -96.90138124399135], "nombre": "Camino viejo Naolinco" },
       { "coordenas": [19.5635216231223, -96.90507927485265], "nombre": "Carolino Anaya" },
       { "coordenas": [19.56383846807697, -96.90806006586143], "nombre": "C Rio-Carolino Anaya" },
-      { "coordenas": [119.562581286121002, -96.91325507299806], "nombre": "C Veracruz - Revolucion" },
+      { "coordenas": [19.562581286121002, -96.91325507299806], "nombre": "C Veracruz - Revolucion" },
       { "coordenas": [19.564398019886585, -96.9150083070559], "nombre": "Ramon Lopez Velarde" },
       { "coordenas": [19.57241226049534, -96.92358677971885], "nombre": "Revolución - La Lagunilla" },
       { "coordenas": [19.566946, -96.91549], "nombre": "Av Atenas - Juan Bautista" },
@@ -1268,7 +1268,7 @@
   },
 
   {
-    "id": "49",
+    "id": 49,
     "label": "El Moral - Revolución - Clavijero",
     "type": "line",
     "color": "#66df1aff",
@@ -1297,7 +1297,7 @@
     ]
   },
   {
-    "id": "50",
+    "id": 50,
     "label": "Clavijero - Revolución - El Moral",
     "type": "line",
     "color": "#df600bff",
@@ -2177,7 +2177,7 @@
     ]
   },
   {
-    "id": "60",
+    "id": 60,
     "label": "Sayago-Av Xalapa col-Revolucion",
     "type": "line",
     "color": "#251922ff",
@@ -2205,7 +2205,7 @@
     ]
   },
   {
-    "id": "61",
+    "id": 61,
     "label": "Col. Higueras - Av. Américas - Av. Xalapa",
     "type": "line",
     "color": "#251922ff",
@@ -2225,7 +2225,7 @@
     ]
   },
   {
-    "id": "62",
+    "id": 62,
     "label": "Av. Xalapa - Av. Américas - Col. Higueras",
     "type": "line",
     "color": "#21aa3aff",
@@ -2247,7 +2247,7 @@
     ]
   },
   {
-    "id": "63",
+    "id": 63,
     "label": "Trancas - Tlanehuayocan ",
     "type": "line",
     "color": "#33d951ff",
@@ -2279,7 +2279,7 @@
     ]
   },
   {
-    "id": "64",
+    "id": 64,
     "label": "Tlanehuayocan - Trancas",
     "type": "line",
     "color": "#25bf41ff",
@@ -2311,7 +2311,7 @@
     ]
   },
   {
-    "id": "65",
+    "id": 65,
     "label": "Col. Revolucion - Av 20 de Noviembre - Poeta ",
     "type": "line",
     "color": "#de8212ff",
@@ -2335,7 +2335,7 @@
     ]
   },
   {
-    "id": "66",
+    "id": 66,
     "label": "Poeta - Av 20 de Noviembre - Col. Revolucion",
     "type": "line",
     "color": "#ff5733ff",
@@ -2353,7 +2353,7 @@
     ]
   },
   {
-    "id": "67",
+    "id": 67,
     "label": "Trancas - 20 de Noviembre",
     "type": "line",
     "color": "#ff33a6ff",
@@ -2375,7 +2375,7 @@
     ]
   },
   {
-    "id": "68",
+    "id": 68,
     "label": "20 de Noviembre - Trancas",
     "type": "line",
     "color": "#d14996ff",
@@ -2394,7 +2394,7 @@
     ]
   },
   {
-    "id": "69",
+    "id": 69,
     "label": "Trancas - Campo de Tiro",
     "type": "line",
     "color": "#8e44adff",
@@ -2419,7 +2419,7 @@
   },
 
   {
-    "id": "70",
+    "id": 70,
     "label": "Campo de Tiro - Trancas",
     "type": "line",
     "color": "#9b59b6ff",
@@ -2441,7 +2441,7 @@
     ]
   },
   {
-    "id": "71",
+    "id": 71,
     "label": "Tlanehuayocan - Centro",
     "type": "line",
     "color": "#e74c3cff",
@@ -2461,7 +2461,7 @@
     ]
   },
   {
-    "id": "72",
+    "id": 72,
     "label": "Centro - Tlanehuayocan",
     "type": "line",
     "color": "#c0392bff",
@@ -2479,7 +2479,7 @@
     ]
   },
   {
-    "id": "73",
+    "id": 73,
     "label": "Lomas Verdes - Centro",
     "type": "line",
     "color": "#34495eff",
@@ -2498,7 +2498,7 @@
     ]
   },
   {
-    "id": "74",
+    "id": 74,
     "label": "Centro - Lomas Verdes",
     "type": "line",
     "color": "#2c3e50ff",
@@ -2517,7 +2517,7 @@
     ]
   },
   {
-    "id": "75",
+    "id": 75,
     "label": "AV Americas - Tecnologico",
     "type": "line",
     "color": "#16a085ff",
@@ -2536,7 +2536,7 @@
     ]
   },
   {
-    "id": "76",
+    "id": 76,
     "label": "Tecnologico - AV Americas",
     "type": "line",
     "color": "#27ae60ff",
@@ -2554,7 +2554,7 @@
     ]
   },
   {
-    "id": "77",
+    "id": 77,
     "label": "Plaza Cristal - Guadalupe Victoria",
     "type": "line",
     "color": "#e67e22ff",
@@ -2577,7 +2577,7 @@
     ]
   },
   {
-    "id": "78",
+    "id": 78,
     "label": "Guadalupe Victoria - Casa Blanca",
     "type": "line",
     "color": "#f1c40fff",
@@ -2600,7 +2600,7 @@
     ]
   },
   {
-    "id": "79",
+    "id": 79,
     "label": "Coatepec Porthos - Xalapa Rotonda",
     "type": "line",
     "color": "#bdc3c7ff",
@@ -2624,7 +2624,7 @@
     ]
   },
   {
-    "id": "80",
+    "id": 80,
     "label": "Xalapa Rotonda - Coatepec Porthos",
     "type": "line",
     "color": "#2a8289ff",
@@ -2646,7 +2646,7 @@
     ]
   },
   {
-    "id": "81",
+    "id": 81,
     "label": "Campo de Tiro - Sumidero - Centro",
     "type": "line",
     "color": "#226c71ff",
@@ -2666,7 +2666,7 @@
     ]
   },
   {
-    "id": "82",
+    "id": 82,
     "label": "Centro - Haciendas",
     "type": "line",
     "color": "#17a2b8ff",
@@ -2689,7 +2689,7 @@
     ]
   },
   {
-    "id": "83",
+    "id": 83,
     "label": "Haciendas - Centro",
     "type": "line",
     "color": "#6c757dff",
@@ -2710,7 +2710,7 @@
     ]
   },
   {
-    "id": "84",
+    "id": 84,
     "label": "Las Trancas - Articulo 3ro",
     "type": "line",
     "color": "#ffc107ff",
@@ -2737,7 +2737,7 @@
     ]
   },
   {
-    "id": "85",
+    "id": 85,
     "label": "20 de Noviembre - Pacho Nuevo",
     "type": "line",
     "color": "#fd7e14ff",
@@ -2758,7 +2758,7 @@
     ]
   },
   {
-    "id": "86",
+    "id": 86,
     "label": "Central de Abastos - Campo de Tiro",
     "type": "line",
     "color": "#6610f2ff",
@@ -2782,7 +2782,7 @@
     ]
   },
   {
-    "id": "87",
+    "id": 87,
     "label": "Casa Blanca - Centro",
     "type": "line",
     "color": "#e83e8cff",
@@ -2801,7 +2801,7 @@
     ]
   },
   {
-    "id": "88",
+    "id": 88,
     "label": "Centro - Casa Blanca",
     "type": "line",
     "color": "#20c997ff",
@@ -2819,7 +2819,7 @@
     ]
   },
   {
-    "id": "89",
+    "id": 89,
     "label": "Poeta - Sumidero",
     "type": "line",
     "color": "#dc3545ff",
@@ -2837,7 +2837,7 @@
     ]
   },
   {
-    "id": "90",
+    "id": 90,
     "label": "Sumidero - Poeta",
     "type": "line",
     "color": "#343a40ff",
@@ -2856,7 +2856,7 @@
     ]
   },
   {
-    "id": "91",
+    "id": 91,
     "label": "Terminal Sumidero - Centro",
     "type": "line",
     "color": "#007bffff",
@@ -2875,7 +2875,7 @@
     ]
   },
   {
-    "id": "92",
+    "id": 92,
     "label": "20 de Noviemre - Sumidero",
     "type": "line",
     "color": "#6610f2ff",
@@ -2893,7 +2893,7 @@
     ]
   },
   {
-    "id": "93",
+    "id": 93,
     "label": "Terminal Sumidero - Mercado",
     "type": "line",
     "color": "#28a745ff",
@@ -2907,7 +2907,7 @@
     ]
   },
   {
-    "id": "94",
+    "id": 94,
     "label": "Sumidero - Centro - Plaza Cristal - Calvario",
     "type": "line",
     "color": "#ffc107ff",
@@ -2929,7 +2929,7 @@
     ]
   },
   {
-    "id": "95",
+    "id": 95,
     "label": "Clavijero - 28 de Agosto - San Antonio",
     "type": "line",
     "color": "#17a2b8ff",
@@ -2946,7 +2946,7 @@
     ]
   },
   {
-    "id": "96",
+    "id": 96,
     "label": "San Antonio - 28 de Agosto - Clavijero",
     "type": "line",
     "color": "#6f42c1ff",
@@ -2964,7 +2964,7 @@
     ]
   },
   {
-    "id": "97",
+    "id": 97,
     "label": "Xocotla - 27 de Agosto - Clavijero",
     "type": "line",
     "color": "#fd7e14ff",
@@ -2981,7 +2981,7 @@
     ]
   },
   {
-    "id": "98",
+    "id": 98,
     "label": "Ávila Camacho - Sauces - Zona UV",
     "type": "line",
     "color": "#20c997ff",
@@ -2999,7 +2999,7 @@
     ]
   },
   {
-    "id": "99",
+    "id": 99,
     "label": "Higueras - Lazaro Cardenas - Zona UV",
     "type": "line",
     "color": "#dc3545ff",
@@ -3017,7 +3017,7 @@
     ]
   },
   {
-    "id": "100",
+    "id": 100,
     "label": "Carranza - AV Americas - Plaza Cristal",
     "type": "line",
     "color": "#343a40ff",
@@ -3042,7 +3042,7 @@
     ]
   },
   {
-    "id": "101",
+    "id": 101,
     "label": "Coapexpan - Araucarias - Torre Animas",
     "type": "line",
     "color": "#007bffff",
@@ -3071,7 +3071,7 @@
     ]
   },
   {
-    "id": "102",
+    "id": 102,
     "label": "Coapexpan - Centro - Tecnica 72",
     "type": "line",
     "color": "#17a2b8ff",
@@ -3098,7 +3098,7 @@
     ]
   },
   {
-    "id": "103",
+    "id": 103,
     "label": "Tecnica 72 - Centro - Coapexpan",
     "type": "line",
     "color": "#6f42c1ff",
@@ -3125,7 +3125,7 @@
     ]
   },
   {
-    "id": "104",
+    "id": 104,
     "label": "Tecnologico - Arco Sur - Manuel Avila Camacho - Pipila - Lazaro Cardenas",
     "type": "line",
     "color": "#fd7e14ff",
@@ -3166,7 +3166,7 @@
     ]
   },
   {
-    "id": "105",
+    "id": 105,
     "label": "  Miguel Aleman - Zona UV",
     "type": "line",
     "color": "#20c997ff",
@@ -3188,7 +3188,7 @@
     ]
   },
   {
-    "id": "106",
+    "id": 106,
     "label": "Jardines - Sayago",
     "type": "line",
     "color": "#dc3545ff",
@@ -3209,7 +3209,7 @@
     ]
   },
   {
-    "id": "107",
+    "id": 107,
     "label": "20 de Noviembre - Central de Abastos",
     "type": "line",
     "color": "#343a40ff",
@@ -3230,7 +3230,7 @@
     ]
   },
   {
-    "id": "108",
+    "id": 108,
     "label": "Buena Vista - Centro",
     "type": "line",
     "color": "#007bffff",
@@ -3247,7 +3247,7 @@
     ]
   },
   {
-    "id": "109",
+    "id": 109,
     "label": "Coapexpan - Araucarias",
     "type": "line",
     "color": "#6f42c1ff",
@@ -3273,7 +3273,7 @@
     ]
   },
   {
-    "id": "110",
+    "id": 110,
     "label": "Zona UV - Tlalnelhuayocan",
     "type": "line",
     "color": "#fd7e14ff",
@@ -3298,7 +3298,7 @@
     ]
   },
   {
-    "id": "111",
+    "id": 111,
     "label": "Fovissste - IMSS",
     "type": "line",
     "color": "#17a2b8ff",
@@ -3318,7 +3318,7 @@
     ]
   },
   {
-    "id": "112",
+    "id": 112,
     "label": "Lazaro Cardenas - Fovissste",
     "type": "line",
     "color": "#6f42c1ff",
@@ -3346,7 +3346,7 @@
     ]
   },
   {
-    "id": "113",
+    "id": 113,
     "label": "Zona UV - Ruiz Cortines",
     "type": "line",
     "color": "#20c997ff",
@@ -3372,7 +3372,7 @@
     ]
   },
   {
-    "id": "114",
+    "id": 114,
     "label": "Lomas Verdes - Lazaro Cardenas - AV Adolfo Ruiz Cortines",
     "type": "circuit",
     "color": "#dc3545ff",
@@ -3394,7 +3394,7 @@
     ]
   },
   {
-    "id": "115",
+    "id": 115,
     "label": "Miguel Aleman - Ruiz Cortines - Los Sauces",
     "type": "circuit",
     "color": "#dc3545ff",
@@ -3432,7 +3432,7 @@
     ]
   },
   {
-    "id": "116",
+    "id": 116,
     "label": "Ojo de agua -Centro - Normal",
     "type": "circuit",
     "color": "#8c121eff",
@@ -3467,7 +3467,7 @@
     ]
   },
   {
-    "id": "117",
+    "id": 117,
     "label": "Bugambilias - Trancas - Lazaro Cardenas - AV Xalapa - Sauces - Arco Sur",
     "type": "circuit",
     "color": "#a343c6ff",
@@ -3507,7 +3507,7 @@
     ]
   },
   {
-    "id": "118",
+    "id": 118,
     "label": "Articulo 3ro - Ruiz Cortines - Lazaro Cardenas - Tecnologico",
     "type": "circuit",
     "color": "#bf77d9ff",
@@ -3537,7 +3537,7 @@
     ]
   },
   {
-    "id": "119",
+    "id": 119,
     "label": "Sumidero - Centro",
     "type": "circuit",
     "color": "#a200ddff",
@@ -3577,7 +3577,7 @@
     ]
   },
   {
-    "id": "120",
+    "id": 120,
     "label": "Xocotla - Martirez 28 de Agosto - Sayago",
     "type": "circuit",
     "color": "#000000ff",
@@ -3595,7 +3595,7 @@
     ]
   },
   {
-    "id": "121",
+    "id": 121,
     "label": "Buena Vista - Central de Abastos",
     "type": "circuit",
     "color": "#901919ff",
@@ -3632,7 +3632,7 @@
     ]
   },
   {
-    "id": "122",
+    "id": 122,
     "label": "Pastoresa - Murillo Vidal - Centro",
     "type": "circuit",
     "color": "#4dce08ff",
@@ -3655,7 +3655,7 @@
     ]
   },
   {
-    "id": "123",
+    "id": 123,
     "label": "Ojo de agua - Sauces",
     "type": "circuit",
     "color": "#2b7a00ff",
@@ -3680,7 +3680,7 @@
     ]
   },
   {
-    "id": "124",
+    "id": 124,
     "label": "Campo de Tiro - Plaza Cristal - Centro",
     "type": "circuit",
     "color": "#c1c406ff",
@@ -3702,7 +3702,7 @@
     ]
   },
   {
-    "id": "125",
+    "id": 125,
     "label": "Sumidero - Calvario",
     "type": "circuit",
     "color": "#fbff00ff",
@@ -3724,7 +3724,7 @@
     ]
   },
   {
-    "id": "126",
+    "id": 126,
     "label": "Tecnologico - Lazaro Cardenas - Economia - AV Manuel Avila Camacho - Sauces - Arco Sur",
     "type": "circuit",
     "color": "#9a5d06ff",
@@ -3763,7 +3763,7 @@
     ]
   },
   {
-    "id": "127",
+    "id": 127,
     "label": "AV Adolfo Ruiz Cortines - Lazaro Cardenas - Lomas Verdes",
     "type": "circuit",
     "color": "#dc3545ff",
@@ -3805,7 +3805,7 @@
     ]
   },
   {
-    "id": "128",
+    "id": 128,
     "label": "Miguel Aleman - Centro - Sauces",
     "type": "circuit",
     "color": "#60b2d7ff",
@@ -3832,7 +3832,7 @@
     ]
   },
   {
-    "id": "129",
+    "id": 129,
     "label": "Miguel Aleman - Ignacio de la llave - Sauces - Centro",
     "type": "circuit",
     "color": "#1a4f67ff",
@@ -3862,7 +3862,7 @@
       {"coordenas": [19.54239171863955, -96.91210529392546], "nombre": "Pipila - Jorge Cedran"}
     ]
   },{
-    "id": "130",
+    "id": 130,
     "label": "Miguel Aleman - Rotonda - Centro - Sauces",
     "type": "circuit",
     "color": "#660596ff",
@@ -3887,7 +3887,7 @@
     ]
   },
   {
-    "id": "131",
+    "id": 131,
     "label": "Articulo 3ro - Zona UV - Berros - 20 de Noviembre - Av. Xalapa - Avila Camacho - Ruiz Cortinez",
     "type": "circuit",
     "color": "#68b5deff",
@@ -3931,7 +3931,7 @@
     ]
   },
   {
-    "id": "132",
+    "id": 132,
     "label": "Arituculo 3ro - Lazaro Cardenas",
     "type": "line",
     "color": "#ffc107ff",
@@ -3958,7 +3958,7 @@
     ]
   },
   {
-    "id": "133",
+    "id": 133,
     "label": "Trancas - Lazaro Cardenas - Articulo 3ro",
     "type": "circuit",
     "color": "#a2c969ff",
@@ -3986,7 +3986,7 @@
     ]
   },
   {
-    "id": "134",
+    "id": 134,
     "label": "Trancas - Plaza Americas",
     "type": "circuit",
     "color": "#a5380dff",
@@ -4002,7 +4002,7 @@
     ]
   },
   {
-    "id": "135",
+    "id": 135,
     "label": "Tecnica 72 - Centro",
     "type": "circuit",
     "color": "#bf5126ff",
@@ -4029,7 +4029,7 @@
     ]
   },
   {
-    "id": "136",
+    "id": 136,
     "label": "Tecnica 72 - Coapexpan - Centro",
     "type": "circuit",
     "color": "#0e814dff",
@@ -4069,7 +4069,7 @@
     ]
   },
   {
-    "id": "137",
+    "id": 137,
     "label": "Tecnica 72 - Aguas Calientes -Centro",
     "type": "circuit",
     "color": "#bf5126ff",
@@ -4100,7 +4100,7 @@
     ]
   },
   {
-    "id": "138",
+    "id": 138,
     "label": "Fovisste - Plaza Museo - Centro - Chedrahui Cristal",
     "type": "circuit",
     "color": "#6d61b5ff",
@@ -4139,7 +4139,7 @@
     ]
   },
   {
-    "id": "139",
+    "id": 139,
     "label": "Fovisste - Centro - IMSS",
     "type": "circuit",
     "color": "#0c062bff",
@@ -4176,7 +4176,7 @@
     ]
   },
   {
-    "id": "140",
+    "id": 140,
     "label": "Foviste - Adolfo Ruiz Cortines - Berros - Lazaro Cardenas - Trancas",
     "type": "circuit",
     "color": "#00ae23ff",
@@ -4213,7 +4213,7 @@
     ]
   },
   {
-    "id": "141",
+    "id": 141,
     "label": "Martires 28 de agosto - Centro - 20 de Noviembre - Lazaro Cardenas - Trancas",
     "type": "circuit",
     "color": "#2f0ed2ff",
@@ -4247,7 +4247,7 @@
     ]
   },
   {
-    "id": "142",
+    "id": 142,
     "label": "Luz de Barrio - Ruiz Cortines - AV Xalapa - Lazaro Cardenas - Plaza Crital",
     "type": "circuit",
     "color": "#e7dc06ff",
@@ -4285,7 +4285,7 @@
     ]
   },
   {
-    "id": "143",
+    "id": 143,
     "label": "Luz de Barrio - Centro",
     "type": "circuit",
     "color": "#c9c23dff",
@@ -4304,7 +4304,7 @@
     ]
   },
   {
-    "id": "144",
+    "id": 144,
     "label": "Sumidero - Centro - Las Hayas",
     "type": "circuit",
     "color": "#fcf002ff",
@@ -4339,7 +4339,7 @@
     ]
   },
   {
-    "id": "145",
+    "id": 145,
     "label": "Calorino Anaya - IMSS",
     "type": "circuit",
     "color": "#4a260aff",
@@ -4364,7 +4364,7 @@
     ]
   },
   {
-    "id": "146",
+    "id": 146,
     "label": "Miguel Aleman - Centro - Santa Rosa ",
     "type": "circuit",
     "color": "#4109a1ff",
@@ -4391,7 +4391,7 @@
     ]
   },
   {
-    "id": "147",
+    "id": 147,
     "label": "Los Sauces - Centro - Santa Rosa",
     "type": "circuit",
     "color": "#6f47b6ff",
@@ -4417,7 +4417,7 @@
     ]
   },
   {
-    "id": "148",
+    "id": 148,
     "label": "Coapexpan - Centro - Trancas",
     "type": "circuit",
     "color": "#002539ff",
@@ -4447,7 +4447,7 @@
     ]
   },
   {
-    "id": "149",
+    "id": 149,
     "label": "Sauces - Araucarias - Murillo Vidal",
     "type": "circuit",
     "color": "#00a6ffff",
@@ -4478,7 +4478,7 @@
     ]
   },
   {
-    "id": "150",
+    "id": 150,
     "label": "Coapexpan - Araucarias - Murillo Vidal",
     "type": "circuit",
     "color": "#1e3a49ff",
@@ -4514,7 +4514,7 @@
     ]
   },
   {
-    "id": "151",
+    "id": 151,
     "label": "Higueras - Sumidero - Pipila",
     "type": "circuit",
     "color": "#29a6e9ff",
@@ -4535,7 +4535,7 @@
     ]
   },
   {
-    "id": "152",
+    "id": 152,
     "label": "Circuito Precidentes - Rebsamen - Xalapa 2000 - Arco Sur - Trancas - Lazaro Cardenas - Ruiz Cortinez - Sauces - Velodromo",
     "type": "circuit",
     "color": "#32993cff",
@@ -4592,11 +4592,6 @@
       {"coordenas": [19.50769177740882, -96.88080453125596], "nombre": "Walmart Arco Sur"}
     ]
   }
-
-
-
-
-
 ]
 
 
