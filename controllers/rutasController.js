@@ -1,25 +1,24 @@
 import Ruta from "../models/ruta.js";
-import Ruta from "../models/ruta.js";
+import Stop from "../models/stop.js";
 import mongoose from "mongoose";
 
 export const getListadoRutas = async (req, res) => {
   try {
-    // Opcional: incluye también el id numérico si te sirve en el front
     const rutas = await Ruta.find({}, "_id id label");
-    res.json(rutas);
+    return res.json(rutas);
   } catch (err) {
     console.error(err);
-    res.status(500).json({ message: "Error al cargar listado de rutas" });
+    return res.status(500).json({ message: "Error al cargar listado de rutas" });
   }
 };
 
 export const getTodasRutas = async (req, res) => {
   try {
     const rutas = await Ruta.find({});
-    res.json(rutas);
+    return res.json(rutas);
   } catch (err) {
     console.error(err);
-    res.status(500).json({ message: "Error al cargar rutas completas" });
+    return res.status(500).json({ message: "Error al cargar rutas completas" });
   }
 };
 
@@ -61,6 +60,7 @@ export const createRuta = async (req, res) => {
       color,
       points = [],
       stops = [],
+      images,
     } = req.body || {};
 
     // Validaciones básicas
@@ -131,6 +131,17 @@ export const createRuta = async (req, res) => {
       return res.status(409).json({ message: `Ya existe una ruta con id ${numId}` });
     }
 
+    // Normalizar imágenes: si no hay o no es válida, usar bus_<id>
+    let finalImages = [];
+    if (Array.isArray(images)) {
+      finalImages = images
+        .map((x) => String(x || "").trim())
+        .filter((x) => x.length > 0);
+    }
+    if (finalImages.length === 0) {
+      finalImages = [`bus_${numId}`];
+    }
+
     const doc = await Ruta.create({
       id: numId,
       label: String(label).trim(),
@@ -138,6 +149,7 @@ export const createRuta = async (req, res) => {
       color,
       points: normPoints,
       stops: normStops,
+      images: finalImages,
     });
     try{
       let upserts = 0;
@@ -152,12 +164,119 @@ export const createRuta = async (req, res) => {
         if (resUp.upsertedCount || resUp.modifiedCount) upserts++;
       }
       console.log(`[createRuta] stops upserted/updated: ${upserts}`);
-    } catch{
+    } catch (e) {
       console.warn("[createRuta] No se pudieron upsertar paradas en Stop:", e?.message);
     }
     return res.status(201).json({ message: "Ruta creada correctamente", id: doc.id });
   } catch (error) {
     console.error("Error al crear ruta", error);
+    return res.status(500).json({ message: "Error al crear ruta" });
   }
-  return res.status(500).json({ message: "Error al crear ruta" });
-}
+};
+
+export const updateRuta = async (req, res) => {
+  try {
+    const idParam = Number(req.params.id);
+    if (!Number.isFinite(idParam)) {
+      return res.status(400).json({ message: "ID inválido (numérico)" });
+    }
+
+    const { label, type, color, points = [], stops = [], images } = req.body || {};
+
+    if (!label || !String(label).trim()) {
+      return res.status(400).json({ message: "Label inválido" });
+    }
+    if (!["line", "circuit"].includes(type)) {
+      return res.status(400).json({ message: "Tipo inválido (line|circuit)" });
+    }
+    const colorOk = /^#([0-9a-fA-F]{3}){1,2}([0-9a-fA-F]{2})?$/.test(String(color || ""));
+    if (!colorOk) {
+      return res.status(400).json({ message: "Color inválido (HEX)" });
+    }
+
+    if (!Array.isArray(points)) {
+      return res.status(400).json({ message: "Points inválido" });
+    }
+    const normPoints = [];
+    for (const p of points) {
+      if (!Array.isArray(p) || p.length !== 2) {
+        return res.status(400).json({ message: "Cada point debe ser [lat,lng]" });
+      }
+      const lat = Number(p[0]);
+      const lng = Number(p[1]);
+      if (!Number.isFinite(lat) || !Number.isFinite(lng)) {
+        return res.status(400).json({ message: "Puntos inválidos (lat/lng)" });
+      }
+      normPoints.push([lat, lng]);
+    }
+
+    if (!Array.isArray(stops)) {
+      return res.status(400).json({ message: "Stops inválido" });
+    }
+    const normStops = [];
+    for (const s of stops) {
+      if (!s || typeof s !== "object") {
+        return res.status(400).json({ message: "Stop inválido" });
+      }
+      const nombre = String(s.nombre || "").trim() || "Parada";
+      let latLng = null;
+      if (Array.isArray(s.coordenas)) {
+        const lat = Number(s.coordenas[0]);
+        const lng = Number(s.coordenas[1]);
+        if (Number.isFinite(lat) && Number.isFinite(lng)) latLng = [lat, lng];
+      } else if (s.coordenas?.type === "Point" && Array.isArray(s.coordenas?.coordinates)) {
+        const [lng, lat] = s.coordenas.coordinates;
+        if (Number.isFinite(lat) && Number.isFinite(lng)) latLng = [lat, lng];
+      }
+      if (!latLng) {
+        return res.status(400).json({ message: "stop.coordenas inválido" });
+      }
+      normStops.push({ nombre, coordenas: latLng });
+    }
+
+    // Construir documento de actualización
+    const updateDoc = {
+      label: String(label).trim(),
+      type,
+      color,
+      points: normPoints,
+      stops: normStops,
+    };
+    if (Array.isArray(images)) {
+      const normImages = images
+        .map((x) => String(x || "").trim())
+        .filter((x) => x.length > 0);
+      updateDoc.images = normImages.length > 0 ? normImages : [`bus_${idParam}`];
+    }
+
+    const updated = await Ruta.findOneAndUpdate(
+      { id: idParam },
+      updateDoc,
+      { new: true }
+    );
+
+    if (!updated) return res.status(404).json({ message: "Ruta no encontrada" });
+
+    try {
+      let upserts = 0;
+      for (const s of normStops) {
+        const [lat, lng] = s.coordenas;
+        const geo = { type: "Point", coordinates: [lng, lat] };
+        const resUp = await Stop.updateOne(
+          { nombre: s.nombre, "coordenas.type": "Point", "coordenas.coordinates": [lng, lat] },
+          { $setOnInsert: { nombre: s.nombre, coordenas: geo }, $addToSet: { routes: idParam } },
+          { upsert: true }
+        );
+        if (resUp.upsertedCount || resUp.modifiedCount) upserts++;
+      }
+      console.log(`[updateRuta] stops upserted/updated: ${upserts}`);
+    } catch (e) {
+      console.warn("[updateRuta] No se pudieron upsertar paradas en Stop:", e?.message);
+    }
+
+    return res.json({ message: "Ruta actualizada", id: updated.id });
+  } catch (error) {
+    console.error("Error al actualizar ruta", error);
+    return res.status(500).json({ message: "Error al actualizar ruta" });
+  }
+};
