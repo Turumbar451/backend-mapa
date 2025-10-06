@@ -2415,7 +2415,7 @@
     "type": "line",
     "color": "#b5890aff",
     "points": [],
-    "stops": [], "images":["bus_4"]
+    "stops": [], "images":["bus_40"]
   },
 
   {
@@ -2995,7 +2995,7 @@
       {"coordenas": [19.51934778271177, -96.91832741911719], "nombre": "Zona uv"},
       {"coordenas": [19.526091197254154, -96.93250737728196], "nombre": "Zona UV - Libramiento"},
       {"coordenas": [19.52540755414377, -96.93339099506326], "nombre": "Zona UV -"}
-    ]
+    ], "images":["bus_51"]
   },
   {
     "id": 52,
@@ -3031,7 +3031,7 @@
       {"coordenas": [19.53894953924973, -96.90770404088695], "nombre": "Plaza Cristal"},
       {"coordenas": [19.543563671587542, -96.89094526250472], "nombre": "Antonio Chedraui Caram"},
       {"coordenas": [19.540630220079034, -96.9008314467352], "nombre": "Antonio Chedraui Caram 121C"}
-    ]
+    ], "images":["bus_52"]
   },
 
   {
