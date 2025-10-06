@@ -1,7 +1,7 @@
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 
-import Usuario from "../models/Usuario.js";
+import Usuario from "../models/usuario.js";
 const SECRET = "mi_clave_secreta"; // Mejor usar process.env.JWT_SECRET 
 
 // Registrar usuario
