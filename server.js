@@ -10,6 +10,7 @@ import authRoutes from "./routes/auth.js";
 import connectDB from "./db.js";
 import trafficRoutes from "./routes/traffic.js";
 import sitesRoutes from "./routes/sites.js";
+import searchRoutes from "./routes/search.js";
 
 import mongoose from "mongoose";
 mongoose.connection.once("open", () => {
@@ -50,6 +51,7 @@ async function startServer() {
   app.use('/api/rutas', rutasRouter);
   app.use('/api/traffic', trafficRoutes);
   app.use('api/sites', sitesRoutes);
+  app.use('/api/search', searchRoutes);
 
   const PORT = 3000;
   //listen inicializa el servidor, tiene un puerto y un callback
