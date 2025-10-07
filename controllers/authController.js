@@ -62,3 +62,18 @@ export const getSession = (req, res) => {
     if (!req.user) return res.json({ user: null });
     res.json({ user: req.user });
 };
+
+// Cerrar sesión: limpiar cookie de autenticación
+export const logoutUser = (req, res) => {
+    try {
+        res.clearCookie("token", {
+            httpOnly: true,
+            secure: process.env.NODE_ENV === "production",
+            sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
+            path: "/",
+        });
+        return res.json({ success: true, message: "Sesión cerrada" });
+    } catch (e) {
+        return res.status(500).json({ success: false, message: "No se pudo cerrar la sesión" });
+    }
+};
