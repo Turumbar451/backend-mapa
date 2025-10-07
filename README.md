@@ -40,7 +40,7 @@ backend/
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/backend-miruta.git
+git clone https://github.com/Turumbar451/backend-mapa.git
 cd backend
 ```
 
