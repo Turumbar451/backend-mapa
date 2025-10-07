@@ -50,7 +50,7 @@ async function startServer() {
   app.use("/api", authRoutes); //todo lo que llegue a /api lo maneja authRoutes o sesa auth.js
   app.use('/api/rutas', rutasRouter);
   app.use('/api/traffic', trafficRoutes);
-  app.use('api/sites', sitesRoutes);
+  app.use('/api/sites', sitesRoutes);
   app.use('/api/search', searchRoutes);
 
   const PORT = 3000;

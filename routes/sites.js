@@ -1,9 +1,9 @@
 import { Router} from "express";
-import site from "../models/site.js";
+import site from "../models/site";
 
 const router = Router();
 
-// Método GET para buscar lugares por nombre
+// Método GET para buscar sitios por nombre
 router.get("/search", async (req, res) => {
  try {
     const nombre = (req.query.nombre || "")
@@ -22,15 +22,15 @@ router.get("/search", async (req, res) => {
         name: s.name,
         route_ids: Array.isArray(s.route_ids)
             ? s.route_ids
-            : Array.isArray(s.routes_ids)
+            : Array.isArray(s.route_ids)
             ? s.routes_ids
             : [],
     }));
 
     res.json(normalized);
     }   catch (error) {
-        console.error("Error al buscar lugares", error);
-        res.status(500).json({ message: "Error al buscar lugares" });
+        console.error("Error al buscar sitios", error);
+        res.status(500).json({ message: "Error al buscar sitios" });
     }
 });
 
