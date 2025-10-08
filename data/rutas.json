@@ -34,8 +34,11 @@
         "nombre": "AV Xalapa"
       }
     ],
-    "images": ["Bus_0"]
-  },
+    "images": ["Bus_0"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }},
   {
     "id": 1,
     "label": "Arco Sur - Rebsamen - Sauces - Avila Camacho - Americas - Pipila - Lázaro Cárdenas - Arco Sur",
@@ -126,7 +129,11 @@
         "nombre": "Walmart Arco Sur"
       }
     ],
-    "images": ["Bus_1"]
+    "images": ["Bus_1"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 2,
@@ -165,7 +172,11 @@
         "coordenas": [19.532963511603263, -96.92459575217563],
         "nombre": "Clavijero"
       }
-    ],"images":["bus_2"]
+    ],"images":["bus_2"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 3,
@@ -221,7 +232,11 @@
         "coordenas": [19.532655194077744, -96.94519617825766],
         "nombre": "Calle Chiapas"
       }
-    ], "images":["bus_3"]
+    ], "images":["bus_3"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 4,
@@ -364,7 +379,11 @@
         "nombre": "Walmart Arco Sur"
       }
     ],
-    "images": ["Bus_4"]
+    "images": ["Bus_4"], 
+    "horario_servicio": {
+    "inicio": "06:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 5,
@@ -398,7 +417,11 @@
         "coordenas": [19.520421629617065, -96.88559442315325],
         "nombre": "Plaza Animas"
       }
-    ], "images":["bus_5"]
+    ], "images":["bus_5"], 
+    "horario_servicio": {
+    "inicio": "06:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 6,
@@ -443,7 +466,11 @@
         "coordenas": [19.541380344409287, -96.92626076584718],
         "nombre": "AV Xalapa - Calle Austeridad"
       }
-    ], "images":["bus_6"]
+    ], "images":["bus_6"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 7,
@@ -464,7 +491,11 @@
         "coordenas": [19.626304005021606, -96.87246637011164],
         "nombre": "El Espinal"
       }
-    ], "images":["bus_7"]
+    ], "images":["bus_7"], 
+    "horario_servicio": {
+    "inicio": "06:20",
+    "fin": "22:20"
+  }
   },
   {
     "id": 8,
@@ -527,7 +558,11 @@
         "coordenas": [19.503312256216105, -96.87095172277883],
         "nombre": "Reserva Nacional"
       }
-    ], "images":["bus_8"]
+    ], "images":["bus_8"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "23:00"
+  }
   },
   {
     "id": 9,
@@ -575,7 +610,11 @@
         "coordenas": [19.563882757845203, -96.92821842845278],
         "nombre": "Tesoreria - Banderilla"
       }
-    ], "images":["bus_9"]
+    ], "images":["bus_9"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 10,
@@ -644,7 +683,11 @@
         "coordenas": [19.515206746741818, -96.92840628933877],
         "nombre": "Buena Vista"
       }
-    ], "images":["bus_10"]
+    ], "images":["bus_10"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 11,
@@ -712,7 +755,11 @@
         "coordenas": [19.513595322651355, -96.85792110961503],
         "nombre": "Central de Abastos"
       }
-    ], "images":["bus_11"]
+    ], "images":["bus_11"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 12,
@@ -780,7 +827,11 @@
         "coordenas": [19.50082210961166, -96.85111152986754],
         "nombre": "La pradera"
       }
-    ], "images":["bus_12"]
+    ], "images":["bus_12"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 13,
@@ -835,7 +886,11 @@
         "coordenas": [19.5330474501381, -96.9245944515563],
         "nombre": "Clavijero"
       }
-    ], "images":["bus_13"]
+    ], "images":["bus_13"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 14,
@@ -903,7 +958,11 @@
         "coordenas": [19.5330474501381, -96.9245944515563],
         "nombre": "Clavijero"
       }
-    ], "images":["bus_14"]
+    ], "images":["bus_14"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 15,
@@ -1020,7 +1079,11 @@
         "coordenas": [19.535510640371015, -96.91182751219712],
         "nombre": "AV Americas - Farmacia Guadalajara"
       }
-    ], "images":["bus_15"]
+    ], "images":["bus_15"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 16,
@@ -1057,7 +1120,11 @@
         "coordenas": [19.539669833035383, -96.9332676899977],
         "nombre": "Martires - Heroles"
       }
-    ], "images":["bus_16"]
+    ], "images":["bus_16"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 17,
@@ -1095,7 +1162,11 @@
         "coordenas": [19.53894953924973, -96.90770404088695],
         "nombre": "Plaza Cristal"
       }
-    ], "images":["bus_17"]
+    ], "images":["bus_17"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 18,
@@ -1130,7 +1201,11 @@
         "coordenas": [19.532963511603263, -96.92459575217563],
         "nombre": "Clavijero"
       }
-    ], "images":["bus_18"]
+    ], "images":["bus_18"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 19,
@@ -1190,7 +1265,11 @@
         "coordenas": [19.568853888639612, -96.92418859973648],
         "nombre": "Tecnica 72"
       }
-    ], "images":["bus_19"]
+    ], "images":["bus_19"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 20,
@@ -1275,7 +1354,11 @@
         "coordenas": [19.568853888639612, -96.92418859973648],
         "nombre": "Tecnica 72"
       }
-    ], "images":["bus_20"]
+    ], "images":["bus_20"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 21,
@@ -1334,7 +1417,11 @@
         "coordenas": [19.495716693809403, -96.85053005396281],
         "nombre": " Rubi - Bugambilias"
       }
-    ], "images":["bus_21"]
+    ], "images":["bus_21"], 
+    "horario_servicio": {
+    "inicio": "05:30",
+    "fin": "22:00"
+  }
   },
   {
     "id": 22,
@@ -1391,7 +1478,11 @@
         "coordenas": [19.50668272577122, -96.86499571054937],
         "nombre": "Calle Principal - Arco Sur"
       }
-    ], "images":["bus_22"]
+    ], "images":["bus_22"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": "23",
@@ -1454,7 +1545,11 @@
             "coordenas": [19.495716693809403, -96.85053005396281],
             "nombre": "Rubi - Bugambilias"
         }
-    ], "images":["bus_23"]
+    ], "images":["bus_23"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
 },
   {
     "id": 24,
@@ -1572,7 +1667,11 @@
         "coordenas": [19.520334, -96.940254],
         "nombre": "Escuela Primaria Miguel Hidalgo"
       }
-    ], "images":["bus_24"]
+    ], "images":["bus_24"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "23:00"
+  }
   },
 
   {
@@ -1690,7 +1789,11 @@
         "coordenas": [19.520334, -96.940254],
         "nombre": "Escuela Primaria Miguel Hidalgo"
       }
-    ], "images":["bus_25"]
+    ], "images":["bus_25"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
 
   {
@@ -1753,7 +1856,11 @@
         "coordenas": [19.513595322651355, -96.85792110961503],
         "nombre": "Central de Abastos"
       }
-    ], "images":["bus_26"]
+    ], "images":["bus_26"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
 
   {
@@ -1848,9 +1955,13 @@
         "coordenas": [19.518645284869205, -96.88267412489412],
         "nombre": "Plaza Animas"
       }
-    ], "images":["bus_27"]
-  },
-
+    ], "images":["bus_27"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
+  
+},
   {
     "id": 28,
     "label": "Articulo 3ro - Avila Camacho - Bugambilias",
@@ -1942,7 +2053,11 @@
         "coordenas": [19.52614591373224, -96.91687013606271],
         "nombre": "C Diego Leño"
       }
-    ], "images":["bus_28"]
+    ], "images":["bus_28"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
 
   {
@@ -2036,7 +2151,11 @@
         "coordenas": [19.52614591373224, -96.91687013606271],
         "nombre": "C Diego Leño"
       }
-    ], "images":["bus_29"]
+    ], "images":["bus_29"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
 
   {
@@ -2102,7 +2221,11 @@
         "coordenas": [19.502051965810786, -96.90165478392034],
         "nombre": "Las Margaritas"
       }
-    ], "images":["bus_30"]
+    ], "images":["bus_30"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "23:00"
+  }
   },
 
   {
@@ -2171,7 +2294,11 @@
         "coordenas": [19.545672903173617, -96.90547500250888],
         "nombre": "C. Gustavo Díaz Ordaz 45"
       }
-    ], "images":["bus_31"]
+    ], "images":["bus_31"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
 
   {
@@ -2217,7 +2344,11 @@
       { "coordenas": [19.518645284869205, -96.88267412489412], "nombre": "Plaza Animas" },
       { "coordenas": [19.507607007576468, -96.86490306280547], "nombre": "Trancas - Plaza Xanat" },
       { "coordenas": [19.514276238619406, -96.8561119202163], "nombre": "Central de Abastos" }
-    ], "images":["bus_32"]
+    ], "images":["bus_32"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 33,
@@ -2259,7 +2390,11 @@
       { "coordenas": [19.505487640882876, -96.89343519137584], "nombre": "Arco Sur 102 - Campo Nuevo" },
       { "coordenas": [19.49833698468003, -96.88604425089076], "nombre": "C. Fuente de Medusa 37 - Las Fuentes" },
       { "coordenas": [19.494231528287685, -96.88609835272797], "nombre": "Fuente de Sta. Cecilia 6 - Lomas Verdes" }
-    ], "images":["bus_33"]
+    ], "images":["bus_33"], 
+    "horario_servicio": {
+    "inicio": "05:20",
+    "fin": "22:20"
+  }
   },
 
   {
@@ -2301,7 +2436,11 @@
       {"coordenas": [19.551535117138474, -96.95367236438395], "nombre": "C Fernando Gutiérrez Barrios 88 - Luz del Barrio"},
       {"coordenas": [19.562796366651728, -96.97384369134626], "nombre": "C. Miguel Alemán 106 - Otilpan"},
       {"coordenas": [19.567964083933738, -96.97474203738373], "nombre": "San Andrés Tlalnehuayocan"}
-    ], "images":["bus_34"]
+    ], "images":["bus_34"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
   {
     "id": 35,
@@ -2339,7 +2478,11 @@
       {"coordenas": [19.509495747233583, -96.86984897970247], "nombre": "El Olmo"},
       {"coordenas": [19.507607007576468, -96.86490306280547], "nombre": "Trancas - Plaza Xanat"},
       {"coordenas": [19.514276238619406, -96.8561119202163], "nombre": "Central de Abastos"}
-    ], "images":["bus_35"]
+    ], "images":["bus_35"], 
+    "horario_servicio": {
+    "inicio": "05:20",
+    "fin": "22:20"
+  }
   },
   {
     "id": 36,
@@ -2378,7 +2521,11 @@
       {"coordenas": [19.55807391179394, -96.90561238772182], "nombre": "Cam. Antiguo a Naolinco 971 - Carolino Anaya"},
       {"coordenas": [19.56225463376072, -96.90366770667153], "nombre": "Río Bobos 317 - Carolino Anaya"},
       {"coordenas": [19.56441827643106, -96.90224813450835], "nombre": "La Haciendita"}
-    ], "images":["bus_36"]
+    ], "images":["bus_36"], 
+    "horario_servicio": {
+    "inicio": "05:00",
+    "fin": "22:00"
+  }
   },
 
   {
