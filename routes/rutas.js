@@ -11,7 +11,6 @@ import {
 const router = express.Router();
 
 router.get("/listado", getListadoRutas);
-router.get("/todas", getTodasRutas);
 router.get("/:id", getRutaById);
 
 // Cambios negro

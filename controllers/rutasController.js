@@ -12,15 +12,6 @@ export const getListadoRutas = async (req, res) => {
   }
 };
 
-export const getTodasRutas = async (req, res) => {
-  try {
-    const rutas = await Ruta.find({});
-    return res.json(rutas);
-  } catch (err) {
-    console.error(err);
-    return res.status(500).json({ message: "Error al cargar rutas completas" });
-  }
-};
 
 export const getRutaById = async (req, res) => {
   const { id } = req.params;
@@ -151,15 +142,15 @@ export const createRuta = async (req, res) => {
       stops: normStops,
       images: finalImages,
     });
-    try{
+    try {
       let upserts = 0;
       for (const s of normStops) {
         const [lat, lng] = s.coordenas;
         const geo = { type: "Point", coordinates: [lng, lat] };
         const resUp = await Stop.updateOne(
-        { nombre: s.nombre, "coordenas.type": "Point", "coordenas.coordinates": [lng, lat] },
-        { $setOnInsert: { nombre: s.nombre, coordenas: geo }, $addToSet: { routes: numId } },
-        { upsert: true }
+          { nombre: s.nombre, "coordenas.type": "Point", "coordenas.coordinates": [lng, lat] },
+          { $setOnInsert: { nombre: s.nombre, coordenas: geo }, $addToSet: { routes: numId } },
+          { upsert: true }
         );
         if (resUp.upsertedCount || resUp.modifiedCount) upserts++;
       }
