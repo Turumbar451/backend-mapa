@@ -1,6 +1,7 @@
 import Stop from "../models/stop.js";
 import Ruta from "../models/ruta.js";
 
+// [MODIFICACIÓN] La función nearbyStops ahora devuelve las paradas Y las rutas relevantes
 export const nearbyStops = async (req, res) => {
   try {
     const lat = parseFloat(req.query.lat);
@@ -12,21 +13,44 @@ export const nearbyStops = async (req, res) => {
       return res.status(400).json({ error: "Faltan coordenadas" });
     }
 
-    // Asegúrate de tener índice 2dsphere en coordenas: db.stops.createIndex({ coordenas: "2dsphere" })
+    // 1. Obtener las paradas cercanas (solo necesitamos los routes array)
     const stops = await Stop.find({
       coordenas: {
         $near: {
           $geometry: { type: "Point", coordinates: [lng, lat] },
         },
       },
-    }).limit(limit);
+    })
+      .limit(limit)
+      .select('nombre coordenas routes'); // Aseguramos que el campo routes esté seleccionado
 
-    return res.json(stops);
+    // 2. Extraer todos los IDs de ruta únicos de las paradas encontradas
+    const uniqueRouteIds = new Set();
+    stops.forEach(stop => {
+      if (Array.isArray(stop.routes)) {
+        stop.routes.forEach(id => uniqueRouteIds.add(id));
+      }
+    });
+
+    const idsArray = Array.from(uniqueRouteIds);
+
+    // 3. Obtener los detalles completos de las rutas relevantes
+    // Incluir todos los campos necesarios para el frontend (id, label, color, points)
+    const relevantRoutes = await Ruta.find({ id: { $in: idsArray } }).select('id label color points');
+
+    // 4. Devolver un objeto unificado
+    return res.json({
+      nearbyStops: stops,
+      relevantRoutes: relevantRoutes,
+    });
+
   } catch (err) {
     console.error("GET /stops/nearby error", err);
     return res.status(500).json({ error: "Error interno" });
   }
 };
+
+
 
 export const searchStopsByName = async (req, res) => {
   try {
