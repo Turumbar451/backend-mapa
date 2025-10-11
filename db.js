@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
-const uri = "mongodb+srv://tirsoemir84_db_user:PjIL5Im38pBoEba8@prueba.tdd8smh.mongodb.net/realDB?retryWrites=true&w=majority&appName=prueba";
+const uri = "mongodb://127.0.0.1:27017/realDB";;
+/* const uri = "mongodb+srv://tirsoemir84_db_user:PjIL5Im38pBoEba8@prueba.tdd8smh.mongodb.net/realDB?retryWrites=true&w=majority&appName=prueba"; */
 
 export default async function connectDB() {
     try {

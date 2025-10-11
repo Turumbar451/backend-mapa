@@ -22,6 +22,7 @@ const app = express(); // inicializa servidor express, app es una instancia del 
 //use es un metodo para usar middlewares
 async function startServer() {
   await connectDB();
+  app.set('trust proxy', 1);
   app.use(express.json()); // para parsear JSON en el body
   //sin express.json() no se podria leer req.body, este es un middleware que convierte el body de la solicitud en un objeto JS, por eso se usa use 
 
@@ -41,7 +42,9 @@ async function startServer() {
       }
       return callback(new Error("No permitido por CORS"));
     },
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // [MODIFICACIÓN] Asegurar que POST esté explícitamente permitido
     credentials: true,
+    optionsSuccessStatus: 200, // [MODIFICACIÓN] Devolver 200 en lugar de 204 para asegurar que los navegadores IE/Edge más antiguos lo acepten, y ser más explícitos en general.
   }));
 
   //aplica cors a todas las rutas,

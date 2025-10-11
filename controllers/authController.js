@@ -4,10 +4,10 @@ import jwt from "jsonwebtoken";
 import Usuario from "../models/usuario.js";
 const SECRET = "mi_clave_secreta"; // Mejor usar process.env.JWT_SECRET 
 
-// Registrar usuario
+// Registrar usuario (sin cambios)
 export const registerUser = async (req, res) => {
     const { username, password } = req.body;
-
+    // ... (rest of registerUser logic)
     if (!username || !password) {
         return res.json({ success: false, message: "Faltan datos" });
     }
@@ -24,13 +24,13 @@ export const registerUser = async (req, res) => {
     res.json({ success: true });
 };
 
-// Login usuario
+
+// Login usuario (Simplificado a la configuración de producción)
 export const loginUser = async (req, res) => {
     const { username, password } = req.body;
 
     const user = await Usuario.findOne({ username });
     if (!user) return res.json({ success: false, message: "Usuario no encontrado" });
-
 
     const passwordMatch = bcrypt.compareSync(password, user.password);
     if (!passwordMatch) {
@@ -39,13 +39,13 @@ export const loginUser = async (req, res) => {
 
     // Crear token JWT
     const token = jwt.sign(
-        { username: user.username, role: user.role },
+        // [MODIFICACIÓN CLAVE] Asegurar que el ID sea una cadena para evitar errores de tipo en la BD
+        { username: user.username, role: user.role, id: user._id.toString() },
         SECRET,
-        { expiresIn: "1d" } // duración 1 día
-    );//SECRET es la clave secreta para firmar el token
+        { expiresIn: "1d" }
+    );
 
-    // Enviar cookie con httpOnly para seguridad 
-    //o sea guarda el token en una cookie que no puede ser leida por JS del frontend
+    // [CONFIGURACIÓN ESTRICTA DE PRODUCCIÓN]
     res.cookie("token", token, {
         httpOnly: true,
         secure: process.env.NODE_ENV === "production", // true en Railway
@@ -57,7 +57,8 @@ export const loginUser = async (req, res) => {
     res.json({ success: true, username: user.username, role: user.role });
 };
 
-// Obtener sesión actual
+
+// Obtener sesión actual (sin cambios)
 export const getSession = (req, res) => {
     if (!req.user) return res.json({ user: null });
     res.json({ user: req.user });
@@ -66,6 +67,7 @@ export const getSession = (req, res) => {
 // Cerrar sesión: limpiar cookie de autenticación
 export const logoutUser = (req, res) => {
     try {
+        // [CONFIGURACIÓN ESTRICTA DE PRODUCCIÓN]
         res.clearCookie("token", {
             httpOnly: true,
             secure: process.env.NODE_ENV === "production",

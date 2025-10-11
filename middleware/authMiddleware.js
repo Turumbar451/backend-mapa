@@ -3,16 +3,33 @@ const SECRET = "mi_clave_secreta"; // Mejor usar process.env.JWT_SECRET
 
 export const verifyToken = (req, res, next) => {
     const token = req.cookies.token; //req por defecto tiene cookies si usas cookie-parser (lo agregamos en server.js)
-    if (!token) return res.status(401).json({ success: false, message: "No autenticado" }); //si no hay token, no autenticado y la respuesta es 401, status es un metodo para poner el codigo de estado http 
+    if (!token) {
+        // [ERROR CLARO]: Avisa que el token no se pudo leer
+        console.warn("VerifyToken: No se encontró token en cookies.");
+        return res.status(401).json({ success: false, message: "No autorizado. Sesión inválida." });
+    }
 
 
     try {
-        const decoded = jwt.verify(token, SECRET); //el metodo verify verifica que el token es valido y no ha expirado, tiene dos parametros, el token y la clave secreta
-        req.user = decoded; // almacena info del usuario en req.user
-        next(); // pasa al siguiente handler
+        // [PROBLEMA MÁS PROBABLE]: Si esta verificación falla, es que el SECRET no coincide o el token expiró.
+        const decoded = jwt.verify(token, SECRET);
+
+        // El token es válido, adjuntar datos de usuario (sin el hash de la contraseña)
+        req.user = {
+            username: decoded.username,
+            role: decoded.role,
+            id: decoded.id
+        };
+        // Adjuntar el ID de MongoDB para usarlo en controladores como userPrefsController.js
+        req.userId = decoded.id;
+
+        next(); // Continuar al controlador
     } catch (err) {
-        return res.status(401).json({ success: false, message: "Token inválido" });
+        // El token es inválido, expiró, o el SECRET no coincide.
+        console.error("VerifyToken: Fallo en la verificación JWT:", err.message);
+        return res.status(401).json({ success: false, message: "Token inválido o expirado." });
     }
+
 };
 
 // un middleware siempre tiene (creo)next para pasar al siguiente, respuesta y peticion
