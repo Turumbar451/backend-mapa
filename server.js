@@ -52,6 +52,7 @@ async function startServer() {
   app.use('/api/traffic', trafficRoutes);
   app.use('/api/sites', sitesRoutes);
   app.use('/api/search', searchRoutes);
+  app.use('/api/user', prefsRoutes);
 
   const PORT = 3000;
   //listen inicializa el servidor, tiene un puerto y un callback

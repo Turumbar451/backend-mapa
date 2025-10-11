@@ -1,7 +1,6 @@
 import express from "express";
 import {
   getListadoRutas,
-  getTodasRutas,
   getRutaById,
   deleteRuta,
   createRuta,
