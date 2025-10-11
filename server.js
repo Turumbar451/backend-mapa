@@ -11,6 +11,7 @@ import connectDB from "./db.js";
 import trafficRoutes from "./routes/traffic.js";
 import sitesRoutes from "./routes/sites.js";
 import searchRoutes from "./routes/search.js";
+import prefsRoutes from "./routes/prefs.js";
 
 import mongoose from "mongoose";
 mongoose.connection.once("open", () => {
