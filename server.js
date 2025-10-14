@@ -58,7 +58,7 @@ async function startServer() {
   app.use('/api/search', searchRoutes);
   app.use('/api/user', prefsRoutes);
 
-  const PORT = 3000;
+  const PORT = process.env.PORT || 3000; // puerto del servidor, si hay una variable de entorno PORT la usa, sino usa 4321
   //listen inicializa el servidor, tiene un puerto y un callback
   app.listen(PORT, () => {
     console.log(`Backend corriendo en http://localhost:${PORT}`);
