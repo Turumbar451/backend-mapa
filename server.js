@@ -58,10 +58,14 @@ async function startServer() {
   app.use('/api/search', searchRoutes);
   app.use('/api/user', prefsRoutes);
 
-  const PORT = 3000;
+  // Health check para Railway/monitoring
+  app.get('/api/health', (req, res) => res.json({ ok: true }));
+
+  const PORT = process.env.PORT || 3000;
+  const HOST = '0.0.0.0';
   //listen inicializa el servidor, tiene un puerto y un callback
-  app.listen(PORT, () => {
-    console.log(`Backend corriendo en http://localhost:${PORT}`);
+  app.listen(PORT, HOST, () => {
+    console.log(`Backend corriendo en http://${HOST}:${PORT}`);
   });
 }
 
