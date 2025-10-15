@@ -61,7 +61,7 @@ async function startServer() {
   // Health check para Railway/monitoring
   app.get('/api/health', (req, res) => res.json({ ok: true }));
 
-  const PORT = process.env.PORT || 3000;
+  const PORT = process.env.PORT || 3000; // puerto del servidor, si hay una variable de entorno PORT la usa, sino usa 4321
   const HOST = '0.0.0.0';
   //listen inicializa el servidor, tiene un puerto y un callback
   app.listen(PORT, HOST, () => {
