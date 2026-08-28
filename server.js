@@ -32,6 +32,7 @@ async function startServer() {
   const allowedOrigins = [
     "http://localhost:4321",
     "https://rutasxalapa.netlify.app",
+    "https://frontend-mapa.netlify.app"
   ];
 
   app.use(cors({
